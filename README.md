@@ -4,7 +4,7 @@
 
 ## מבנה
 
-- `site/` האתר עצמו, מוכן להעלאה ל-Cloudflare Pages (תיקיית פלט: `site`, בלי פקודת build).
+- `site/` האתר עצמו. Cloudflare מגיש אותו כ-Worker לפי `wrangler.jsonc`, בלי פקודת build.
 - `src/` הקוד שמייצר את האתר: התוכן של כל עמוד (`content_*.py`), העיצוב (`template_prod.html`, `extra.css`) ותגיות ה-SEO (`seo.json`).
 
 ## עדכון האתר

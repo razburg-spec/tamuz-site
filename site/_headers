@@ -1,5 +1,8 @@
-# Keep the pages.dev copies out of Google so they never compete with www.tamuzstudios.co.il
+# Keep the pages.dev / workers.dev copies out of Google so they never compete with www.tamuzstudios.co.il
 https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:worker.:account.workers.dev/*
   X-Robots-Tag: noindex
 
 /*
