@@ -1,0 +1,15 @@
+# Keep the pages.dev / workers.dev copies out of Google so they never compete with www.tamuzstudios.co.il
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:worker.:account.workers.dev/*
+  X-Robots-Tag: noindex
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/site.css
+  Cache-Control: public, max-age=86400
+/site.js
+  Cache-Control: public, max-age=86400

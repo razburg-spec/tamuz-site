@@ -1,0 +1,13 @@
+// Cloudflare Worker that serves the static site in ./site (no build step).
+{
+  "name": "tamuz-site",
+  "compatibility_date": "2026-10-01",
+  "previews": {},
+  "preview_urls": true,
+  "assets": {
+    "directory": "./site",
+    // /slug is served from slug.html, so every Wix URL keeps its exact path
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
