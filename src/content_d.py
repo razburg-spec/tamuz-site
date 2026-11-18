@@ -49,7 +49,7 @@ GEAR = [
 ("Microphones · Dynamics", ["Shure sm-7","Shure sm-57 (x 2)","Shure sm 58","Shure unidyne 4 (x 2)","Sennheiser md-421-2","Telefunken md-421-5","Electrovoice RE-20","Akg d-112","Akg D90s","Beyerdynamic M422n","Audix D2 (x 2)"], []),
 ("Microphones · Ribbon", ["RB500 Tbone (x 2)"], ["Neumann U47","Neumann U67","Neumann M49","Neumann KM64 (pair)","Earthworks TC30K"]),
 ("Wiring", ["Klotz cables","Mogami cables","Monster cables","Neutrik connectors"], []),
-("Instruments", ["Yamaha Rock Tour Custom Drums Set (22\",16\",12\",10\")","Premier Artist Heritage maple (22\",16\",12\",10\")","Seiler Upright piano","Rhodes Suitcase 73 MK1","Prophet 6","Roland RD300sx electric piano","Fender Strat Deluxe Plus","Yamaha Active Bass Guitar bb 1500","Gibson EB0 Short scale Bass 1971"], []),
+("Instruments", ["Yamaha Rock Tour Custom Drums Set (22\",16\",12\",10\")","Premier Artist Heritage maple (22\",16\",12\",10\")","Roland RD300sx electric piano","Fender Strat Deluxe Plus","Yamaha Active Bass Guitar bb 1500","Gibson EB0 Short scale Bass 1971"], []),
 ("Guitar Amp", ["Fender Hot Rod Deluxe (tube)"], []),
 ]
 PAGES["recording-studio-equipment"] = dict(title="ציוד האולפן", img=IMG_GEAR, group="top", blocks=[
