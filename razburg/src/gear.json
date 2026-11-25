@@ -1,0 +1,13 @@
+[
+ ["Mic Pre-Amps", ["Neve 1073 OPX (8 ch)","Neve 5106, Neve V51 channel strip (2 ch)","RCA BA-33B vintage germanium (4 ch)","Auditronics 110b (2 ch)","2 × Sytek MPX-4A, Burr-Brown","Joemeek VC1Q","Seventh Circle Audio 4 ch (N72, A12, 2 × T15)","Mindprint En-Voice (3 ch)","Drawmer 1960 (2 ch)"]],
+ ["EQ", ["Orban 622 dual parametric EQ","McCurdy 155D dual parametric EQ, custom racked","Neve 5106 (2 ch), custom racked"]],
+ ["Dynamics", ["Tube-Tech LCA 2A (2 ch)","Universal Audio 1176LN","UREI LA-4","2 × UREI LA-12 (4 ch)","Drawmer 1960 (2 ch)","Joemeek VC1Q vintage"]],
+ ["FX", ["Lexicon 200 vintage","Lexicon PCM 70"]],
+ ["Monitoring", ["Crane Song Avocet IIA (Quantum DA)","ATC SCM25A Pro active monitors","Yamaha NS-10M"]],
+ ["Recording & Editing", ["Pro Tools 2026","Cubase 15 Pro","UAD Octo","Plugins by Raz Burg AudioCrafts, Waves, Soundtoys, FabFilter, UAD, Plugin Alliance and more","PreSonus FaderPort 2"]],
+ ["Converters", ["Crane Song Quantum DA","Avid MTRX (DAD converters), 24 I/O","RME MADI interface","RME UCX II"]],
+ ["Microphones: Condensers", ["Neumann U87 (vintage)","Neumann TLM 170i","Aston Spirit (× 4)","ADK Vienna Edition (× 2)","AKG C414 B-ULS (× 2)","AKG C414 EB","AKG C3000 (× 2)","AKG C535","AKG Blue Series CK91","Violet Design Finger (× 2)"]],
+ ["Microphones: Dynamics & Ribbon", ["Shure SM7","Shure SM57 (× 2)","Shure SM58","Shure Unidyne IV (× 2)","Sennheiser MD 421-II","Telefunken MD 421-5","Electro-Voice RE20","AKG D112","AKG D90S","Beyerdynamic M 422 N","Audix D2 (× 2)","RB500 T.bone ribbon (× 2)"]],
+ ["MIDI & Cue", ["Roland RD300SX","NI MIDI interface","AKG K55","Sony MDR-V6","Audio-Technica ATH-M50x","Mackie headphone amplifier"]],
+ ["Instruments & Amps", ["Yamaha Rock Tour Custom drums (22\", 16\", 12\", 10\")","Premier Artist Heritage maple drums (22\", 16\", 12\", 10\")","Roland RD300SX electric piano","Fender Strat Deluxe Plus","Yamaha BB1500 active bass","Gibson EB-0 short-scale bass (1971)","Fender Hot Rod Deluxe tube amp"]]
+]
