@@ -60,6 +60,20 @@ def wix(media_id, w, h=None, mode="fill"):
 
 ABS_IMG = False
 
+def remote(src, local):
+    """Any remote image (e.g. Artlist imgix). Self-hosted copy in src/img/<local> when present."""
+    IMAGES[local] = src
+    if LOCAL_IMAGES and (SRC / "img" / local).exists():
+        return (SITE if ABS_IMG else BASE) + "/img/" + local
+    return src
+
+ARTLIST_P = "https://artlist-artistpage.imgix.net/775129_Raz_Burg_-_P.jpg"
+ARTLIST_C = "https://artlist-artistpage.imgix.net/775130_Raz_Burg_Cover_-_C2_-_2.5K.jpg"
+
+def artlist(src, w, h=None, tag="p"):
+    q = f"?fm=jpg&q=85&auto=enhance&w={w}" + (f"&h={h}&fit=crop&crop=faces" if h else "")
+    return remote(src + q, f"artlist-{tag}-{w}{'x' + str(h) if h else ''}.jpg")
+
 def url(path):
     if path == "/":
         return BASE + "/"
@@ -90,7 +104,7 @@ def abs_img(*a, **k):
     finally:
         ABS_IMG = False
 
-PERSON["image"] = abs_img(PORTRAIT_IMG, 1200, 1200)
+PERSON["image"] = ARTLIST_P + "?fm=jpg&q=85&w=1200&h=1200&fit=crop&crop=faces"
 if EMAIL:
     PERSON["email"] = "mailto:" + EMAIL
 
@@ -99,7 +113,7 @@ NAV = [("/", "Work"), ("/studio", "Studio"), ("/about", "About"), ("https://audi
 def links_list():
     return "".join(f'<li><a href="{esc(u)}" target="_blank" rel="me noopener">{esc(n)}</a></li>' for n, u in SOCIAL)
 
-def page(path, title, desc, body, active, og_img=HERO_IMG, extra_ld=None):
+def page(path, title, desc, body, active, og_img=None, extra_ld=None):
     canonical = SITE + ("/" if path == "/" else path)
     ld = [dict(PERSON, **{"@context": "https://schema.org"})]
     ld += extra_ld or []
@@ -114,7 +128,7 @@ def page(path, title, desc, body, active, og_img=HERO_IMG, extra_ld=None):
     return (tpl.replace("{{TITLE}}", esc(title))
                .replace("{{DESC}}", esc(desc))
                .replace("{{CANONICAL}}", canonical)
-               .replace("{{OG_IMG}}", abs_img(og_img, 1200, 630))
+               .replace("{{OG_IMG}}", abs_img(og_img, 1200, 630) if og_img else ARTLIST_C + "?fm=jpg&q=85&w=1200&h=630&fit=crop&crop=faces")
                .replace("{{LD}}", "\n".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld))
                .replace("{{NAV}}", nav)
                .replace("{{SOCIAL}}", links_list())
@@ -161,13 +175,13 @@ def home():
     ]
     svc = "".join(f'<li><h3>{esc(t)}</h3><p>{esc(p)}</p></li>' for t, p in services)
     body = f'''
-<section class="hero">
-  <img class="hero-bg" src="{wix(HERO_IMG, 1600, 900)}" srcset="{wix(HERO_IMG, 800, 700)} 800w, {wix(HERO_IMG, 1600, 900)} 1600w, {wix(HERO_IMG, 2400, 1300)} 2400w" sizes="100vw" alt="" fetchpriority="high">
-  <div class="wrap hero-in">
+<section class="hero wrap">
+  <div class="hero-in">
     <h1>Raz Burg<span>Sound designer, composer, mixing &amp; mastering engineer</span></h1>
     <p class="lede">I produce, mix and master records for artists and bands, and design sound and music for film and media. My home base is Tamuz Studios in Tel Aviv.</p>
     <div class="btns"><a class="btn" href="#work">Listen to the work</a><a class="tlink" href="{url('/contact')}">Start a project →</a></div>
   </div>
+  <figure class="hero-photo"><img src="{artlist(ARTLIST_P, 720, 900)}" srcset="{artlist(ARTLIST_P, 480, 600)} 480w, {artlist(ARTLIST_P, 720, 900)} 720w, {artlist(ARTLIST_P, 1080, 1350)} 1080w" sizes="(min-width: 900px) 34vw, 80vw" width="720" height="900" alt="Raz Burg" fetchpriority="high"></figure>
 </section>
 <section class="wrap services" aria-labelledby="svc-h">
   <h2 id="svc-h">What I do</h2>
@@ -249,7 +263,7 @@ def about():
   <h1>Raz Burg</h1>
 </header>
 <section class="wrap about">
-  <figure class="portrait"><img src="{wix(PORTRAIT_IMG, 960, 717, "fit")}" width="960" height="717" alt="Raz Burg in the studio" loading="eager"></figure>
+  <figure class="portrait"><img src="{artlist(ARTLIST_C, 1400, tag="c")}" srcset="{artlist(ARTLIST_C, 800, tag="c")} 800w, {artlist(ARTLIST_C, 1400, tag="c")} 1400w, {artlist(ARTLIST_C, 2200, tag="c")} 2200w" sizes="(min-width: 820px) 40vw, 100vw" alt="Raz Burg" loading="eager"></figure>
   <div class="bio">
     <p class="lede">I'm a sound designer, composer, music producer and mixing &amp; mastering engineer based in Tel Aviv.</p>
     <p>I started out as a kid on piano and synthesizers. In 1998 I built my first home studio to record my own music and the musicians around me, and spent the following years recording in studios and on stage.</p>
@@ -271,7 +285,7 @@ def about():
 </section>'''
     return page("/about", "About | Raz Burg, Sound Designer & Music Producer",
                 "Raz Burg: sound designer, composer and mixing & mastering engineer since 1998, founder of Tamuz Studios Tel Aviv (2006), Artlist composer and AudioCrafts plugin developer.",
-                body, "About", og_img=PORTRAIT_IMG,
+                body, "About",
                 extra_ld=[{"@context": "https://schema.org", "@type": "ProfilePage", "mainEntity": {"@id": SITE + "/#raz"}}])
 
 def contact():
