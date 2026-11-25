@@ -104,7 +104,15 @@ def abs_img(*a, **k):
     finally:
         ABS_IMG = False
 
-PERSON["image"] = ARTLIST_P + "?fm=jpg&q=85&w=1200&h=1200&fit=crop&crop=faces"
+def abs_remote(src, local):
+    global ABS_IMG
+    ABS_IMG = True
+    try:
+        return remote(src, local)
+    finally:
+        ABS_IMG = False
+
+PERSON["image"] = abs_remote(ARTLIST_P + "?fm=jpg&q=85&auto=enhance&w=1200&h=1200&fit=crop&crop=faces", "artlist-p-1200x1200.jpg")
 if EMAIL:
     PERSON["email"] = "mailto:" + EMAIL
 
@@ -124,11 +132,11 @@ def page(path, title, desc, body, active, og_img=None, extra_ld=None):
     nav = "".join(
         (f'<a href="{p}" target="_blank" rel="noopener">{esc(n)}</a>' if p.startswith("http") else
          f'<a href="{url(p)}"{" aria-current=page" if p == path else ""}>{esc(n)}</a>') for p, n in NAV)
-    tpl = (SRC / "template.html").read_text()
+    tpl = (SRC / "template.html").read_text(encoding="utf-8")
     return (tpl.replace("{{TITLE}}", esc(title))
                .replace("{{DESC}}", esc(desc))
                .replace("{{CANONICAL}}", canonical)
-               .replace("{{OG_IMG}}", abs_img(og_img, 1200, 630) if og_img else ARTLIST_C + "?fm=jpg&q=85&w=1200&h=630&fit=crop&crop=faces")
+               .replace("{{OG_IMG}}", abs_img(og_img, 1200, 630) if og_img else abs_remote(ARTLIST_C + "?fm=jpg&q=85&auto=enhance&w=1200&h=630&fit=crop&crop=faces", "artlist-c-1200x630.jpg"))
                .replace("{{LD}}", "\n".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld))
                .replace("{{NAV}}", nav)
                .replace("{{SOCIAL}}", links_list())
@@ -139,9 +147,9 @@ def page(path, title, desc, body, active, og_img=None, extra_ld=None):
                .replace("{{CONTACT}}", url("/contact")))
 
 # ---------------------------------------------------------------- data
-disc = [d for d in json.loads((SRC / "discography.json").read_text()) if not d.get("hidden")]
-gear = json.loads((SRC / "gear.json").read_text())
-studio_photos = [l.strip() for l in (SRC / "studio_photos.txt").read_text().splitlines() if l.strip()]
+disc = [d for d in json.loads((SRC / "discography.json").read_text(encoding="utf-8")) if not d.get("hidden")]
+gear = json.loads((SRC / "gear.json").read_text(encoding="utf-8"))
+studio_photos = [l.strip() for l in (SRC / "studio_photos.txt").read_text(encoding="utf-8").splitlines() if l.strip()]
 artists = sorted({d["artist"] for d in disc if not d["own"]})
 
 def platform(link):
@@ -339,12 +347,12 @@ def notfound():
 if OUT.exists():
     shutil.rmtree(OUT)
 OUT.mkdir(parents=True)
-(OUT / "index.html").write_text(home())
-(OUT / "studio.html").write_text(studio())
-(OUT / "about.html").write_text(about())
-(OUT / "contact.html").write_text(contact())
+(OUT / "index.html").write_text(home(), encoding="utf-8")
+(OUT / "studio.html").write_text(studio(), encoding="utf-8")
+(OUT / "about.html").write_text(about(), encoding="utf-8")
+(OUT / "contact.html").write_text(contact(), encoding="utf-8")
 nf = notfound().replace('<link rel="canonical" href="https://www.razburg.com/404">', '<meta name="robots" content="noindex">')
-(OUT / "404.html").write_text(nf)
+(OUT / "404.html").write_text(nf, encoding="utf-8")
 for f in ("site.css", "site.js", "favicon.svg"):
     shutil.copy(SRC / f, OUT / f)
 if LOCAL_IMAGES:
@@ -352,14 +360,14 @@ if LOCAL_IMAGES:
     for local in IMAGES:
         if (SRC / "img" / local).exists():
             shutil.copy(SRC / "img" / local, OUT / "img" / local)
-(SRC / "images.json").write_text(json.dumps(IMAGES, indent=1, sort_keys=True))
+(SRC / "images.json").write_text(json.dumps(IMAGES, indent=1, sort_keys=True), encoding="utf-8")
 today = datetime.date.today().isoformat()
 (OUT / "sitemap.xml").write_text(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     "".join(f"  <url><loc>{SITE}{p}</loc><lastmod>{today}</lastmod></url>\n" for p in ("/", "/studio", "/about", "/contact")) +
     "</urlset>\n")
-(OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n")
+(OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
 # Old Wix sitemap URL -> new sitemap; preview hosts stay out of the index.
-(OUT / "_redirects").write_text("/pages-sitemap.xml /sitemap.xml 301\n")
-(OUT / "_headers").write_text("https://:project.pages.dev/*\n  X-Robots-Tag: noindex\nhttps://:worker.:account.workers.dev/*\n  X-Robots-Tag: noindex\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n")
+(OUT / "_redirects").write_text("/pages-sitemap.xml /sitemap.xml 301\n", encoding="utf-8")
+(OUT / "_headers").write_text("https://:project.pages.dev/*\n  X-Robots-Tag: noindex\nhttps://:worker.:account.workers.dev/*\n  X-Robots-Tag: noindex\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n", encoding="utf-8")
 print("built", OUT, len(disc), "releases")
