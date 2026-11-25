@@ -94,7 +94,7 @@ PERSON["image"] = abs_img(PORTRAIT_IMG, 1200, 1200)
 if EMAIL:
     PERSON["email"] = "mailto:" + EMAIL
 
-NAV = [("/", "Work"), ("/studio", "Studio"), ("/about", "About"), ("/contact", "Contact")]
+NAV = [("/", "Work"), ("/studio", "Studio"), ("/about", "About"), ("https://audiocrafts.razburg.com", "Plugins"), ("/contact", "Contact")]
 
 def links_list():
     return "".join(f'<li><a href="{esc(u)}" target="_blank" rel="me noopener">{esc(n)}</a></li>' for n, u in SOCIAL)
@@ -108,7 +108,8 @@ def page(path, title, desc, body, active, og_img=HERO_IMG, extra_ld=None):
             {"@type": "ListItem", "position": 1, "name": "Raz Burg", "item": SITE + "/"},
             {"@type": "ListItem", "position": 2, "name": active, "item": canonical}]})
     nav = "".join(
-        f'<a href="{url(p)}"{" aria-current=page" if p == path else ""}>{esc(n)}</a>' for p, n in NAV)
+        (f'<a href="{p}" target="_blank" rel="noopener">{esc(n)}</a>' if p.startswith("http") else
+         f'<a href="{url(p)}"{" aria-current=page" if p == path else ""}>{esc(n)}</a>') for p, n in NAV)
     tpl = (SRC / "template.html").read_text()
     return (tpl.replace("{{TITLE}}", esc(title))
                .replace("{{DESC}}", esc(desc))
@@ -166,14 +167,8 @@ def home():
     <p class="eyebrow">Tel Aviv · Since 1998</p>
     <h1>Raz Burg<span>Sound designer, composer, mixing &amp; mastering engineer</span></h1>
     <p class="lede">I produce, mix and master records for artists and bands, and design sound and music for film and media. My home base is Tamuz Studios in Tel Aviv.</p>
-    <div class="btns"><a class="btn" href="#work">Listen to the work</a><a class="btn ghost" href="{url('/contact')}">Start a project</a></div>
+    <div class="btns"><a class="btn" href="#work">Listen to the work</a><a class="tlink" href="{url('/contact')}">Start a project →</a></div>
   </div>
-</section>
-<section class="stats wrap" aria-label="At a glance">
-  <div><b>{n_releases}+</b><span>releases</span></div>
-  <div><b>{len(artists)}+</b><span>artists and bands</span></div>
-  <div><b>20</b><span>albums on Artlist</span></div>
-  <div><b>2006</b><span>Tamuz Studios founded</span></div>
 </section>
 <section class="wrap services" aria-labelledby="svc-h">
   <h2 id="svc-h">What I do</h2>
@@ -216,7 +211,7 @@ def studio():
         f'<section class="rack"><h3>{esc(t)}</h3><ul>{"".join("<li>" + esc(x) + "</li>" for x in items)}</ul></section>'
         for t, items in gear)
     photos = "".join(
-        f'<li><a href="{wix(p, 1600, 1200, "fit")}" target="_blank" rel="noopener"><img src="{wix(p, 640, 480)}" width="640" height="480" '
+        f'<li><a href="{wix(p, 960, 960, "fit")}" target="_blank" rel="noopener"><img src="{wix(p, 960, 640)}" width="960" height="640" '
         f'alt="Tamuz Studios Tel Aviv, studio photo {i + 1}" loading="lazy" decoding="async"></a></li>'
         for i, p in enumerate(studio_photos))
     body = f'''
@@ -255,7 +250,7 @@ def about():
   <h1>Raz Burg</h1>
 </header>
 <section class="wrap about">
-  <figure class="portrait"><img src="{wix(PORTRAIT_IMG, 800, 1000)}" width="800" height="1000" alt="Raz Burg in the studio" loading="eager"></figure>
+  <figure class="portrait"><img src="{wix(PORTRAIT_IMG, 960, 717, "fit")}" width="960" height="717" alt="Raz Burg in the studio" loading="eager"></figure>
   <div class="bio">
     <p class="lede">I'm a sound designer, composer, music producer and mixing &amp; mastering engineer based in Tel Aviv.</p>
     <p>I started out as a kid on piano and synthesizers. In 1998 I built my first home studio to record my own music and the musicians around me, and spent the following years recording in studios and on stage.</p>
