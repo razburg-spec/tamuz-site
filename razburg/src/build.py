@@ -164,7 +164,6 @@ def home():
 <section class="hero">
   <img class="hero-bg" src="{wix(HERO_IMG, 1600, 900)}" srcset="{wix(HERO_IMG, 800, 700)} 800w, {wix(HERO_IMG, 1600, 900)} 1600w, {wix(HERO_IMG, 2400, 1300)} 2400w" sizes="100vw" alt="" fetchpriority="high">
   <div class="wrap hero-in">
-    <p class="eyebrow">Tel Aviv · Since 1998</p>
     <h1>Raz Burg<span>Sound designer, composer, mixing &amp; mastering engineer</span></h1>
     <p class="lede">I produce, mix and master records for artists and bands, and design sound and music for film and media. My home base is Tamuz Studios in Tel Aviv.</p>
     <div class="btns"><a class="btn" href="#work">Listen to the work</a><a class="tlink" href="{url('/contact')}">Start a project →</a></div>
