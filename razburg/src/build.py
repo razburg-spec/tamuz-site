@@ -41,11 +41,24 @@ SAME_AS = [u for n, u in SOCIAL if "search" not in u] + [
 def esc(s):
     return html.escape(s, quote=True)
 
+IMAGES = {}  # local file name -> Wix CDN URL, written to images.json for tools/fetch_images.py
+LOCAL_IMAGES = (SRC / "img").is_dir() and any((SRC / "img").iterdir())
+
 def wix(media_id, w, h=None, mode="fill"):
-    """Wix CDN resize URL. Swap this function when images are self-hosted."""
+    """Image URL. Uses self-hosted copies in src/img/ when present, else the Wix CDN."""
     h = h or w
-    name = media_id.split("~")[0] + "." + media_id.rsplit(".", 1)[-1]
-    return f"https://static.wixstatic.com/media/{media_id}/v1/{mode}/w_{w},h_{h},al_c,q_80,enc_auto/{name}"
+    ext = media_id.rsplit(".", 1)[-1].lower()
+    ext = "jpg" if ext == "jpeg" else ext
+    stem = media_id.split("~")[0]
+    name = stem + "." + media_id.rsplit(".", 1)[-1]
+    remote = f"https://static.wixstatic.com/media/{media_id}/v1/{mode}/w_{w},h_{h},al_c,q_82/{name}"
+    local = f"{stem}-{w}x{h}{'' if mode == 'fill' else '-' + mode}.{ext}"
+    IMAGES[local] = remote
+    if LOCAL_IMAGES and (SRC / "img" / local).exists():
+        return (SITE if ABS_IMG else BASE) + "/img/" + local
+    return remote
+
+ABS_IMG = False
 
 def url(path):
     if path == "/":
@@ -60,7 +73,7 @@ PERSON = {
     "@id": SITE + "/#raz",
     "name": "Raz Burg",
     "url": SITE + "/",
-    "image": wix(PORTRAIT_IMG, 1200, 1200),
+    "image": None,
     "jobTitle": ["Sound Designer", "Composer", "Music Producer", "Mixing & Mastering Engineer"],
     "knowsAbout": ["Mixing", "Mastering", "Music production", "Sound design", "Recording", "Film and commercial music"],
     "worksFor": {"@type": "RecordingStudio", "name": "Tamuz Studios", "url": "https://www.tamuzstudios.co.il/",
@@ -69,6 +82,15 @@ PERSON = {
     "address": {"@type": "PostalAddress", "addressLocality": "Tel Aviv", "addressCountry": "IL"},
     "sameAs": SAME_AS,
 }
+def abs_img(*a, **k):
+    global ABS_IMG
+    ABS_IMG = True
+    try:
+        return wix(*a, **k)
+    finally:
+        ABS_IMG = False
+
+PERSON["image"] = abs_img(PORTRAIT_IMG, 1200, 1200)
 if EMAIL:
     PERSON["email"] = "mailto:" + EMAIL
 
@@ -91,7 +113,7 @@ def page(path, title, desc, body, active, og_img=HERO_IMG, extra_ld=None):
     return (tpl.replace("{{TITLE}}", esc(title))
                .replace("{{DESC}}", esc(desc))
                .replace("{{CANONICAL}}", canonical)
-               .replace("{{OG_IMG}}", wix(og_img, 1200, 630))
+               .replace("{{OG_IMG}}", abs_img(og_img, 1200, 630))
                .replace("{{LD}}", "\n".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld))
                .replace("{{NAV}}", nav)
                .replace("{{SOCIAL}}", links_list())
@@ -317,6 +339,12 @@ nf = notfound().replace('<link rel="canonical" href="https://www.razburg.com/404
 (OUT / "404.html").write_text(nf)
 for f in ("site.css", "site.js", "favicon.svg"):
     shutil.copy(SRC / f, OUT / f)
+if LOCAL_IMAGES:
+    (OUT / "img").mkdir()
+    for local in IMAGES:
+        if (SRC / "img" / local).exists():
+            shutil.copy(SRC / "img" / local, OUT / "img" / local)
+(SRC / "images.json").write_text(json.dumps(IMAGES, indent=1, sort_keys=True))
 today = datetime.date.today().isoformat()
 (OUT / "sitemap.xml").write_text(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
