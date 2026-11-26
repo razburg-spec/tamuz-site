@@ -1,4 +1,4 @@
-# Raz's productions shown under 'רז בורג' on the music production page. DEFAULT = non-single productions from razburg.com until Raz picks.
+# Raz's productions under 'רז בורג' on the music production page: all 53 (Raz 2026-11-26 'F תשאיר הכל')
 PRODUCED = [
 [
 "cv/p31",
@@ -104,5 +104,165 @@ PRODUCED = [
 "cv/p161",
 "אבי טולדנו",
 "Lanuach"
+],
+[
+"cv/p1",
+"רז בורג",
+"Heartbreaker"
+],
+[
+"cv/p2",
+"רז בורג",
+"Quantum Leap"
+],
+[
+"cv/p3",
+"רז בורג",
+"Tranquility"
+],
+[
+"cv/p4",
+"רז בורג",
+"Cybernetic Symphony"
+],
+[
+"cv/p5",
+"רז בורג",
+"Circuitry"
+],
+[
+"cv/p6",
+"רז בורג",
+"Cold Facts"
+],
+[
+"cv/p7",
+"רז בורג",
+"Fourth Dimension"
+],
+[
+"cv/p8",
+"רז בורג",
+"La caresse du temps (feat. Élodie Solune)"
+],
+[
+"cv/p9",
+"רז בורג",
+"Synthetic Silk (feat. Nicco Lux)"
+],
+[
+"cv/p10",
+"רז בורג",
+"A Thousand Miles From Yesterday (feat. Silas Thorne)"
+],
+[
+"cv/p11",
+"רז בורג",
+"Trembling Hand (feat. Dale Evans)"
+],
+[
+"cv/p12",
+"רז בורג",
+"Don't Let Go (feat. Riven Cole)"
+],
+[
+"cv/p13",
+"רז בורג",
+"Digital Dream (feat. Alfie Reed)"
+],
+[
+"cv/p14",
+"רז בורג",
+"L'Écho des Absents (feat. Élodie Solune)"
+],
+[
+"cv/p15",
+"רז בורג",
+"Shattered Skyline"
+],
+[
+"cv/p16",
+"רז בורג",
+"Fading Memories"
+],
+[
+"cv/p17",
+"רז בורג",
+"Driftline"
+],
+[
+"cv/p18",
+"רז בורג",
+"Funky Breeze Avenue"
+],
+[
+"cv/p19",
+"רז בורג",
+"Good Enough (feat. Ariana Celaeno)"
+],
+[
+"cv/p22",
+"רז בורג",
+"Beat the Heat"
+],
+[
+"cv/p40",
+"רז בורג",
+"The Secret Valley"
+],
+[
+"cv/p52",
+"רז בורג",
+"Space Travelers"
+],
+[
+"cv/p60",
+"רז בורג",
+"Sleepless Journey"
+],
+[
+"cv/p74",
+"רז בורג",
+"Sunlight"
+],
+[
+"cv/p80",
+"רז בורג",
+"Electric Motions"
+],
+[
+"cv/p82",
+"רז בורג",
+"Soften Loud"
+],
+[
+"cv/p90",
+"רז בורג",
+"Calypso Sky"
+],
+[
+"cv/p93",
+"רז בורג",
+"Dreamland"
+],
+[
+"cv/p107",
+"רז בורג",
+"Stay On The Move"
+],
+[
+"cv/p130",
+"רז בורג",
+"The Mists"
+],
+[
+"cv/p137",
+"רז בורג",
+"Clouds"
+],
+[
+"cv/p148",
+"רז בורג וזיו מורן",
+"Un Atardecer Ardiente"
 ]
 ]

@@ -47,9 +47,9 @@ PHOTO = {
     "": "fb-043e", "recording-studio-tel-aviv": "fb-043e", "songs-recordings": "ig-027", "mixing-audio-edits": "fb-024",
     "post-production-sound-design": "fb-050", "podcast-recording": "fb-045", "livestreaming": "fb-021",
     "mobile-recording-studio": "ig-038",
-    "original-music-movies-commercials": "fb-070", "playbacks": "ig-030", "music-production": "fb-061",
-    "music-production-singer-songwriter": "fb-021", "music-production-bands": "ig-036",
-    "music-production-commercials": "fb-046", "recording-studio-equipment": "fb-024", "contact": "fb-078",
+    "original-music-movies-commercials": "fb-066", "playbacks": "ig-030", "music-production": "fb-061",
+    "music-production-singer-songwriter": "ig-030", "music-production-bands": "ig-036",
+    "music-production-commercials": "ig-031", "recording-studio-equipment": "fb-024", "contact": "fb-078",
     "services": "fb-014", "blog": "fb-008", "privacy": None,
 }
 for slug, ph in PHOTO.items():
@@ -105,7 +105,7 @@ def crumbs_for(slug):
         return "" if slug == top else f'<span>/</span><a href="{link(top)}">{he}</a>'
     return ""
 
-POS = {"playbacks": "center 28%"}  # keep the singer's face and mic in frame
+POS = {"playbacks": "center 28%", "music-production-singer-songwriter": "center 28%"}  # keep the singer's face and mic in frame
 
 def page_hero(p, crumbs, slug=None, lead=None):
     img = p.get("img")
@@ -171,7 +171,7 @@ def hub_page(slug):
     tiles = "".join(f'<a class="tile" href="{link(s)}"><span class="tile-im" style="--img:url(\'{G(PHOTO.get(s) or PHOTO[slug], True)}\')"></span><span class="tile-t">{PAGES[s]["title"]}</span><span class="tile-go" aria-hidden="true">←</span></a>' for s in lst if s != slug)
     proof = {
         "recording-studio-tel-aviv": f'<div class="sh"><h2 class="sec-h">העבודות שלנו</h2></div><div class="covers">{covers()}</div>',
-        "music-production": f'<div class="sh"><h2 class="sec-h">רז בורג</h2></div><p class="muted narrowp">מפיק מוזיקלי, נגן ומעצב סאונד, הבעלים של האולפן. עבודות הפקה נבחרות באתר האישי: <a href="https://www.razburg.com">razburg.com</a></p>{marquee(prod_covers(), "covers-mq", 70)}',
+        "music-production": f'<div class="sh"><h2 class="sec-h">רז בורג</h2></div><p class="muted narrowp">מפיק מוזיקלי, נגן ומעצב סאונד, הבעלים של האולפן. עבודות הפקה נבחרות באתר האישי: <a href="https://www.razburg.com">razburg.com</a></p>{marquee(prod_covers(), "covers-mq", 160)}',
     }[slug]
     return page_hero(p, "", slug, INTRO.get(slug)) + f"""
 <section class="block"><div class="wrap"><div class="sh"><h2 class="sec-h">מה אנחנו עושים</h2></div><div class="tiles">{tiles}</div></div></section>
@@ -214,7 +214,7 @@ def home():
 <nav class="index" aria-label="התחומים שלנו">{idx}</nav>
 {worlds}
 <section class="block about-b"><div class="wrap about">
-  <div class="about-im" style="--img:url('{G("fb-013", True)}')" role="img" aria-label="רז בורג בחדר הבקרה של האולפן"></div>
+  <div class="about-im" style="--img:url('{G("fb-043e", True)}')" role="img" aria-label="חדר הבקרה של האולפן"></div>
   <div class="prose"><h2 class="sec-h">על האולפן</h2>
   <p>אולפני תמוז הוקמו בשנת 2004, והחל משנת 2006 הם בבעלותו ובניהולו של רז בורג, מפיק מוזיקלי, טכנאי ומעצב סאונד, שמנהל יחד עם צוות האולפן את הסשנים השונים.</p>
   <p>האולפן תוכנן בקפידה, והאקוסטיקה שלו מאפשרת הקלטות מכל הסוגים, לצד סטים מעוצבים להקלטה וצילום של פודקאסטים ולשידורים מהאולפן.</p>
