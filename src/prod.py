@@ -40,7 +40,7 @@ BUSINESS = {
     "url": SITE + "/", "telephone": "+972-3-6481791", "email": EMAIL, "foundingDate": "2004",
     "image": media(build.IMG_STUDIO, 1200, 630),
     "address": {"@type": "PostalAddress", "streetAddress": "דיסנצ׳יק 9", "addressLocality": "תל אביב-יפו", "postalCode": "69356", "addressCountry": "IL"},
-    "sameAs": ["https://www.facebook.com/tamuzstudios/", "https://www.instagram.com/tamuzstudios/", "https://www.youtube.com/TamuzStudios", "https://vimeo.com/razburg"],
+    "sameAs": ["https://www.facebook.com/tamuzstudios/", "https://www.instagram.com/tamuzstudios/"],
 }
 
 def ld(obj):
@@ -193,7 +193,7 @@ def main(outdir):
     # Old Wix sub-sitemaps and blog listing variants, so nothing Google already knows ends in a 404
     open(os.path.join(outdir, "_redirects"), "w", encoding="utf-8").write(
         "/pages-sitemap.xml /sitemap.xml 301\n/blog-posts-sitemap.xml /sitemap.xml 301\n/blog-categories-sitemap.xml /sitemap.xml 301\n"
-        "/blog-hashtags-sitemap.xml /sitemap.xml 301\n/blog/* /blog 301\n/home /  301\n/index.html / 301\n")
+        "/blog-hashtags-sitemap.xml /sitemap.xml 301\n/blog/* /blog 301\n" + "".join(f"/{a} /{b} 301\n" for a, b in theme.REMOVED.items()) + "/home /  301\n/index.html / 301\n")
     open(os.path.join(outdir, "_headers"), "w").write(
         "# Keep the pages.dev / workers.dev copies out of Google so they never compete with www.tamuzstudios.co.il\nhttps://:project.pages.dev/*\n  X-Robots-Tag: noindex\n\nhttps://:worker.:account.workers.dev/*\n  X-Robots-Tag: noindex\n\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n\n/site.css\n  Cache-Control: public, max-age=86400\n/img/*\n  Cache-Control: public, max-age=2592000\n/site.js\n  Cache-Control: public, max-age=86400\n")
     open(outdir.rstrip("/") + "-urls.txt", "w", encoding="utf-8").write("\n".join("/" + p for p in written) + "\n")

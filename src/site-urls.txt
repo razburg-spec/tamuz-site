@@ -7,9 +7,7 @@
 /mixing-audio-edits
 /post-production-sound-design
 /podcast-recording
-/live-recording
 /mobile-recording-studio
-/sound-protools-lessons
 /original-music-movies-commercials
 /playbacks
 /livestreaming

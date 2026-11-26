@@ -343,6 +343,35 @@ h1, h2, h3, .sec-h, .cta-h, .sub-h { font-weight: 200; letter-spacing: -.005em; 
 .foot { background: #000; border-top: 1px solid var(--line); }
 .callbar .btn-accent { background: var(--ink); color: #000; }
 
+/* round 5: carousels, podcast frame, Hebrew-only labels */
+.phero.has-img { background: linear-gradient(0deg, #000 3%, rgba(0,0,0,.35) 60%, rgba(0,0,0,.55)), var(--img) var(--pos, center)/cover; }
+.foot-h { font-size: .8rem; color: var(--amber); letter-spacing: .04em; margin: 0 0 .7rem; font-weight: 500; }
+.side-card .side-h { margin-bottom: .4rem; }
+.mq { overflow: hidden; direction: ltr; max-width: 100%; margin: .6rem 0 .4rem; -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
+.mq-track { display: flex; width: max-content; animation: mq var(--secs, 60s) linear infinite; }
+.mq:hover .mq-track { animation-play-state: paused; }
+.mq-set { display: flex; gap: .5rem; padding-inline-end: .5rem; }
+.mq-set .cv { width: 118px; flex: none; margin: 0; }
+.mq-set figcaption { display: none; }
+.pods-2row .mq-set { display: grid; grid-template-rows: repeat(2, auto); grid-auto-flow: column; grid-auto-columns: 112px; gap: .5rem; }
+.pods-2row .mq-set > *, .vq-set > * { margin: 0; display: block; }
+.mq-set img, .vq-set img { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; display: block; }
+@keyframes mq { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.pod-frame { padding: clamp(2.5rem, 6vw, 5rem) 0; }
+.pf-wrap { display: grid; grid-template-columns: 170px minmax(0, 1fr) 170px; gap: clamp(1.5rem, 4vw, 4rem); max-width: 1320px; margin: 0 auto; padding: 0 16px; }
+.pf-text { max-width: 68ch; margin: 0 auto; }
+.vq { position: relative; overflow: hidden; -webkit-mask-image: linear-gradient(180deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(180deg, transparent, #000 8%, #000 92%, transparent); }
+.vq-track { position: absolute; inset: 0 0 auto 0; animation: vq var(--secs, 90s) linear infinite; }
+.vq.rev .vq-track { animation-direction: reverse; }
+.vq-set { display: grid; gap: .7rem; padding-bottom: .7rem; }
+.vq-set figcaption { display: none; }
+@keyframes vq { from { transform: translateY(0); } to { transform: translateY(-50%); } }
+.pf-mobile { display: none; }
+@media (max-width: 1000px) {
+  .pf-wrap { grid-template-columns: 1fr; } .vq { display: none; }
+  .pf-mobile { display: block; margin-top: 2.5rem; } .pf-mobile .mq { margin-top: 1.2rem; }
+}
+@media (prefers-reduced-motion: reduce) { .mq-track, .vq-track { animation: none; } .mq { overflow-x: auto; } }
 
 /* Production additions */
 .hp { position: absolute; inset-inline-start: -9999px; }
