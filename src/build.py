@@ -6,8 +6,8 @@ def pod_fig(t, f, u=None):
     if f is None:
         im = f'<span class="pod-ph" aria-hidden="true">{alt}</span>'
     else:
-        src = f if f.startswith("http") else media(f, 320, 320)
-        im = f'<img loading="lazy" src="{src}" alt="{alt}" width="160" height="160">'
+        src = f if f.startswith(("http", "/")) else media(f, 320, 320)
+        im = f'<img loading="lazy" src="{src}" alt="{alt}" width="400" height="400">'
     body = f'{im}<figcaption>{alt}</figcaption>'
     if u:
         return f'<figure class="pod"><a href="{html.escape(u)}" target="_blank" rel="noopener">{body}</a></figure>'
