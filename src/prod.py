@@ -178,8 +178,6 @@ def main(outdir):
         else:
             body = build.inner_page(slug)
         write(slug, head(slug, SEO["titles"][slug], SEO["desc"][slug], og_img(p), extra=extra), body)
-    for p in POSTS_RAW:
-        write(*post_page(p))
 
     nf = build.page_hero(dict(title="העמוד לא נמצא", img=None), "") + '<div class="wrap narrow prose"><p>ייתכן שהכתובת השתנתה. אפשר לחזור <a href="/">לעמוד הבית</a> או <a href="/contact">ליצור קשר</a>.</p></div>'
     open(os.path.join(outdir, "404.html"), "w", encoding="utf-8").write(
@@ -193,10 +191,17 @@ def main(outdir):
     # Old Wix sub-sitemaps and blog listing variants, so nothing Google already knows ends in a 404
     open(os.path.join(outdir, "_redirects"), "w", encoding="utf-8").write(
         "/pages-sitemap.xml /sitemap.xml 301\n/blog-posts-sitemap.xml /sitemap.xml 301\n/blog-categories-sitemap.xml /sitemap.xml 301\n"
-        "/blog-hashtags-sitemap.xml /sitemap.xml 301\n/blog/* /blog 301\n" + "".join(f"/{a} /{b} 301\n" for a, b in theme.REMOVED.items()) + "/home /  301\n/index.html / 301\n")
+        "/blog-hashtags-sitemap.xml /sitemap.xml 301\n/blog/* / 301\n/post/* / 301\n" + "".join(f"/{a} /{b} 301\n" for a, b in theme.REMOVED.items()) + "/home /  301\n/index.html / 301\n")
     open(os.path.join(outdir, "_headers"), "w").write(
         "# Keep the pages.dev / workers.dev copies out of Google so they never compete with www.tamuzstudios.co.il\nhttps://:project.pages.dev/*\n  X-Robots-Tag: noindex\n\nhttps://:worker.:account.workers.dev/*\n  X-Robots-Tag: noindex\n\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n\n/site.css\n  Cache-Control: public, max-age=86400\n/img/*\n  Cache-Control: public, max-age=2592000\n/site.js\n  Cache-Control: public, max-age=86400\n")
     open(outdir.rstrip("/") + "-urls.txt", "w", encoding="utf-8").write("\n".join("/" + p for p in written) + "\n")
+    # Cache-bust: browsers keep site.css/site.js for a day, so every build points at a new ?v= URL
+    import hashlib, glob
+    ver = {n: hashlib.md5(open(os.path.join(outdir, n), "rb").read()).hexdigest()[:8] for n in ("site.css", "site.js")}
+    for fn in glob.glob(os.path.join(outdir, "**", "*.html"), recursive=True):
+        h = open(fn, encoding="utf-8").read()
+        h = h.replace('href="/site.css"', f'href="/site.css?v={ver["site.css"]}"').replace('src="/site.js"', f'src="/site.js?v={ver["site.js"]}"')
+        open(fn, "w", encoding="utf-8").write(h)
     print("pages:", len(written))
 
 if __name__ == "__main__":

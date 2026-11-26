@@ -11,7 +11,7 @@ from content_c import PODCASTS
 from credits_tamuz import CREDITS
 
 # Raz 2026-11-26: no live recording, no Pro Tools lessons, no YouTube/Vimeo links on the site.
-REMOVED = {"live-recording": "recording-studio-tel-aviv", "sound-protools-lessons": "recording-studio-tel-aviv"}
+REMOVED = {"live-recording": "recording-studio-tel-aviv", "sound-protools-lessons": "recording-studio-tel-aviv", "blog": ""}  # blog dropped by Raz 2026-11-26
 for _s in REMOVED:
     PAGES.pop(_s, None)
     if _s in SERVICES: SERVICES.remove(_s)
@@ -90,7 +90,7 @@ def nav():
     for i, (top, he, en, sub) in enumerate(SECTIONS):
         subl = "".join(f'<li><a href="{link(s)}">{PAGES[s]["title"]}</a></li>' for s in sub)
         items.append(f'<li class="has-sub"><a href="{link(top)}">{he}</a><button class="sub-toggle" type="button" aria-expanded="false" aria-controls="sub{i}" aria-label="פתיחת תפריט {he}"><span aria-hidden="true">▾</span></button><ul class="sub" id="sub{i}">{subl}</ul></li>')
-    for slug, label in [("recording-studio-equipment", "ציוד"), ("blog", "בלוג"), ("contact", "צור קשר")]:
+    for slug, label in [("recording-studio-equipment", "ציוד"), ("contact", "צור קשר")]:
         items.append(f'<li><a href="{link(slug)}">{label}</a></li>')
     return "".join(items)
 

@@ -28,5 +28,5 @@ for l in sorted(links):
     st, _ = get(urllib.parse.unquote(l))
     if st != 200: bad.append(("link", l, st))
 print("internal links checked:", len(links))
-for x in ["/nope", "/blog/hashtags/x"]: print(x, get(x)[0])
+for x in ["/nope", "/nope2"]: print(x, get(x)[0])
 print("PROBLEMS:", bad or "none")

@@ -13,10 +13,6 @@
 /livestreaming
 /recording-studio-equipment
 /privacy
-/blog
 /
 /contact
 /services
-/post/מהו-קומפרסור-מדוע-וכיצד-משתמשים-בו
-/post/הקלטת-שירה-באולפן
-/post/manage-your-blog-from-your-live-site
