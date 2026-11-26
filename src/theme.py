@@ -191,7 +191,7 @@ def inner_page(slug):
         return page_hero(p, "", slug) + f'<div class="wrap narrow prose">{body}</div>'
     return page_hero(p, crumbs, slug) + f'<div class="wrap split"><article class="prose">{body}</article>{aside(slug)}</div>' + cta_band(slug)
 
-COLLAGE = ["dbx-013", "fb-024", "fb-045", "ig-018", "ig-030", "fb-051"]
+COLLAGE = ["fb-043e", "fb-045", "fb-061"]  # Raz 2026-11-26: option 3, slow crossfade between the three rooms
 WORLDS = [
     ("recording-studio-tel-aviv", "fb-043e", ["הקלטת שירים", "מיקס ועריכות", "אולפן נייד", "פלייבקים"], "covers"),
     ("podcast-recording", "fb-045", ["הקלטה וצילום פודקאסטים", "עריכת סאונד ווידאו", "שידורי זום", "פוסט פרודקשן"], "pods"),
@@ -199,7 +199,7 @@ WORLDS = [
 ]
 
 def home():
-    col = "".join(f'<div style="background-image:url(\'{G(i)}\')"></div>' for i in COLLAGE)
+    col = "".join(f'<div class="hf" style="background-image:url(\'{G(i)}\')"></div>' for i in COLLAGE)
     idx = "".join(f'<a href="{link(top)}"><span>{he}</span></a>' for top, he, en, _ in SECTIONS)
     worlds = ""
     for n, (top, ph, items, kind) in enumerate(WORLDS):
@@ -207,7 +207,7 @@ def home():
         extra = {"covers": marquee(covers(), "covers-mq", 90), "pods": marquee(pods(), "pods-2row", 120), "lead": f'<p class="lead">{INTRO[top]}</p>'}[kind]
         worlds += f"""<section class="world{" flip" if n % 2 else ""}"><a class="w-ph" href="{link(top)}" style="--img:url('{G(ph)}')" aria-label="{he}"></a>
   <div class="w-tx"><h2>{he}</h2><ul>{"".join(f"<li>{x}</li>" for x in items)}</ul>{extra}<a class="more" href="{link(top)}">{he} בתמוז <span aria-hidden="true">←</span></a></div></section>"""
-    return f"""<header class="hero"><div class="h-collage" aria-hidden="true">{col}</div>
+    return f"""<header class="hero"><div class="h-fade" aria-hidden="true">{col}</div>
   <div class="h-text"><h1 class="h-logo"><img src="/img/logo-white.png" alt="Tamuz Studios" width="900" height="220"></h1>
   <p class="h-claim">סאונד בלי פשרות. בכל תחום.</p><p class="h-sub">הקלטה ומיקס · פודקאסטים ומדיה · הפקה מוזיקלית</p></div>
 </header>

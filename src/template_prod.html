@@ -399,6 +399,15 @@ h1, h2, h3, .sec-h, .cta-h, .sub-h { font-weight: 200; letter-spacing: -.005em; 
 .foot-legal { display: flex; gap: 1.2rem; flex-wrap: wrap; }
 @media (max-width: 1000px) { .pf-btn { display: none; } }
 @media (prefers-reduced-motion: reduce) { .mq-btn { display: none; } }
+
+/* round 7: hero = one full photo slowly crossfading between the three rooms (Raz's option 3) */
+.h-fade { position: absolute; inset: 0; }
+.h-fade .hf { position: absolute; inset: 0; background: center/cover; opacity: 0; animation: hfade 18s infinite; transform: scale(1.06); }
+.h-fade .hf:nth-child(2) { animation-delay: 6s; } .h-fade .hf:nth-child(3) { animation-delay: 12s; }
+@keyframes hfade { 0% { opacity: 0; transform: scale(1.06); } 8% { opacity: 1; } 33% { opacity: 1; } 41% { opacity: 0; transform: scale(1); } 100% { opacity: 0; } }
+.hero::after { background: radial-gradient(ellipse at 50% 60%, rgba(0,0,0,.2), rgba(0,0,0,.82) 75%), linear-gradient(0deg, #000, transparent 40%); }
+.h-text { inset: 0; justify-content: center; padding-bottom: 0; }
+@media (prefers-reduced-motion: reduce) { .h-fade .hf { animation: none; } .h-fade .hf:first-child { opacity: 1; transform: none; } }
 </style>
 </head>
 <body>
