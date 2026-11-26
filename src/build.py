@@ -1,6 +1,19 @@
 import html, re, sys
 from content_d import *
 
+def pod_fig(t, f, u=None):
+    alt = html.escape(t)
+    if f is None:
+        im = f'<span class="pod-ph" aria-hidden="true">{alt}</span>'
+    else:
+        src = f if f.startswith("http") else media(f, 320, 320)
+        im = f'<img loading="lazy" src="{src}" alt="{alt}" width="160" height="160">'
+    body = f'{im}<figcaption>{alt}</figcaption>'
+    if u:
+        return f'<figure class="pod"><a href="{html.escape(u)}" target="_blank" rel="noopener">{body}</a></figure>'
+    return f'<figure class="pod">{body}</figure>'
+
+
 def media(fid, w=1600, h=None, q=80):
     if not fid: return ""
     size = f"w_{w},h_{h}" if h else f"w_{w},h_{int(w*0.62)}"
@@ -67,7 +80,7 @@ def render_blocks(slug, blocks):
             rows = "".join(f'<div class="price-row"><span>{a}</span><span class="num">{v}</span></div>' for a, v in b[1])
             out.append(f'<div class="price">{rows}<p class="price-note">{inline(b[2])}</p></div>')
         elif k == "podcasts":
-            imgs = "".join(f'<figure class="pod"><img loading="lazy" src="{media(f,320,320)}" alt="{html.escape(t)}" width="160" height="160"><figcaption>{html.escape(t)}</figcaption></figure>' for t, f in PODCASTS)
+            imgs = "".join(pod_fig(*p) for p in PODCASTS)
             out.append(f'<section class="pods" aria-label="פודקאסטים שהוקלטו באולפן"><p class="eyebrow">הוקלטו אצלנו</p><div class="pod-grid">{imgs}</div></section>')
         elif k == "gear":
             cols = []

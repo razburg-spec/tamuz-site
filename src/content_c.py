@@ -1,6 +1,23 @@
 from content_b import *
 
+PODCASTS_NEW = [
+("תלם – קרן ברל כצנלסון", None, "https://open.spotify.com/show/04D6uHpccMWelQqrBi88Zl"),
+("אנשי הקשב – ד״ר שירלי הרשקו", None, "https://open.spotify.com/show/6zRA1pTAUakN0kHkwjcG9G"),
+("משקיעים בקשר – רמי ודפנה", "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/40/e8/6a/40e86ae0-90ec-3b55-7621-5fb2d23bf7f3/mza_11761054391597561818.jpg/400x400bf-60.jpg", "https://podcasts.apple.com/il/podcast/id1785701903"),
+("RAW – אנוק לורי", "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/45/09/9f/45099f28-0380-3c9d-abb7-294bdb28e254/mza_13449407530195054706.jpg/400x400bf-60.jpg", "https://podcasts.apple.com/il/podcast/id1729158201"),
+("הפודקאסט של גיא קצוביץ׳", None, "https://open.spotify.com/show/0dTqS27ynvNmMnA5x4ObKQ"),
+("רעב לידע – אור דניאל", None, "https://podcasts.apple.com/il/podcast/id1533608134"),
+("משפחה לא בוחרים", None, "https://podcasts.apple.com/il/podcast/id1875543853"),
+("שומר סף – גדי טאוב", None, "https://open.spotify.com/show/6DUIHvdpKh13CHrTa0X8M3"),
+("משמורת משותפת", None, "https://podcasts.apple.com/il/podcast/id1896055852"),
+("נגד הרוח", None, "https://podcasts.apple.com/il/podcast/id1731664811"),
+("שומר סף ברוסית", None, "https://t.me/shomersaf_ru"),
+("שלך אני – מורן שפיצר", None, "https://podcasts.apple.com/il/podcast/id1620179367"),
+("ספוטלייט – פודקאסטים משפחתיים", None, "https://www.spotlightpods.com/"),
+]
 PODCASTS = [("מיינדסט","3fb1a9_617b399b7ac64730beeb12992806c554~mv2.jpg"),("עוד פודקאסט לסטרטאפים","3fb1a9_3247e54991c04d7c919168a2fd8fec06~mv2.jpg"),("אמא אמא - עינת נתן והילה קורח","3fb1a9_8420dd8afb6243439fa1bc74c4d89667~mv2.jpg"),("אמא אבא - יובל ועינת נתן","3fb1a9_bab622471a7b41dd99070f0b0c0a0017~mv2.jpeg"),("ידע שווה כסף","3fb1a9_a45a7c4f7c034e4184c637b687f03168~mv2.jpeg"),("אבוקאסט","3fb1a9_d597474dcc45420dafe0f8e77228abca~mv2.png"),("פורשים בשיא","3fb1a9_76393cd8a3b344f2927db85d10455d2b~mv2.jpg"),("ביוטכנולוגיה בקיצור","3fb1a9_5a2f937e645e47baa96e040b2bc9f686~mv2.jpeg"),("עוד פודקאסט טכנולוגי","3fb1a9_424c138bce8f4865a056c4f7f875cff3~mv2.jpg"),("זמן סין - אמיר גל-אור","3fb1a9_0e76e777110140e0b197e19011a5fe91~mv2.jpg"),("פודקאסט אוניברסיטת תל אביב","3fb1a9_cf9603ed5e264ac5850b0694a49588af~mv2.jpg"),("ממרמיק - עמותת בוגרי ממר״ם","3fb1a9_0e7ff1c0223441c9ba57f799c0ff0ef5~mv2.png"),("Italent","3fb1a9_abb4c9312ac041f49d8c63351fda7158~mv2.jpg"),("סטריטוייז - פודקאסטים","3fb1a9_01f5915a8acf421c958e36554e7842d8~mv2.jpg"),("ירח מלא","3fb1a9_ea9d1c6c3492473796e6f5a4b724d05c~mv2.jpg"),("ניר שניידר ורוני זיידנבאום מדברים תזונה וספורט","3fb1a9_0901abb4725e4c61929a02f865a13fa8~mv2.png"),("Hot Talk","3fb1a9_2a3ffbfd4dbc4ee9968bfa324bd71029~mv2.jpg"),("סטרטאפ במגירה","3fb1a9_748ca56c35ab44d79230a4b6ef0c330f~mv2.jpg"),("יזמות במהדורה מוגבלת","3fb1a9_c1a485ec105f4077a3a6a613d2f8600d~mv2.jpg"),("מגלי עתידות - רשת החינוך עתיד","3fb1a9_345c83bc98a142c482c0317bbe6e41a6~mv2.jpg"),("קול הביטוח - אורית מתניה","3fb1a9_09de565902ac4261aa6d13272a0173c4~mv2.jpeg"),("הצד שלה הצד שלו","3fb1a9_825cbbe59dc4410da78f93861f767c0f~mv2.jpg"),("כושר ואושר - גל בוקר","3fb1a9_d73b91ff9baf4a09b093669ee393dee4~mv2.jpeg"),("דיג'יים מדברים - ספיר חזון","3fb1a9_38beb7e9411f42139b33a8fdef83773f~mv2.jpeg"),("החיים בפרק ב","3fb1a9_6ad2cd8301ca4148aa5202af334feac9~mv2.jpg"),("IL Angels - Valuebell","3fb1a9_b1eb48da1a99437f9558ba1a3dde6372~mv2.jpeg"),("Digital Health Business - Arkin","3fb1a9_630f96e7199340c89d44245dda3fbc1c~mv2.jpeg"),("Tokyo Cafe - Vered Farber","3fb1a9_ce8363742563405fab06e2923b5b6268~mv2.jpg"),("The Deal Makers - Agora","3fb1a9_1823d15402af459aa781d488a55f50b6~mv2.jpg"),("Food Fetish Podcast","3fb1a9_3edf18e8835143aa8f3f451c1d73e38b~mv2.jpeg"),("MasterMind","3fb1a9_49003ee43fb64ea49795aed9e5c77d0f~mv2.jpeg"),("Growth Engines","3fb1a9_01f7df1b206b41299f0cd14bd683f360~mv2.jpg"),("האופטימייזר","3fb1a9_81c5708f1e4b4a60b60e0495e4421b79~mv2.jpg")]
+PODCASTS = [(t, f, None) for t, f in PODCASTS]
+PODCASTS = PODCASTS_NEW + PODCASTS
 
 PAGES["podcast-recording"] = dict(title="הקלטת פודקאסט", img=IMG_STUDIO, group="services", blocks=[
 ("p","אנו בתמוז מספקים שרותי הקלטת פודקאסטים באולפן, צילום פודקאסטים באולפן, עריכת פודקאסטים וגם עיצוב סאונד לפודקאסטים. בנוסף לשירותים הניתנים באולפן - אנו מאפשרים הקמה של [[אולפן הקלטות נייד|mobile-recording-studio]] לצורך הקלטת פודקאסט בבית העסק או בכל מקום אחר כגון משרדי חברה, אירועים עסקיים וכו'."),

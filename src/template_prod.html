@@ -116,6 +116,10 @@ h1, h2, h3, .sec-h, .cta-h, .logo-word, .card-t, .sub-h { font-family: var(--fon
 .pod img { width: 100%; aspect-ratio: 1; object-fit: cover; height: auto; border-radius: 4px; background: var(--card); }
 .pod figcaption { font-size: .82rem; color: var(--muted); margin-top: .35rem; line-height: 1.3; }
 .pods { margin: 2rem 0; }
+.pod a { color: inherit; text-decoration: none; display: block; }
+.pod a:hover img, .pod a:hover .pod-ph { outline: 2px solid var(--amber); outline-offset: 2px; }
+.pod a:hover figcaption { color: var(--ink); }
+.pod-ph { display: flex; align-items: center; justify-content: center; text-align: center; aspect-ratio: 1; padding: .8rem; border-radius: 4px; background: linear-gradient(145deg, var(--wood), var(--card)); color: var(--ink); font-family: "Secular One", sans-serif; font-size: 1rem; line-height: 1.25; }
 .covers { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 1rem; }
 .cv { margin: 0; min-width: 0; }
 .cv img { width: 100%; aspect-ratio: 1; object-fit: cover; height: auto; border-radius: 3px; }

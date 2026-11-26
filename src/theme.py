@@ -109,7 +109,7 @@ def home():
     room = lambda r, cls="": f'<figure class="room{cls}" style="--img:url(\'/img/{r[0]}{"" if cls else "-m"}.jpg\')"><figcaption><b>{r[1]}</b><span>{r[2]}</span></figcaption></figure>'
     sets = [("fb-045", "סט הלבנים", ["2–4 משתתפים", "כורסאות", "צילום וידאו"]), ("fb-021", "סט הקיר האדום", ["1–2 משתתפים", "תאורת מראה", "צילום וידאו"])]
     sets_html = "".join(f'<figure class="set"><img src="/img/{im}-m.jpg" alt="{t} באולפן תמוז" loading="lazy" width="900" height="600"><figcaption><b>{t}</b><span class="spec">{"".join(f"<span>{x}</span>" for x in sp)}</span></figcaption></figure>' for im, t, sp in sets)
-    pods = "".join(f'<figure class="pod"><img loading="lazy" src="{media(f, 320, 320)}" alt="{html.escape(t)}" width="160" height="160"><figcaption>{html.escape(t)}</figcaption></figure>' for t, f in PODCASTS)
+    pods = "".join(build.pod_fig(*p) for p in PODCASTS)
     covers = "".join(f'<figure class="cv"><img src="/img/{c}.jpg" alt="{html.escape(a)} – {html.escape(t)}" loading="lazy" width="360" height="360"><figcaption><b dir="ltr">{html.escape(a)}</b><span dir="ltr">{html.escape(t)}</span></figcaption></figure>' for c, a, t in COVERS)
     quotes = "".join(f'<blockquote><p>{html.escape(q)}</p><footer>{html.escape(w)}</footer></blockquote>' for q, w in QUOTES)
     strip = "".join(f'<img src="/img/{p}-m.jpg" alt="" loading="lazy">' for p in ["ig-018", "fb-063", "ig-029", "fb-075", "ig-004", "fb-066"])
@@ -119,7 +119,7 @@ def home():
     <h1>אולפן הקלטות ופודקאסטים</h1>
     <p class="hero-sub">הקלטה ומיקס, פודקאסטים ומדיה, והפקה מוזיקלית. בחדר עם לבנים, עץ ואור חם, ועם יחס אישי בכל סשן.</p>
     <div class="hero-actions"><a class="btn btn-accent" href="/contact">בואו לבקר באולפן</a><a class="btn btn-ghost" href="#credits">לשמוע עבודות</a></div>
-    <div class="stats"><div><b class="num">2004</b><span>שנת ההקמה</span></div><div><b class="num">+30</b><span>פודקאסטים הוקלטו כאן</span></div><div><b class="num">4.8</b><span>בגוגל, 54 ביקורות</span></div></div>
+    <div class="stats"><div><b class="num">2004</b><span>שנת ההקמה</span></div><div><b class="num">+45</b><span>פודקאסטים הוקלטו כאן</span></div><div><b class="num">4.8</b><span>בגוגל, 54 ביקורות</span></div></div>
   </div>
 </header>
 <section class="block"><div class="wrap">
