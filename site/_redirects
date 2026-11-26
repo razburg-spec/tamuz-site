@@ -1,0 +1,11 @@
+/pages-sitemap.xml /sitemap.xml 301
+/blog-posts-sitemap.xml /sitemap.xml 301
+/blog-categories-sitemap.xml /sitemap.xml 301
+/blog-hashtags-sitemap.xml /sitemap.xml 301
+/blog/* / 301
+/post/* / 301
+/live-recording /recording-studio-tel-aviv 301
+/sound-protools-lessons /recording-studio-tel-aviv 301
+/blog / 301
+/home /  301
+/index.html / 301
