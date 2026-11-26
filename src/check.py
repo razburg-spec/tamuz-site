@@ -19,7 +19,7 @@ for u in urls:
     if "noindex" in h or "טיוטת" in h: ok = False
     for m in re.findall(r'href="(/[^"]*)"', h): links.add(m)
     for m in re.findall(r'href="#([^"]*)"', h):
-        if m != "main": bad.append((u, "#" + m))
+        if m != "main" and f'id="{m}"' not in h: bad.append((u, "#" + m))
     for m in re.findall(r'<img [^>]*>', h):
         if 'alt="' not in m: bad.append((u, "img without alt"))
     if not ok: bad.append((u, st, h1, t, can, bool(d)))

@@ -7,9 +7,14 @@ import html, json, os, re, sys, shutil
 from datetime import datetime
 from urllib.parse import quote
 import build
-from build import PAGES, PHONE, EMAIL, SOCIAL, media
+import theme  # v2 design: swaps page builders, keeps texts/URLs/SEO
+from build import PAGES, PHONE, EMAIL, SOCIAL
 
 SITE = "https://www.tamuzstudios.co.il"
+
+def media(*a, **k):
+    u = theme.media(*a, **k)
+    return SITE + u if u.startswith("/") else u
 GSV = "EXoOyeKinw5BlF2SdU-F8Uy3_yW1Qa8wmjCi9j_l2Go"
 WEB3FORMS_KEY = os.environ.get("WEB3FORMS_KEY", "")  # filled in once Raz creates the key
 SEO = json.load(open("seo.json", encoding="utf-8"))
@@ -58,7 +63,7 @@ def head(path, title, desc, img, og_type="website", extra=""):
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#1b2630">
+<meta name="theme-color" content="#0f0b09">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/site.css">
 {extra}'''.rstrip()
@@ -152,6 +157,7 @@ def main(outdir):
     tpl = tpl.replace(css.group(0), "")
     open(os.path.join(outdir, "site.css"), "w", encoding="utf-8").write(css.group(1) + open("extra.css", encoding="utf-8").read())
     shutil.copy("site.js", outdir); shutil.copy("favicon.svg", outdir)
+    shutil.copytree("img", os.path.join(outdir, "img"))
     nav_html = build.nav()
     written = []
 
@@ -189,7 +195,7 @@ def main(outdir):
         "/pages-sitemap.xml /sitemap.xml 301\n/blog-posts-sitemap.xml /sitemap.xml 301\n/blog-categories-sitemap.xml /sitemap.xml 301\n"
         "/blog-hashtags-sitemap.xml /sitemap.xml 301\n/blog/* /blog 301\n/home /  301\n/index.html / 301\n")
     open(os.path.join(outdir, "_headers"), "w").write(
-        "# Keep the pages.dev / workers.dev copies out of Google so they never compete with www.tamuzstudios.co.il\nhttps://:project.pages.dev/*\n  X-Robots-Tag: noindex\n\nhttps://:worker.:account.workers.dev/*\n  X-Robots-Tag: noindex\n\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n\n/site.css\n  Cache-Control: public, max-age=86400\n/site.js\n  Cache-Control: public, max-age=86400\n")
+        "# Keep the pages.dev / workers.dev copies out of Google so they never compete with www.tamuzstudios.co.il\nhttps://:project.pages.dev/*\n  X-Robots-Tag: noindex\n\nhttps://:worker.:account.workers.dev/*\n  X-Robots-Tag: noindex\n\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n\n/site.css\n  Cache-Control: public, max-age=86400\n/img/*\n  Cache-Control: public, max-age=2592000\n/site.js\n  Cache-Control: public, max-age=86400\n")
     open(outdir.rstrip("/") + "-urls.txt", "w", encoding="utf-8").write("\n".join("/" + p for p in written) + "\n")
     print("pages:", len(written))
 
