@@ -1,6 +1,6 @@
 # Real brick-wall background (studio back wall)
 
-Cropped from a real photo of the brick wall on the studio's podcast set (Instagram, 2024, @oritish post = ig-010).
+Cropped from a real photo of the brick wall on the studio's podcast set (ig-010: Instagram post by @hamadrich_latrempist, April 2024 - needs permission, or better, a new photo of our own).
 - brick-wall-real-crop.jpg: original colours
 - brick-wall-dark-45.jpg / brick-wall-dark-30.jpg: darkened for a dark site background
 
