@@ -21,7 +21,7 @@ def media(fid, w=1600, h=None, q=80):
 
 ADDRESS = "דיסנצ׳יק 9, תל אביב 69356"
 PHONE = "03-6481791"
-EMAIL = "tamuzstudios@gmail.com"
+EMAIL = "info@tamuzstudios.co.il"
 MAPS = "https://www.google.com/maps/search/?api=1&query=%D7%AA%D7%9E%D7%95%D7%96+%D7%90%D7%95%D7%9C%D7%A4%D7%9F+%D7%94%D7%A7%D7%9C%D7%98%D7%95%D7%AA+%D7%93%D7%99%D7%A1%D7%A0%D7%A6%D7%A3%D7%99%D7%A7+9"
 SOCIAL = [("Facebook","https://www.facebook.com/tamuzstudios/"),("Instagram","https://www.instagram.com/tamuzstudios/"),("YouTube","https://www.youtube.com/playlist?list=PL52C78DA7C5339843"),("Vimeo","https://vimeo.com/razburg")]
 
