@@ -193,5 +193,77 @@
  "wix-81c5708f1e4b": {
   "title": "האופטימייזר",
   "wix_file": "3fb1a9_81c5708f1e4b4a60b60e0495e4421b79~mv2.jpg"
+ },
+ "orot-baafela": {
+  "name": "אורות באפלה",
+  "artist": "אורות באפלה - פרויקט תיעוד",
+  "url": "https://podcasts.apple.com/il/podcast/%D7%90%D7%95%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%A4%D7%9C%D7%94/id1714827981",
+  "source": "apple"
+ },
+ "boring-side": {
+  "name": "The Boring Side of Startups",
+  "artist": "אביעד שורק, FAI",
+  "url": "https://podcasts.apple.com/il/podcast/the-boring-side-of-startups/id1752728465",
+  "source": "apple"
+ },
+ "yael-keynan": {
+  "name": "מעגל ההתמכרות - דברים שמשפחות צריכות לדעת",
+  "artist": "יעל קינן",
+  "url": "https://podcasts.apple.com/il/podcast/%D7%9E%D7%A2%D7%92%D7%9C-%D7%94%D7%94%D7%AA%D7%9E%D7%9B%D7%A8%D7%95%D7%AA-%D7%93%D7%91%D7%A8%D7%99%D7%9D-%D7%A9%D7%9E%D7%A9%D7%A4%D7%97%D7%95%D7%AA-%D7%A6%D7%A8%D7%99%D7%9B%D7%95%D7%AA-%D7%9C%D7%93%D7%A2%D7%AA/id1713691235",
+  "source": "apple"
+ },
+ "hotir-acharav": {
+  "name": "הותיר אחריו חבר.ה",
+  "artist": "העמותה לתמיכה נפשית בחברות חללי צה\"ל",
+  "url": "https://podcasts.apple.com/il/podcast/%D7%94%D7%95%D7%AA%D7%99%D7%A8-%D7%90%D7%97%D7%A8%D7%99%D7%95-%D7%97%D7%91%D7%A8-%D7%94/id1893614981",
+  "source": "apple"
+ },
+ "yaara-alon": {
+  "name": "קשובה לך",
+  "artist": "יערה אלון",
+  "url": "https://podcasts.apple.com/il/podcast/%D7%A7%D7%A9%D7%95%D7%91%D7%94-%D7%9C%D7%9A/id1762999744",
+  "source": "apple"
+ },
+ "madlan": {
+  "name": "הדרך לבית",
+  "artist": "מדלן",
+  "url": "https://podcasts.apple.com/il/podcast/%D7%94%D7%93%D7%A8%D7%9A-%D7%9C%D7%91%D7%99%D7%AA/id1782128122",
+  "source": "apple"
+ },
+ "itay-hel-or": {
+  "name": "פיתוח מנהלים",
+  "artist": "גלי גופר ואיתי הל-אור",
+  "url": "https://podcasts.apple.com/il/podcast/%D7%A4%D7%99%D7%AA%D7%95%D7%97-%D7%9E%D7%A0%D7%94%D7%9C%D7%99%D7%9D-%D7%A2%D7%9D-%D7%92%D7%9C%D7%99-%D7%92%D7%95%D7%A4%D7%A8-%D7%95%D7%90%D7%99%D7%AA%D7%99-%D7%94%D7%9C-%D7%90%D7%95%D7%A8/id1738823413",
+  "source": "apple"
+ },
+ "nili-peretz": {
+  "name": "הפסיכולוגיה של ההצלחה",
+  "artist": "נילי פרץ",
+  "url": "https://podcasts.apple.com/il/podcast/%D7%94%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94-%D7%A9%D7%9C-%D7%94%D7%94%D7%A6%D7%9C%D7%97%D7%94/id6785257729",
+  "source": "apple"
+ },
+ "magnetim": {
+  "name": "מג'נרטים",
+  "artist": "Entrée Capital",
+  "url": "https://podcasts.apple.com/il/podcast/%D7%9E%D7%92%D7%A0%D7%A8%D7%98%D7%99%D7%9D/id6783933361",
+  "source": "apple"
+ },
+ "mitan-horeg": {
+  "name": "מטען חורג",
+  "artist": "תילי ומיכל",
+  "url": "https://podcasts.apple.com/il/podcast/%D7%9E%D7%98%D7%A2%D7%9F-%D7%97%D7%95%D7%A8%D7%92/id1889477691",
+  "source": "apple"
+ },
+ "pilot": {
+  "name": "PILOT",
+  "artist": "איגוד הטייסים (Isralpa)",
+  "url": "https://podcasts.apple.com/il/podcast/pilot/id1849739323",
+  "source": "apple"
+ },
+ "one-voice": {
+  "name": "ONE Voice",
+  "artist": "One Technologies",
+  "url": null,
+  "source": "dropbox"
  }
 }
