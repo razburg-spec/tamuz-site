@@ -10,7 +10,7 @@ PODCASTS_NEW = [
 ("משפחה לא בוחרים", "/img/pods/mishpacha-lo-bocharim.jpg", "https://podcasts.apple.com/il/podcast/id1875543853"),
 ("שומר סף – גדי טאוב", "/img/pods/shomer-saf.jpg", "https://open.spotify.com/show/6DUIHvdpKh13CHrTa0X8M3"),
 ("משמורת משותפת", "/img/pods/mishmoret-meshutefet.jpg", "https://podcasts.apple.com/il/podcast/id1896055852"),
-("הולך נגד הרוח", "/img/pods/neged-haruach.jpg", "https://podcasts.apple.com/il/podcast/id1731664811"),
+("נגד הרוח – חיים רמון וניסים סופר", "/img/pods/neged-haruach.jpg", "https://shomersaf.com/%D7%A0%D7%92%D7%93-%D7%94%D7%A8%D7%95%D7%97-%D7%A2%D7%9D-%D7%A0%D7%99%D7%A1%D7%99%D7%9D-%D7%A1%D7%95%D7%A4%D7%A8-%D7%95%D7%97%D7%99%D7%99%D7%9D-%D7%A8%D7%9E%D7%95%D7%9F/"),
 ("שומר סף ברוסית", "/img/pods/shomer-saf-ru.jpg", "https://t.me/shomersaf_ru"),
 ("שלך אני – מורן שפיצר", "/img/pods/shelach-ani.jpg", "https://podcasts.apple.com/il/podcast/id1620179367"),
 ("ספוטלייט – פודקאסטים משפחתיים", "/img/pods/spotlight.jpg", "https://www.spotlightpods.com/"),
