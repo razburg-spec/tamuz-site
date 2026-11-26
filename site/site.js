@@ -13,6 +13,10 @@
       b.setAttribute("aria-expanded", o ? "true" : "false");
     });
   });
+  var t = new URLSearchParams(location.search).get("t");
+  if (t) document.querySelectorAll("[data-topic]").forEach(function (s) {
+    var o = s.querySelector('option[data-path="' + t + '"]'); if (o) o.selected = true;
+  });
   document.querySelectorAll("[data-form]").forEach(function (f) {
     var ok = f.querySelector(".form-ok"), err = f.querySelector(".form-err"), btn = f.querySelector("button[type=submit]");
     f.addEventListener("submit", function (e) {
