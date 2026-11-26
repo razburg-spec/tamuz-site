@@ -248,7 +248,7 @@ def footer():
   <div><p class="foot-h">הקלטה ומיקס</p><ul class="foot-list">{col(RECORDING)}</ul></div>
   <div><p class="foot-h">פודקאסטים ומדיה</p><ul class="foot-list">{col(MEDIA)}</ul><p class="foot-h" style="margin-top:1.4rem">הפקה מוזיקלית</p><ul class="foot-list">{col(PRODUCE[:1] + PRODUCE[4:])}</ul></div>
   <div><p class="foot-h">עקבו אחרינו</p><ul class="foot-list">{soc}<li><a href="https://www.razburg.com">רז בורג · razburg.com</a></li></ul></div>
-</div><div class="wrap foot-base"><span>© 2026 אולפני תמוז · רז בורג</span><span class="foot-legal"><a href="/terms">תנאי שימוש</a><a href="/privacy">מדיניות פרטיות</a><a href="/accessibility">הצהרת נגישות</a></span></div></footer>'''
+</div><div class="wrap foot-base"><span>© 2026 אולפני תמוז · רז בורג</span><span class="foot-legal"><a href="/terms">תנאי שימוש ומדיניות</a><a href="/privacy">מדיניות פרטיות</a><a href="/accessibility">הצהרת נגישות</a></span></div></footer>'''
 
 build.nav, build.page_hero, build.aside, build.cta_band, build.inner_page = nav, page_hero, aside, cta_band, inner_page
 build.home, build.contact, build.services, build.footer = home, contact, services, footer
