@@ -1,6 +1,35 @@
 from content_b import *
 
+PODCASTS_NEW = [
+("תלם – קרן ברל כצנלסון", "/img/pods/telem.jpg", "https://open.spotify.com/show/04D6uHpccMWelQqrBi88Zl"),
+("אנשי הקשב – ד״ר שירלי הרשקו", "/img/pods/anshei-hakeshev.jpg", "https://open.spotify.com/show/6zRA1pTAUakN0kHkwjcG9G"),
+("משקיעים בקשר – רמי ודפנה", "/img/pods/mashkeem-bakesher.jpg", "https://podcasts.apple.com/il/podcast/id1785701903"),
+("RAW – אנוק לורי", "/img/pods/raw-anouk.jpg", "https://podcasts.apple.com/il/podcast/id1729158201"),
+("הפודקאסט של גיא קצוביץ׳", "/img/pods/guy-katsovich.jpg", "https://open.spotify.com/show/0dTqS27ynvNmMnA5x4ObKQ"),
+("רעב לידע – אור דניאל", "/img/pods/raav-ladaat.jpg", "https://podcasts.apple.com/il/podcast/id1533608134"),
+("משפחה לא בוחרים", "/img/pods/mishpacha-lo-bocharim.jpg", "https://podcasts.apple.com/il/podcast/id1875543853"),
+("שומר סף – גדי טאוב", "/img/pods/shomer-saf.jpg", "https://open.spotify.com/show/6DUIHvdpKh13CHrTa0X8M3"),
+("משמורת משותפת", "/img/pods/mishmoret-meshutefet.jpg", "https://podcasts.apple.com/il/podcast/id1896055852"),
+("נגד הרוח – חיים רמון וניסים סופר", "/img/pods/neged-haruach.jpg", "https://shomersaf.com/%D7%A0%D7%92%D7%93-%D7%94%D7%A8%D7%95%D7%97-%D7%A2%D7%9D-%D7%A0%D7%99%D7%A1%D7%99%D7%9D-%D7%A1%D7%95%D7%A4%D7%A8-%D7%95%D7%97%D7%99%D7%99%D7%9D-%D7%A8%D7%9E%D7%95%D7%9F/"),
+("שומר סף ברוסית", "/img/pods/shomer-saf-ru.jpg", "https://t.me/shomersaf_ru"),
+("שלך אני – מורן שפיצר", "/img/pods/shelach-ani.jpg", "https://podcasts.apple.com/il/podcast/id1620179367"),
+("ספוטלייט – פודקאסטים משפחתיים", "/img/pods/spotlight.jpg", "https://www.spotlightpods.com/"),
+("אורות באפלה", "/img/pods/orot-baafela.jpg", "https://podcasts.apple.com/il/podcast/%D7%90%D7%95%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%A4%D7%9C%D7%94/id1714827981"),
+("The Boring Side of Startups", "/img/pods/boring-side.jpg", "https://podcasts.apple.com/il/podcast/the-boring-side-of-startups/id1752728465"),
+("מעגל ההתמכרות – יעל קינן", "/img/pods/yael-keynan.jpg", "https://podcasts.apple.com/il/podcast/%D7%9E%D7%A2%D7%92%D7%9C-%D7%94%D7%94%D7%AA%D7%9E%D7%9B%D7%A8%D7%95%D7%AA-%D7%93%D7%91%D7%A8%D7%99%D7%9D-%D7%A9%D7%9E%D7%A9%D7%A4%D7%97%D7%95%D7%AA-%D7%A6%D7%A8%D7%99%D7%9B%D7%95%D7%AA-%D7%9C%D7%93%D7%A2%D7%AA/id1713691235"),
+("הותיר אחריו", "/img/pods/hotir-acharav.jpg", "https://podcasts.apple.com/il/podcast/%D7%94%D7%95%D7%AA%D7%99%D7%A8-%D7%90%D7%97%D7%A8%D7%99%D7%95-%D7%97%D7%91%D7%A8-%D7%94/id1893614981"),
+("קשובה לך – יערה אלון", "/img/pods/yaara-alon.jpg", "https://podcasts.apple.com/il/podcast/%D7%A7%D7%A9%D7%95%D7%91%D7%94-%D7%9C%D7%9A/id1762999744"),
+("הדרך לבית – מדלן", "/img/pods/madlan.jpg", "https://podcasts.apple.com/il/podcast/%D7%94%D7%93%D7%A8%D7%9A-%D7%9C%D7%91%D7%99%D7%AA/id1782128122"),
+("פיתוח מנהלים – גלי גופר ואיתי הל־אור", "/img/pods/itay-hel-or.jpg", "https://podcasts.apple.com/il/podcast/%D7%A4%D7%99%D7%AA%D7%95%D7%97-%D7%9E%D7%A0%D7%94%D7%9C%D7%99%D7%9D-%D7%A2%D7%9D-%D7%92%D7%9C%D7%99-%D7%92%D7%95%D7%A4%D7%A8-%D7%95%D7%90%D7%99%D7%AA%D7%99-%D7%94%D7%9C-%D7%90%D7%95%D7%A8/id1738823413"),
+("הפסיכולוגיה של ההצלחה – נילי פרץ", "/img/pods/nili-peretz.jpg", "https://podcasts.apple.com/il/podcast/%D7%94%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94-%D7%A9%D7%9C-%D7%94%D7%94%D7%A6%D7%9C%D7%97%D7%94/id6785257729"),
+("מג׳נרטים – Entrée Capital", "/img/pods/magnetim.jpg", "https://podcasts.apple.com/il/podcast/%D7%9E%D7%92%D7%A0%D7%A8%D7%98%D7%99%D7%9D/id6783933361"),
+("מטען חורג", "/img/pods/mitan-horeg.jpg", "https://podcasts.apple.com/il/podcast/%D7%9E%D7%98%D7%A2%D7%9F-%D7%97%D7%95%D7%A8%D7%92/id1889477691"),
+("PILOT – ארגון הטייסים", "/img/pods/pilot.jpg", "https://podcasts.apple.com/il/podcast/pilot/id1849739323"),
+("ONE Voice – One Technologies", "/img/pods/one-voice.jpg", None),
+]
 PODCASTS = [("מיינדסט","3fb1a9_617b399b7ac64730beeb12992806c554~mv2.jpg"),("עוד פודקאסט לסטרטאפים","3fb1a9_3247e54991c04d7c919168a2fd8fec06~mv2.jpg"),("אמא אמא - עינת נתן והילה קורח","3fb1a9_8420dd8afb6243439fa1bc74c4d89667~mv2.jpg"),("אמא אבא - יובל ועינת נתן","3fb1a9_bab622471a7b41dd99070f0b0c0a0017~mv2.jpeg"),("ידע שווה כסף","3fb1a9_a45a7c4f7c034e4184c637b687f03168~mv2.jpeg"),("אבוקאסט","3fb1a9_d597474dcc45420dafe0f8e77228abca~mv2.png"),("פורשים בשיא","3fb1a9_76393cd8a3b344f2927db85d10455d2b~mv2.jpg"),("ביוטכנולוגיה בקיצור","3fb1a9_5a2f937e645e47baa96e040b2bc9f686~mv2.jpeg"),("עוד פודקאסט טכנולוגי","3fb1a9_424c138bce8f4865a056c4f7f875cff3~mv2.jpg"),("זמן סין - אמיר גל-אור","3fb1a9_0e76e777110140e0b197e19011a5fe91~mv2.jpg"),("פודקאסט אוניברסיטת תל אביב","3fb1a9_cf9603ed5e264ac5850b0694a49588af~mv2.jpg"),("ממרמיק - עמותת בוגרי ממר״ם","3fb1a9_0e7ff1c0223441c9ba57f799c0ff0ef5~mv2.png"),("Italent","3fb1a9_abb4c9312ac041f49d8c63351fda7158~mv2.jpg"),("סטריטוייז - פודקאסטים","3fb1a9_01f5915a8acf421c958e36554e7842d8~mv2.jpg"),("ירח מלא","3fb1a9_ea9d1c6c3492473796e6f5a4b724d05c~mv2.jpg"),("ניר שניידר ורוני זיידנבאום מדברים תזונה וספורט","3fb1a9_0901abb4725e4c61929a02f865a13fa8~mv2.png"),("Hot Talk","3fb1a9_2a3ffbfd4dbc4ee9968bfa324bd71029~mv2.jpg"),("סטרטאפ במגירה","3fb1a9_748ca56c35ab44d79230a4b6ef0c330f~mv2.jpg"),("יזמות במהדורה מוגבלת","3fb1a9_c1a485ec105f4077a3a6a613d2f8600d~mv2.jpg"),("מגלי עתידות - רשת החינוך עתיד","3fb1a9_345c83bc98a142c482c0317bbe6e41a6~mv2.jpg"),("קול הביטוח - אורית מתניה","3fb1a9_09de565902ac4261aa6d13272a0173c4~mv2.jpeg"),("הצד שלה הצד שלו","3fb1a9_825cbbe59dc4410da78f93861f767c0f~mv2.jpg"),("כושר ואושר - גל בוקר","3fb1a9_d73b91ff9baf4a09b093669ee393dee4~mv2.jpeg"),("דיג'יים מדברים - ספיר חזון","3fb1a9_38beb7e9411f42139b33a8fdef83773f~mv2.jpeg"),("החיים בפרק ב","3fb1a9_6ad2cd8301ca4148aa5202af334feac9~mv2.jpg"),("IL Angels - Valuebell","3fb1a9_b1eb48da1a99437f9558ba1a3dde6372~mv2.jpeg"),("Digital Health Business - Arkin","3fb1a9_630f96e7199340c89d44245dda3fbc1c~mv2.jpeg"),("Tokyo Cafe - Vered Farber","3fb1a9_ce8363742563405fab06e2923b5b6268~mv2.jpg"),("The Deal Makers - Agora","3fb1a9_1823d15402af459aa781d488a55f50b6~mv2.jpg"),("Food Fetish Podcast","3fb1a9_3edf18e8835143aa8f3f451c1d73e38b~mv2.jpeg"),("MasterMind","3fb1a9_49003ee43fb64ea49795aed9e5c77d0f~mv2.jpeg"),("Growth Engines","3fb1a9_01f7df1b206b41299f0cd14bd683f360~mv2.jpg"),("האופטימייזר","3fb1a9_81c5708f1e4b4a60b60e0495e4421b79~mv2.jpg")]
+PODCASTS = [(t, "/img/pods/wix-" + f.split("~")[0].split("_")[1][:12] + ".jpg", None) for t, f in PODCASTS]
+PODCASTS = PODCASTS_NEW + PODCASTS
 
 PAGES["podcast-recording"] = dict(title="הקלטת פודקאסט", img=IMG_STUDIO, group="services", blocks=[
 ("p","אנו בתמוז מספקים שרותי הקלטת פודקאסטים באולפן, צילום פודקאסטים באולפן, עריכת פודקאסטים וגם עיצוב סאונד לפודקאסטים. בנוסף לשירותים הניתנים באולפן - אנו מאפשרים הקמה של [[אולפן הקלטות נייד|mobile-recording-studio]] לצורך הקלטת פודקאסט בבית העסק או בכל מקום אחר כגון משרדי חברה, אירועים עסקיים וכו'."),

@@ -1,6 +1,19 @@
 import html, re, sys
 from content_d import *
 
+def pod_fig(t, f, u=None):
+    alt = html.escape(t)
+    if f is None:
+        im = f'<span class="pod-ph" aria-hidden="true">{alt}</span>'
+    else:
+        src = f if f.startswith(("http", "/")) else media(f, 320, 320)
+        im = f'<img loading="lazy" src="{src}" alt="{alt}" width="400" height="400">'
+    body = f'{im}<figcaption>{alt}</figcaption>'
+    if u:
+        return f'<figure class="pod"><a href="{html.escape(u)}" target="_blank" rel="noopener">{body}</a></figure>'
+    return f'<figure class="pod">{body}</figure>'
+
+
 def media(fid, w=1600, h=None, q=80):
     if not fid: return ""
     size = f"w_{w},h_{h}" if h else f"w_{w},h_{int(w*0.62)}"
@@ -8,7 +21,7 @@ def media(fid, w=1600, h=None, q=80):
 
 ADDRESS = "דיסנצ׳יק 9, תל אביב 69356"
 PHONE = "03-6481791"
-EMAIL = "tamuzstudios@gmail.com"
+EMAIL = "info@tamuzstudios.co.il"
 MAPS = "https://www.google.com/maps/search/?api=1&query=%D7%AA%D7%9E%D7%95%D7%96+%D7%90%D7%95%D7%9C%D7%A4%D7%9F+%D7%94%D7%A7%D7%9C%D7%98%D7%95%D7%AA+%D7%93%D7%99%D7%A1%D7%A0%D7%A6%D7%A3%D7%99%D7%A7+9"
 SOCIAL = [("Facebook","https://www.facebook.com/tamuzstudios/"),("Instagram","https://www.instagram.com/tamuzstudios/"),("YouTube","https://www.youtube.com/playlist?list=PL52C78DA7C5339843"),("Vimeo","https://vimeo.com/razburg")]
 
@@ -67,7 +80,7 @@ def render_blocks(slug, blocks):
             rows = "".join(f'<div class="price-row"><span>{a}</span><span class="num">{v}</span></div>' for a, v in b[1])
             out.append(f'<div class="price">{rows}<p class="price-note">{inline(b[2])}</p></div>')
         elif k == "podcasts":
-            imgs = "".join(f'<figure class="pod"><img loading="lazy" src="{media(f,320,320)}" alt="{html.escape(t)}" width="160" height="160"><figcaption>{html.escape(t)}</figcaption></figure>' for t, f in PODCASTS)
+            imgs = "".join(pod_fig(*p) for p in PODCASTS)
             out.append(f'<section class="pods" aria-label="פודקאסטים שהוקלטו באולפן"><p class="eyebrow">הוקלטו אצלנו</p><div class="pod-grid">{imgs}</div></section>')
         elif k == "gear":
             cols = []

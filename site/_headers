@@ -11,5 +11,7 @@ https://:worker.:account.workers.dev/*
 
 /site.css
   Cache-Control: public, max-age=86400
+/img/*
+  Cache-Control: public, max-age=2592000
 /site.js
   Cache-Control: public, max-age=86400

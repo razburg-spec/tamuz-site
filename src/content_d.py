@@ -36,20 +36,20 @@ PAGES["livestreaming"] = dict(title="אולפן שידור", img=IMG_LIVE, group
 
 RENT = "For rent by day : (available for 5 hours session min. / pre order required)"
 GEAR = [
-("Mic Pre-Amps", ["2 X Neve 5106 custom racked (Neve V51 channel strip)","4 X RCA BA-33B (vintage germanium preamp)","2 X Auditronics 110b (custom racked)","2 X Sytek MPX-4A - total of 8ch mic pre (Neotek design, channels 3-4 with Burr-Brown op-amps)","JoeMeek Vc1q","Seventh Circle Audio 4ch mic pre (N72 | A12 | 2XT15)","3 X Mindprint en-voice","Drawmer 1960 2ch"], ["Rca BA-21a (vintage tube mic pre - 3 ch)","Neve 34114 Mic pre with Eq","Neve 1272 Mic pre with DI","Neve custom preamp (4 ch)","Harrison custom preamp (8 ch)"]),
+("Mic Pre-Amps", ["Neve 1073 OPX (8 Ch)","2 X Neve 5106 custom racked (Neve V51 channel strip)","4 X RCA BA-33B (vintage germanium preamp)","2 X Auditronics 110b (custom racked)","2 X Sytek MPX-4A - total of 8ch mic pre (Neotek design, channels 3-4 with Burr-Brown op-amps)","JoeMeek Vc1q","Seventh Circle Audio 4ch mic pre (N72 | A12 | 2XT15)","3 X Mindprint en-voice","Drawmer 1960 2ch"], ["Rca BA-21a (vintage tube mic pre - 3 ch)","Neve 34114 Mic pre with Eq","Neve 1272 Mic pre with DI","Neve custom preamp (4 ch)","Harrison custom preamp (8 ch)"]),
 ("EQ", ["Orban 622 dual parametric eq","Mccurdy 155d dual parametric eq custom racked","Neve 5106 x 2ch custom racked"], ["Pultec EQP-1a (2 ch)"]),
 ("Dynamics", ["Tube-Tech LCA2a 2 ch","Universal Audio 1176LN","Urei la-4","2 X Urei la-12 (total of 4 ch)","Drawmer 1960 2 ch","JoeMeek Vc1q vintage"], ["Audio & Design (ADR) 760 (2 ch)","Altec 1591","Urei LA3a (vintage)","DBX 160-VU (2 ch)","Gates STA-Level","Valley People 610 (2 ch)"]),
 ("FX", ["Lexicon 200 vintage","Lexicon PCM 70"], []),
-("Monitor System", ["Cranesong Avocet IIA (Quantom DA)","ATC SCM25a Pro Active Monitors","Yamaha NS10m + Yamaha"], []),
-("Recording & Editing Systems", ["Protools 2023","Cubase 10 pro","Waves Mercury + All Waves Bundles","Soundtoys All Bundle","UAD plugins (octo DSP)"], []),
+("Monitor System", ["Cranesong Avocet IIA (Quantom DA)","ATC SCM25a Pro Active Monitors","Yamaha NS10m"], []),
+("Recording & Editing Systems", ["Protools 2026","Cubase 15 pro","UAD Octo","Plugins by: Raz Burg AudioCrafts, Waves, SoundToyz, Fab Filter, UAD, Plugin Alliance and more","Presonus Faderport 2"], []),
 ("Midi", ["Roland RD300sx","NI Midi Interface"], []),
-("Cue System", ["Audio Technica ATH-M50x","Akg 271 studio","Akg 55","Sony MDR-V6","Mackie headphones amplifier"], []),
-("Converters", ["Cranesong Quantom DA","Antelope Audio Orion 32","RME UCX2","RME MADI interface"], []),
+("Cue System", ["Audio Technica ATH-M50x","Akg 55","Sony MDR-V6","Mackie headphones amplifier"], []),
+("Converters", ["Cranesong Quantom DA","AVID MTRX (DAD converters) 24 i/o","RME UCX2","RME MADI interface"], []),
 ("Microphones · Condensers", ["Neumann U87 (vintage)","Neumann TLM-170i","Aston Spirit (x 4)","Adk Vienna edition (x 2)","Akg c-414 B-ULS (x 2)","Akg c-414 EB","Akg c-3000 (x 2)","Akg c-535","Akg blue series ck-91","Violet design finger (x 2)"], []),
 ("Microphones · Dynamics", ["Shure sm-7","Shure sm-57 (x 2)","Shure sm 58","Shure unidyne 4 (x 2)","Sennheiser md-421-2","Telefunken md-421-5","Electrovoice RE-20","Akg d-112","Akg D90s","Beyerdynamic M422n","Audix D2 (x 2)"], []),
 ("Microphones · Ribbon", ["RB500 Tbone (x 2)"], ["Neumann U47","Neumann U67","Neumann M49","Neumann KM64 (pair)","Earthworks TC30K"]),
 ("Wiring", ["Klotz cables","Mogami cables","Monster cables","Neutrik connectors"], []),
-("Instruments", ["Yamaha Rock Tour Custom Drums Set (22\",16\",12\",10\")","Premier Artist Heritage maple (22\",16\",12\",10\")","Seiler Upright piano","Rhodes Suitcase 73 MK1","Prophet 6","Roland RD300sx electric piano","Fender Strat Deluxe Plus","Yamaha Active Bass Guitar bb 1500","Gibson EB0 Short scale Bass 1971"], []),
+("Instruments", ["Yamaha Rock Tour Custom Drums Set (22\",16\",12\",10\")","Premier Artist Heritage maple (22\",16\",12\",10\")","Roland RD300sx electric piano","Fender Strat Deluxe Plus","Yamaha Active Bass Guitar bb 1500","Gibson EB0 Short scale Bass 1971"], []),
 ("Guitar Amp", ["Fender Hot Rod Deluxe (tube)"], []),
 ]
 PAGES["recording-studio-equipment"] = dict(title="ציוד האולפן", img=IMG_GEAR, group="top", blocks=[
@@ -67,9 +67,9 @@ PAGES["privacy"] = dict(title="מדיניות פרטיות", img=None, group="le
 ("p","<b>עם מי הפרטים נמסרים.</b> אנחנו לא מוכרים ולא מעבירים פרטים לצדדים שלישיים לצורכי שיווק שלהם. הפרטים נגישים לצוות תמוז ולשותפים לניהול הפרסום מטעמה, ונשמרים אצל נותני שירות שבהם אנחנו משתמשים, כמו Meta (פייסבוק, אינסטגרם, ווטסאפ) ושירותי דוא\"ל. ייתכן שפרטים יימסרו אם הדבר נדרש על פי דין."),
 ("p","<b>כמה זמן אנחנו שומרים.</b> פרטי פנייה שלא הבשילה לעבודה משותפת נמחקים תוך [12] חודשים. פרטי לקוחות נשמרים כל עוד נדרש למתן השירות ולעמידה בחובות הנהלת חשבונות לפי דין."),
 ("p","<b>אבטחת מידע.</b> אנחנו נוקטים אמצעים סבירים להגן על הפרטים, והגישה אליהם מוגבלת למי שצריך אותם כדי לטפל בפנייתכם."),
-("p","<b>הזכויות שלכם.</b> בהתאם לחוק הגנת הפרטיות, התשמ\"א-1981, זכותכם לעיין במידע שנשמר עליכם, לבקש לתקן אותו או למחוק אותו, ולבקש שלא נפנה אליכם שוב. בקשות ניתן לשלוח לכתובת TamuzStudios@gmail.com."),
+("p","<b>הזכויות שלכם.</b> בהתאם לחוק הגנת הפרטיות, התשמ\"א-1981, זכותכם לעיין במידע שנשמר עליכם, לבקש לתקן אותו או למחוק אותו, ולבקש שלא נפנה אליכם שוב. בקשות ניתן לשלוח לכתובת info@tamuzstudios.co.il."),
 ("p","<b>עדכונים.</b> ייתכן שנעדכן מדיניות זו מעת לעת. הגרסה העדכנית תמיד תהיה בעמוד זה."),
-("p","<b>יצירת קשר.</b> תמוז אולפני הקלטות ובית הפקה, דיסנצ'יק 9, תל אביב | 03-6481791 | TamuzStudios@gmail.com"),
+("p","<b>יצירת קשר.</b> תמוז אולפני הקלטות ובית הפקה, דיסנצ'יק 9, תל אביב | 03-6481791 | info@tamuzstudios.co.il"),
 ])
 
 POSTS = [
