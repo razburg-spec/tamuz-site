@@ -9,6 +9,8 @@ import build
 from build import PAGES, PHONE, EMAIL, ADDRESS, MAPS, SOCIAL, SERVICES, PRODUCTION, contact_lines, render_blocks, inline
 from content_c import PODCASTS
 from credits_tamuz import CREDITS
+from credits_prod import PRODUCED
+import legal  # terms + accessibility pages
 
 # Raz 2026-11-26: no live recording, no Pro Tools lessons, no YouTube/Vimeo links on the site.
 REMOVED = {"live-recording": "recording-studio-tel-aviv", "sound-protools-lessons": "recording-studio-tel-aviv", "blog": ""}  # blog dropped by Raz 2026-11-26
@@ -45,9 +47,9 @@ PHOTO = {
     "": "fb-043e", "recording-studio-tel-aviv": "fb-043e", "songs-recordings": "ig-027", "mixing-audio-edits": "fb-024",
     "post-production-sound-design": "fb-050", "podcast-recording": "fb-045", "livestreaming": "fb-021",
     "mobile-recording-studio": "ig-038",
-    "original-music-movies-commercials": "fb-046", "playbacks": "ig-030", "music-production": "fb-061",
-    "music-production-singer-songwriter": "ig-034", "music-production-bands": "ig-036",
-    "music-production-commercials": "fb-013", "recording-studio-equipment": "fb-024", "contact": "fb-078",
+    "original-music-movies-commercials": "fb-070", "playbacks": "ig-030", "music-production": "fb-061",
+    "music-production-singer-songwriter": "fb-021", "music-production-bands": "ig-036",
+    "music-production-commercials": "fb-046", "recording-studio-equipment": "fb-024", "contact": "fb-078",
     "services": "fb-014", "blog": "fb-008", "privacy": None,
 }
 for slug, ph in PHOTO.items():
@@ -81,6 +83,9 @@ def form(fid, path=None):
 
 def covers(n=None):
     return "".join(f'<figure class="cv"><img src="/img/{c}.jpg" alt="{html.escape(a)} – {html.escape(t)}" loading="lazy" width="360" height="360"><figcaption>{html.escape(a)}</figcaption></figure>' for c, a, t in (COVERS[:n] if n else COVERS))
+
+def prod_covers():
+    return "".join(f'<figure class="cv"><img src="/img/{c}.jpg" alt="{html.escape(a)} – {html.escape(t)}" loading="lazy" width="360" height="360"><figcaption>{html.escape(a)}</figcaption></figure>' for c, a, t in PRODUCED)
 
 def pods(n=None):
     return "".join(build.pod_fig(*p) for p in (PODCASTS[:n] if n else PODCASTS))
@@ -132,17 +137,18 @@ def cta_band(slug=None):
 INTRO = {
     "recording-studio-tel-aviv": "חדרי הקלטה ובקרה שתוכננו ונבנו בקפידה, חדר בקרה עם ציוד קצה דיגיטלי ואנלוגי, וצוות שמכיר כל פינה בחדר.",
     "podcast-recording": "אולפן מעוצב, סטים שונים של ישיבה, צילום בשלוש זוויות וסאונד אולפני משובח. מגיעים ומדברים, ואת כל השאר אנחנו עושים.",
-    "music-production": "מרעיון או סקיצה ועד שיר מוכן לרדיו: עיבוד, נגנים, הקלטה, מיקס ומאסטר, באותו חדר ועם אותו מפיק.",
+    "music-production": "מהרעיון הראשון ועד השיר המוגמר: עיבוד, נגנים, הקלטה, מיקס ומאסטר, עם מפיק שמלווה אתכם בכל שלב.",
 }
 
 def marquee(items, cls="", secs=60):
     """Auto-scrolling strip: the set is rendered twice and the track slides by half its width."""
-    return (f'<div class="mq {cls}" style="--secs:{secs}s"><div class="mq-track">'
-            f'<div class="mq-set">{items}</div><div class="mq-set" aria-hidden="true" inert>{items}</div></div></div>')
+    return (f'<div class="mq-box"><button class="mq-btn" type="button" aria-pressed="false" data-mq>עצירת התנועה</button>'
+            f'<div class="mq {cls}" style="--secs:{secs}s"><div class="mq-track">'
+            f'<div class="mq-set">{items}</div><div class="mq-set" aria-hidden="true" inert>{items}</div></div></div></div>')
 
 def vmarquee(items, rev=False, secs=90):
-    return (f'<div class="vq{" rev" if rev else ""}" aria-hidden="true" style="--secs:{secs}s"><div class="vq-track">'
-            f'<div class="vq-set" inert>{items}</div><div class="vq-set" inert>{items}</div></div></div>')
+    return (f'<div class="vq{" rev" if rev else ""}" style="--secs:{secs}s"><div class="vq-track">'
+            f'<div class="vq-set">{items}</div><div class="vq-set" aria-hidden="true" inert>{items}</div></div></div>')
 
 def hub_page(slug):
     top, he, en, lst = SECTION_OF[slug]
@@ -155,7 +161,7 @@ def hub_page(slug):
         left = "".join(build.pod_fig(*x) for x in PODCASTS[:half])
         right = "".join(build.pod_fig(*x) for x in PODCASTS[half:])
         return page_hero(p, "", slug, INTRO[slug]) + f"""
-<section class="pod-frame"><div class="pf-wrap">
+<section class="pod-frame" aria-label="פודקאסטים שהוקלטו אצלנו"><button class="mq-btn pf-btn" type="button" aria-pressed="false" data-mq>עצירת התנועה</button><div class="pf-wrap">
   {vmarquee(left)}
   <article class="prose pf-text">{text}</article>
   {vmarquee(right, rev=True, secs=110)}
@@ -165,7 +171,7 @@ def hub_page(slug):
     tiles = "".join(f'<a class="tile" href="{link(s)}"><span class="tile-im" style="--img:url(\'{G(PHOTO.get(s) or PHOTO[slug], True)}\')"></span><span class="tile-t">{PAGES[s]["title"]}</span><span class="tile-go" aria-hidden="true">←</span></a>' for s in lst if s != slug)
     proof = {
         "recording-studio-tel-aviv": f'<div class="sh"><h2 class="sec-h">העבודות שלנו</h2></div><div class="covers">{covers()}</div>',
-        "music-production": f'<div class="sh"><h2 class="sec-h">רז בורג</h2></div><p class="muted narrowp">מפיק מוזיקלי, נגן ומעצב סאונד, הבעלים של האולפן. עבודות הפקה נבחרות באתר האישי: <a href="https://www.razburg.com">razburg.com</a></p><div class="covers">{covers(7)}</div>',
+        "music-production": f'<div class="sh"><h2 class="sec-h">רז בורג</h2></div><p class="muted narrowp">מפיק מוזיקלי, נגן ומעצב סאונד, הבעלים של האולפן. עבודות הפקה נבחרות באתר האישי: <a href="https://www.razburg.com">razburg.com</a></p>{marquee(prod_covers(), "covers-mq", 70)}',
     }[slug]
     return page_hero(p, "", slug, INTRO.get(slug)) + f"""
 <section class="block"><div class="wrap"><div class="sh"><h2 class="sec-h">מה אנחנו עושים</h2></div><div class="tiles">{tiles}</div></div></section>
@@ -181,14 +187,14 @@ def inner_page(slug):
     if slug == "recording-studio-equipment":
         intro, racks = body.split('<div class="racks"', 1)
         return page_hero(p, crumbs, slug) + f'<div class="wrap gear-intro prose">{intro}</div><div class="wrap"><div class="racks"{racks}</div>' + cta_band(slug)
-    if slug in ("privacy", "blog"):
+    if slug in ("privacy", "terms", "accessibility"):
         return page_hero(p, "", slug) + f'<div class="wrap narrow prose">{body}</div>'
     return page_hero(p, crumbs, slug) + f'<div class="wrap split"><article class="prose">{body}</article>{aside(slug)}</div>' + cta_band(slug)
 
 COLLAGE = ["dbx-013", "fb-024", "fb-045", "ig-018", "ig-030", "fb-051"]
 WORLDS = [
     ("recording-studio-tel-aviv", "fb-043e", ["הקלטת שירים", "מיקס ועריכות", "אולפן נייד", "פלייבקים"], "covers"),
-    ("podcast-recording", "fb-045", ["הקלטת פודקאסט", "צילום וידאו בשלוש מצלמות", "שידור חי בזום", "פוסט פרודקשן"], "pods"),
+    ("podcast-recording", "fb-045", ["הקלטה וצילום פודקאסטים", "עריכת סאונד ווידאו", "שידורי זום", "פוסט פרודקשן"], "pods"),
     ("music-production", "fb-061", ["זמרים ויוצרים", "להקות", "פרסומות", "מוזיקה לסרטים"], "lead"),
 ]
 
@@ -208,11 +214,11 @@ def home():
 <nav class="index" aria-label="התחומים שלנו">{idx}</nav>
 {worlds}
 <section class="block about-b"><div class="wrap about">
-  <div class="about-im" style="--img:url('{G("fb-062", True)}')" role="img" aria-label="רז בורג באולפן"></div>
+  <div class="about-im" style="--img:url('{G("fb-013", True)}')" role="img" aria-label="רז בורג בחדר הבקרה של האולפן"></div>
   <div class="prose"><h2 class="sec-h">על האולפן</h2>
-  <p>האולפן הוקם בשנת 2004, ומאז 2006 הוא בבעלות רז בורג, מפיק מוזיקלי, טכנאי ומעצב סאונד, שמנהל בעצמו כל סשן.</p>
-  <p>האולפן תוכנן על ידי אקוסטיקאים ומאפשר הקלטות מכל הסוגים: תופים, רביעיית כלי קשת, כלי הקשה, שירה ואקפלה, לצד סטים מעוצבים לפודקאסטים וצילום וידאו.</p>
-  <p>להכיר את רז ואת העבודות שלו: <a href="https://www.razburg.com">razburg.com</a></p></div>
+  <p>אולפני תמוז הוקמו בשנת 2004, והחל משנת 2006 הם בבעלותו ובניהולו של רז בורג, מפיק מוזיקלי, טכנאי ומעצב סאונד, שמנהל יחד עם צוות האולפן את הסשנים השונים.</p>
+  <p>האולפן תוכנן בקפידה, והאקוסטיקה שלו מאפשרת הקלטות מכל הסוגים, לצד סטים מעוצבים להקלטה וצילום של פודקאסטים ולשידורים מהאולפן.</p>
+  <p>כאן אפשר להכיר את רז בורג ואת העבודות שלו: <a href="https://www.razburg.com">razburg.com</a></p></div>
 </div></section>
 <section class="book" id="contact"><div class="wrap contact-grid">
   <div><h2 class="sec-h">בואו לבקר באולפן</h2><p class="muted">ספרו לנו מה אתם רוצים להקליט, ונחזור אליכם עם הצעה.</p>{contact_lines()}</div>
@@ -242,7 +248,7 @@ def footer():
   <div><p class="foot-h">הקלטה ומיקס</p><ul class="foot-list">{col(RECORDING)}</ul></div>
   <div><p class="foot-h">פודקאסטים ומדיה</p><ul class="foot-list">{col(MEDIA)}</ul><p class="foot-h" style="margin-top:1.4rem">הפקה מוזיקלית</p><ul class="foot-list">{col(PRODUCE[:1] + PRODUCE[4:])}</ul></div>
   <div><p class="foot-h">עקבו אחרינו</p><ul class="foot-list">{soc}<li><a href="https://www.razburg.com">רז בורג · razburg.com</a></li></ul></div>
-</div><div class="wrap foot-base"><span>© 2026 אולפני תמוז · רז בורג</span><a href="/privacy">מדיניות פרטיות</a></div></footer>'''
+</div><div class="wrap foot-base"><span>© 2026 אולפני תמוז · רז בורג</span><span class="foot-legal"><a href="/terms">תנאי שימוש</a><a href="/privacy">מדיניות פרטיות</a><a href="/accessibility">הצהרת נגישות</a></span></div></footer>'''
 
 build.nav, build.page_hero, build.aside, build.cta_band, build.inner_page = nav, page_hero, aside, cta_band, inner_page
 build.home, build.contact, build.services, build.footer = home, contact, services, footer

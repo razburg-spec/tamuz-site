@@ -16,3 +16,5 @@
 /
 /contact
 /services
+/terms
+/accessibility

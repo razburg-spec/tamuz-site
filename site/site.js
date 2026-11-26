@@ -34,3 +34,13 @@
     });
   });
 })();
+
+// Pause / play for the auto-scrolling strips (WCAG 2.2.2)
+document.querySelectorAll('[data-mq]').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var box = b.parentElement, on = b.getAttribute('aria-pressed') !== 'true';
+    b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    b.textContent = on ? 'הפעלת התנועה' : 'עצירת התנועה';
+    box.classList.toggle('mq-paused', on);
+  });
+});
