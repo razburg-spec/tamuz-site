@@ -70,15 +70,7 @@ link = lambda slug: "/" + (slug or "")
 def latin_for(slug):
     return SECTION_OF[slug][2] if slug in SECTION_OF else LATIN.get(slug, "Tamuz Studios")
 
-# Display order (Raz 2026-11-27, as on razburg.com): best-known artists first, and no two covers of the same
-# artist side by side or one above the other, in the 7-column (desktop) and 4-column (phone) grids and the looping carousel.
-COVER_ORDER = ["cv/t19", "cv/t36", "cv/t8", "cv/t17", "cv/t9", "cv/t20", "cv/t34", "cv/t1", "cv/t3", "cv/t37", "cv/t14", "cv/t28", "cv/t7", "cv/t33", "cv/t12", "cv/t31", "cv/t32", "cv/t16", "cv/t29", "cv/t4", "cv/t18", "cv/t23", "cv/t2", "cv/t40", "cv/t11", "cv/t15", "cv/t21", "cv/t22", "cv/t24", "cv/t25", "cv/t26", "cv/t27", "cv/t30", "cv/t35", "cv/t38", "cv/t39"]
-_cv = {c[0]: c for c in CREDITS}
-COVERS = [_cv[k] for k in COVER_ORDER] + [c for c in CREDITS if c[0] not in COVER_ORDER]  # (path, artist, title), approved by Raz
-# Producer carousel: other artists spread evenly between Raz's own singles, never the same artist twice in a row.
-PROD_ORDER = ["cv/p75", "cv/p1", "cv/p2", "cv/p37", "cv/p3", "cv/p72", "cv/p4", "cv/p5", "cv/p31", "cv/p6", "cv/p66", "cv/p7", "cv/p8", "cv/p35", "cv/p9", "cv/p38", "cv/p10", "cv/p11", "cv/p70", "cv/p12", "cv/p154", "cv/p13", "cv/p14", "cv/p135", "cv/p15", "cv/p124", "cv/p16", "cv/p17", "cv/p110", "cv/p18", "cv/p71", "cv/p19", "cv/p22", "cv/p43", "cv/p40", "cv/p99", "cv/p52", "cv/p60", "cv/p157", "cv/p74", "cv/p47", "cv/p80", "cv/p82", "cv/p100", "cv/p90", "cv/p161", "cv/p93", "cv/p107", "cv/p103", "cv/p130", "cv/p102", "cv/p137", "cv/p148"]
-_pv = {p[0]: p for p in PRODUCED}
-PRODUCED = [_pv[k] for k in PROD_ORDER] + [p for p in PRODUCED if p[0] not in PROD_ORDER]
+COVERS = CREDITS  # (path, artist, title), approved by Raz
 
 TOPICS = [("הקלטה ומיקס", "rec"), ("פודקאסט", "pod"), ("הפקה מוזיקלית", "prod"), ("משהו אחר", "")]
 TOPIC_OF = {"recording-studio-tel-aviv": "rec", "podcast-recording": "pod", "music-production": "prod"}
@@ -178,7 +170,7 @@ def hub_page(slug):
 </section>""" + cta_band(slug)
     tiles = "".join(f'<a class="tile" href="{link(s)}"><span class="tile-im" style="--img:url(\'{G(PHOTO.get(s) or PHOTO[slug], True)}\')"></span><span class="tile-t">{PAGES[s]["title"]}</span><span class="tile-go" aria-hidden="true">←</span></a>' for s in lst if s != slug)
     proof = {
-        "recording-studio-tel-aviv": f'<div class="sh"><h2 class="sec-h">חלק מהעבודות שלנו</h2></div><div class="covers">{covers()}</div>',
+        "recording-studio-tel-aviv": f'<div class="sh"><h2 class="sec-h">העבודות שלנו</h2></div><div class="covers">{covers()}</div>',
         "music-production": f'<div class="sh"><h2 class="sec-h">רז בורג</h2></div><p class="muted narrowp">מפיק מוזיקלי, נגן ומעצב סאונד, הבעלים של האולפן. עבודות הפקה נבחרות באתר האישי: <a href="https://www.razburg.com">razburg.com</a></p>{marquee(prod_covers(), "covers-mq", 160)}',
     }[slug]
     return page_hero(p, "", slug, INTRO.get(slug)) + f"""
