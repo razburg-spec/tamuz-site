@@ -172,7 +172,7 @@ def hub_page(slug):
 </section>""" + cta_band(slug)
     tiles = "".join(f'<a class="tile" href="{link(s)}"><span class="tile-im" style="--img:url(\'{G(PHOTO.get(s) or PHOTO[slug], True)}\')"></span><span class="tile-t">{PAGES[s]["title"]}</span><span class="tile-go" aria-hidden="true">←</span></a>' for s in lst if s != slug)
     proof = {
-        "recording-studio-tel-aviv": f'<div class="sh"><h2 class="sec-h">העבודות שלנו</h2></div><div class="covers">{covers()}</div>',
+        "recording-studio-tel-aviv": f'<div class="sh"><h2 class="sec-h">חלק מהעבודות שלנו</h2></div><div class="covers">{covers()}</div>',
         "music-production": f'<div class="sh"><h2 class="sec-h">רז בורג</h2></div><p class="muted narrowp">מפיק מוזיקלי, נגן ומעצב סאונד, הבעלים של האולפן. עבודות הפקה נבחרות באתר האישי: <a href="https://www.razburg.com">razburg.com</a></p>{marquee(prod_covers(), "covers-mq", 160)}',
     }[slug]
     return page_hero(p, "", slug, INTRO.get(slug)) + f"""
