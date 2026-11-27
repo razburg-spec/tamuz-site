@@ -70,7 +70,9 @@ link = lambda slug: "/" + (slug or "")
 def latin_for(slug):
     return SECTION_OF[slug][2] if slug in SECTION_OF else LATIN.get(slug, "Tamuz Studios")
 
-COVERS = CREDITS  # (path, artist, title), approved by Raz
+from cover_order import arrange
+COVERS = arrange(CREDITS)  # (path, artist, title), approved by Raz; order: cover_order.py
+PRODUCED = arrange(PRODUCED, cols=())  # a one-row marquee: only side-by-side matters
 
 TOPICS = [("הקלטה ומיקס", "rec"), ("פודקאסט", "pod"), ("הפקה מוזיקלית", "prod"), ("משהו אחר", "")]
 TOPIC_OF = {"recording-studio-tel-aviv": "rec", "podcast-recording": "pod", "music-production": "prod"}
