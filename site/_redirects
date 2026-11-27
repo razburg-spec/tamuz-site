@@ -4,6 +4,7 @@
 /blog-hashtags-sitemap.xml /sitemap.xml 301
 /blog/* / 301
 /post/* / 301
+/34765/* / 301
 /live-recording /recording-studio-tel-aviv 301
 /sound-protools-lessons /recording-studio-tel-aviv 301
 /blog / 301
