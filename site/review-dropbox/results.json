@@ -1,314 +1,893 @@
 {
- "generated": "2026-11-27",
- "note": "Preview for Raz's approval only. Links are Apple Music / Apple Podcasts (Spotify search needs an API key that is not available here).",
+ "generated": "2026-11-28",
+ "note": "Preview for Raz's approval only. Confirmed cards come from Spotify links Raz sent.",
  "music": [
   {
-   "group": "Lucy Parker",
-   "artist": "Lucy Parker",
-   "title": "עד ששוב",
-   "year": "2024",
-   "link": "https://music.apple.com/il/album/%D7%A2%D7%93-%D7%A9%D7%A9%D7%95%D7%91/1782731394",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/34/64/f9346472-72d6-8270-efad-e1eaf3f62d71/artwork.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1782731394,
-   "release_type": "Album",
-   "image": "img/m-1782731394.jpg",
-   "confidence": "high",
-   "why": "האלבום כולל את איפה הרוח, אין זמן, משיח וילד צמר גפן, ארבעה משמות התיקיות",
-   "dropbox_folders": [
-    "Lucy Parker - Eifo Haruach",
-    "Lucy Parker - Ein Zman",
-    "Lucy Parker - Mashiach",
-    "Lucy Parker - Yeled Tsemer Gefen"
-   ],
-   "target": "לשניהם",
-   "folder_years": "2022–2024"
-  },
-  {
-   "group": "Lucy Parker",
-   "artist": "Lucy Parker",
-   "title": "דמותה של המדינה",
-   "year": "2023",
-   "link": "https://music.apple.com/il/album/%D7%93%D7%9E%D7%95%D7%AA%D7%94-%D7%A9%D7%9C-%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94-single/1705863650",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c0/21/55/c02155d2-a2d7-c971-3c3f-53c69188b276/artwork.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1705863650,
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "Darkness",
+   "year": "2026",
    "release_type": "Single",
-   "image": "img/m-1705863650.jpg",
-   "confidence": "medium",
-   "why": "התיקייה 'Partsufa Shel Hamdina' והסינגל נקרא 'דמותה של המדינה': אותה אמנית ואותה תקופה, אבל השם שונה מעט",
+   "link": "https://open.spotify.com/album/149QgQ2DunHQmZ0Qqc4k64",
+   "image": "img/s-149QgQ2DunHQmZ0Qqc4k64.jpg",
+   "image_source": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27360cc553549d9f66b36fd6bdf",
+   "source": "spotify",
+   "spotify_id": "149QgQ2DunHQmZ0Qqc4k64",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
    "dropbox_folders": [
-    "Lucy Parker - Partsufa Shel Hamdina"
+    "Ofir Lessel (כל השירים)"
    ],
-   "target": "לשניהם",
-   "folder_years": "2022–2024"
+   "target": "לשניהם"
   },
   {
    "group": "Ofir Lessel",
    "artist": "Ofir Lessel",
-   "title": "As Good As It Gets",
-   "year": "2025",
-   "link": "https://music.apple.com/il/album/as-good-as-it-gets-single/1825553655",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/28/11/0d28112b-ecbb-d9d1-f8c5-538511e45edd/artwork.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1825553655,
+   "title": "Lonely Chapter",
+   "year": "2026",
    "release_type": "Single",
-   "image": "img/m-1825553655.jpg",
-   "confidence": "high",
-   "why": "שם הסינגל זהה לשם התיקייה",
+   "link": "https://open.spotify.com/album/7EQoQTsypu2vQp6a3iylui",
+   "image": "img/s-7EQoQTsypu2vQp6a3iylui.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e0e330a68cc32797c6918b5d",
+   "source": "spotify",
+   "spotify_id": "7EQoQTsypu2vQp6a3iylui",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
    "dropbox_folders": [
-    "Ofir Lessel - As Good As It Gets"
+    "Ofir Lessel (כל השירים)"
    ],
-   "target": "לשניהם",
-   "folder_years": "2023–2026"
-  },
-  {
-   "group": "Ofir Lessel",
-   "artist": "Ofir Lessel",
-   "title": "Just Say It",
-   "year": "2025",
-   "link": "https://music.apple.com/il/album/just-say-it-single/1832620134",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/98/46/50/98465098-4f56-0f7a-d26f-a89f29414128/artwork.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1832620134,
-   "release_type": "Single",
-   "image": "img/m-1832620134.jpg",
-   "confidence": "high",
-   "why": "שם הסינגל זהה לשם התיקייה",
-   "dropbox_folders": [
-    "Ofir Lessel - Just Say It"
-   ],
-   "target": "לשניהם",
-   "folder_years": "2023–2026"
-  },
-  {
-   "group": "Ofir Lessel",
-   "artist": "Ofir Lessel",
-   "title": "Time Machine",
-   "year": "2025",
-   "link": "https://music.apple.com/il/album/time-machine-single/1856109368",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/9d/34/ea9d3447-a55a-a2db-5985-e535d19a4510/artwork.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1856109368,
-   "release_type": "Single",
-   "image": "img/m-1856109368.jpg",
-   "confidence": "high",
-   "why": "שם הסינגל זהה לשם התיקייה",
-   "dropbox_folders": [
-    "Ofir Lessel - Time Machine"
-   ],
-   "target": "לשניהם",
-   "folder_years": "2023–2026"
+   "target": "לשניהם"
   },
   {
    "group": "Ofir Lessel",
    "artist": "Ofir Lessel",
    "title": "War Is Coming",
    "year": "2026",
-   "link": "https://music.apple.com/il/album/war-is-coming-single/6774354582",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4b/8d/f7/4b8df798-d420-5d76-185a-ebf23f299f49/artwork.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 6774354582,
    "release_type": "Single",
-   "image": "img/m-6774354582.jpg",
-   "confidence": "high",
-   "why": "שם הסינגל זהה לשם התיקייה",
+   "link": "https://open.spotify.com/album/4LrxZPf3VA20FgVKqfC0lP",
+   "image": "img/s-4LrxZPf3VA20FgVKqfC0lP.jpg",
+   "image_source": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739ba421ef45ce9f87b91b604a",
+   "source": "spotify",
+   "spotify_id": "4LrxZPf3VA20FgVKqfC0lP",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
    "dropbox_folders": [
-    "Ofir Lessel - War Is Coming"
+    "Ofir Lessel (כל השירים)"
    ],
-   "target": "לשניהם",
-   "folder_years": "2023–2026"
+   "target": "לשניהם"
   },
   {
    "group": "Ofir Lessel",
    "artist": "Ofir Lessel",
-   "title": "Darkness",
+   "title": "F.Y.A.I Music",
    "year": "2026",
-   "link": "https://music.apple.com/il/album/darkness-single/6787323130",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/3f/8a/ca3f8a14-2905-2c88-9de6-80b86301d274/artwork.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 6787323130,
    "release_type": "Single",
-   "image": "img/m-6787323130.jpg",
-   "confidence": "high",
-   "why": "שם הסינגל זהה לשם התיקייה",
+   "link": "https://open.spotify.com/album/6z2I8CU1hOIVepc5Wu9o0V",
+   "image": "img/s-6z2I8CU1hOIVepc5Wu9o0V.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739b584af47e53fbc328bdf455",
+   "source": "spotify",
+   "spotify_id": "6z2I8CU1hOIVepc5Wu9o0V",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
    "dropbox_folders": [
-    "Ofir Lessel - Darkness"
+    "Ofir Lessel (כל השירים)"
    ],
-   "target": "לשניהם",
-   "folder_years": "2023–2026"
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "Time Machine",
+   "year": "2025",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/4G0ZP1l9S30XOJN7T4NLyU",
+   "image": "img/s-4G0ZP1l9S30XOJN7T4NLyU.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ddb02a56d8f4251579053e34",
+   "source": "spotify",
+   "spotify_id": "4G0ZP1l9S30XOJN7T4NLyU",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "Just Say It",
+   "year": "2025",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/56VcDmUaUrwCiQdpPf3lNe",
+   "image": "img/s-56VcDmUaUrwCiQdpPf3lNe.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c9ef29525a6ac62b34743765",
+   "source": "spotify",
+   "spotify_id": "56VcDmUaUrwCiQdpPf3lNe",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "As Good As It Gets",
+   "year": "2025",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/2oK5Bf3x8yBFvuzbin6Nlg",
+   "image": "img/s-2oK5Bf3x8yBFvuzbin6Nlg.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27314bc4c798392040d257e4b00",
+   "source": "spotify",
+   "spotify_id": "2oK5Bf3x8yBFvuzbin6Nlg",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "Walk With Me",
+   "year": "2025",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/5btWqIIe5XJJu63UR52tFq",
+   "image": "img/s-5btWqIIe5XJJu63UR52tFq.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273889105ad0de3fe62c9ec83d7",
+   "source": "spotify",
+   "spotify_id": "5btWqIIe5XJJu63UR52tFq",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "A Better Man",
+   "year": "2025",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/2wWFjG5njtoWHIZvN3PVl2",
+   "image": "img/s-2wWFjG5njtoWHIZvN3PVl2.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d457eec75cdda48c4f8a5a97",
+   "source": "spotify",
+   "spotify_id": "2wWFjG5njtoWHIZvN3PVl2",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "I'm On A Mission",
+   "year": "2024",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/2tjFCAmNEO8NbNNih5pgSP",
+   "image": "img/s-2tjFCAmNEO8NbNNih5pgSP.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734b6eb655665e46cc6c97ed15",
+   "source": "spotify",
+   "spotify_id": "2tjFCAmNEO8NbNNih5pgSP",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "It's Just Me And The Moon",
+   "year": "2024",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/7lajdAS2z7osli9JZQxboq",
+   "image": "img/s-7lajdAS2z7osli9JZQxboq.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27307e05a9fb8ae9c04a730099f",
+   "source": "spotify",
+   "spotify_id": "7lajdAS2z7osli9JZQxboq",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "Words I Can Only Sing",
+   "year": "2024",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/3t0UakWfXl3vKp5YQEcrek",
+   "image": "img/s-3t0UakWfXl3vKp5YQEcrek.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273414f0a1c0f93ee836ce3be2b",
+   "source": "spotify",
+   "spotify_id": "3t0UakWfXl3vKp5YQEcrek",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "A Time When I Didn't Think",
+   "year": "2024",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/4jq4gHhy7AojoGDwA1ChE2",
+   "image": "img/s-4jq4gHhy7AojoGDwA1ChE2.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273123540312edf40d6ab2df56c",
+   "source": "spotify",
+   "spotify_id": "4jq4gHhy7AojoGDwA1ChE2",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "She's My Home",
+   "year": "2024",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/0PSw3eR5iWg8bVzUrG8Uj8",
+   "image": "img/s-0PSw3eR5iWg8bVzUrG8Uj8.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c675730534657a4f76875f38",
+   "source": "spotify",
+   "spotify_id": "0PSw3eR5iWg8bVzUrG8Uj8",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "I Just Wanna Have Dinner With You",
+   "year": "2024",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/5O9Vl3Kqja2Vwc7o843U4h",
+   "image": "img/s-5O9Vl3Kqja2Vwc7o843U4h.jpg",
+   "image_source": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2731899e8a8537b0943810207ea",
+   "source": "spotify",
+   "spotify_id": "5O9Vl3Kqja2Vwc7o843U4h",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "Can't Find My Way Back Home",
+   "year": "2023",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/5E9GjszayxN6CrP77PKhN7",
+   "image": "img/s-5E9GjszayxN6CrP77PKhN7.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27363ecd646518d7ec5f05fe61d",
+   "source": "spotify",
+   "spotify_id": "5E9GjszayxN6CrP77PKhN7",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "He's Got Music",
+   "year": "2023",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/3NWY0InuBuw3TcbN9lFrs1",
+   "image": "img/s-3NWY0InuBuw3TcbN9lFrs1.jpg",
+   "image_source": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b07421a87688911ac5b3cb8e",
+   "source": "spotify",
+   "spotify_id": "3NWY0InuBuw3TcbN9lFrs1",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "Anita",
+   "year": "2023",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/382cdGbNz3xUEznFZTqfUn",
+   "image": "img/s-382cdGbNz3xUEznFZTqfUn.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736fd9f8c76661ee97a5342164",
+   "source": "spotify",
+   "spotify_id": "382cdGbNz3xUEznFZTqfUn",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "Wild Dog",
+   "year": "2023",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/1ZrPcaGtzWoxOYWfUqwHIP",
+   "image": "img/s-1ZrPcaGtzWoxOYWfUqwHIP.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a084826b5724ec6c93b2f7ed",
+   "source": "spotify",
+   "spotify_id": "1ZrPcaGtzWoxOYWfUqwHIP",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "Telescope",
+   "year": "2023",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/2TNVt50wkNOK28cFOWwrXu",
+   "image": "img/s-2TNVt50wkNOK28cFOWwrXu.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27372374409e764e3f3be68b49f",
+   "source": "spotify",
+   "spotify_id": "2TNVt50wkNOK28cFOWwrXu",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing · Mastering",
+   "dropbox_folders": [
+    "Ofir Lessel (כל השירים)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ilay / Elay Sahar – PANIM",
+   "artist": "PANIM",
+   "title": "Jessy",
+   "year": "2026",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/0nkX5xiyU8331aGRrBRid3",
+   "image": "img/s-0nkX5xiyU8331aGRrBRid3.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bc241f1a01991b1ac9ba7635",
+   "source": "spotify",
+   "spotify_id": "0nkX5xiyU8331aGRrBRid3",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Mastering",
+   "dropbox_folders": [
+    "Elay Sahar Mastering Session",
+    "Elye Sahar Mastering",
+    "Ilay Sahar Duet Roni & Shira",
+    "Ilay Sahar Duet Roni & Talia",
+    "Ilay Sahar Keta Sear"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ilay / Elay Sahar – PANIM",
+   "artist": "PANIM",
+   "title": "mishu",
+   "year": "2026",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/4mKSxA1IncnWmkaByPSjNm",
+   "image": "img/s-4mKSxA1IncnWmkaByPSjNm.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27326450106439e536faa392c8c",
+   "source": "spotify",
+   "spotify_id": "4mKSxA1IncnWmkaByPSjNm",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Mastering",
+   "dropbox_folders": [
+    "Elay Sahar Mastering Session",
+    "Elye Sahar Mastering",
+    "Ilay Sahar Duet Roni & Shira",
+    "Ilay Sahar Duet Roni & Talia",
+    "Ilay Sahar Keta Sear"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ilay / Elay Sahar – PANIM",
+   "artist": "PANIM",
+   "title": "2 / tiul",
+   "year": "2026",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/1RMG2SNiEjl6Jfm27PXFVd",
+   "image": "img/s-1RMG2SNiEjl6Jfm27PXFVd.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27314ec0beb531b0ec84cb8851b",
+   "source": "spotify",
+   "spotify_id": "1RMG2SNiEjl6Jfm27PXFVd",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Mastering",
+   "dropbox_folders": [
+    "Elay Sahar Mastering Session",
+    "Elye Sahar Mastering",
+    "Ilay Sahar Duet Roni & Shira",
+    "Ilay Sahar Duet Roni & Talia",
+    "Ilay Sahar Keta Sear"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ilay / Elay Sahar – PANIM",
+   "artist": "PANIM",
+   "title": "2",
+   "year": "2026",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/4xdcCLPcoZ96ZmleggCc4w",
+   "image": "img/s-4xdcCLPcoZ96ZmleggCc4w.jpg",
+   "image_source": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27333a739bbbffeda53faa768fa",
+   "source": "spotify",
+   "spotify_id": "4xdcCLPcoZ96ZmleggCc4w",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Mastering",
+   "dropbox_folders": [
+    "Elay Sahar Mastering Session",
+    "Elye Sahar Mastering",
+    "Ilay Sahar Duet Roni & Shira",
+    "Ilay Sahar Duet Roni & Talia",
+    "Ilay Sahar Keta Sear"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ilay / Elay Sahar – PANIM",
+   "artist": "PANIM",
+   "title": "Please Don't Go (Original Dance Score)",
+   "year": "2024",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/0gJE3YV8PR6bjSvTz2JpAD",
+   "image": "img/s-0gJE3YV8PR6bjSvTz2JpAD.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731b41fa6a650c48608192042b",
+   "source": "spotify",
+   "spotify_id": "0gJE3YV8PR6bjSvTz2JpAD",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Mastering",
+   "dropbox_folders": [
+    "Elay Sahar Mastering Session",
+    "Elye Sahar Mastering",
+    "Ilay Sahar Duet Roni & Shira",
+    "Ilay Sahar Duet Roni & Talia",
+    "Ilay Sahar Keta Sear"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ilay / Elay Sahar – PANIM",
+   "artist": "PANIM",
+   "title": "שיר ללא שם",
+   "year": "2022",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/2TlPkMRAw6gojwyPgkZYvA",
+   "image": "img/s-2TlPkMRAw6gojwyPgkZYvA.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ccd7fcd0ecdbe490ef2b228c",
+   "source": "spotify",
+   "spotify_id": "2TlPkMRAw6gojwyPgkZYvA",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Mastering",
+   "dropbox_folders": [
+    "Elay Sahar Mastering Session",
+    "Elye Sahar Mastering",
+    "Ilay Sahar Duet Roni & Shira",
+    "Ilay Sahar Duet Roni & Talia",
+    "Ilay Sahar Keta Sear"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ilay / Elay Sahar – PANIM",
+   "artist": "PANIM",
+   "title": "kisuf (For an Exhibition)",
+   "year": "2022",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/0S2ZPVzoedfGqVbQHO0Da5",
+   "image": "img/s-0S2ZPVzoedfGqVbQHO0Da5.jpg",
+   "image_source": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bf9a3a3c2297fdac03f980aa",
+   "source": "spotify",
+   "spotify_id": "0S2ZPVzoedfGqVbQHO0Da5",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Mastering",
+   "dropbox_folders": [
+    "Elay Sahar Mastering Session",
+    "Elye Sahar Mastering",
+    "Ilay Sahar Duet Roni & Shira",
+    "Ilay Sahar Duet Roni & Talia",
+    "Ilay Sahar Keta Sear"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ilay / Elay Sahar – PANIM",
+   "artist": "PANIM",
+   "title": "PANIM",
+   "year": "2021",
+   "release_type": "Album",
+   "link": "https://open.spotify.com/album/6PsvFHTAHLoSIid7qfHVgA",
+   "image": "img/s-6PsvFHTAHLoSIid7qfHVgA.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27368966e81f103660c01f1f83e",
+   "source": "spotify",
+   "spotify_id": "6PsvFHTAHLoSIid7qfHVgA",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Mastering",
+   "dropbox_folders": [
+    "Elay Sahar Mastering Session",
+    "Elye Sahar Mastering",
+    "Ilay Sahar Duet Roni & Shira",
+    "Ilay Sahar Duet Roni & Talia",
+    "Ilay Sahar Keta Sear"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Night Shift – משמרת לילה",
+   "artist": "משמרת לילה",
+   "title": "רקדנית כלובים",
+   "year": "2024",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/3VsarYGGYXTtSDNBC9KU0t",
+   "image": "img/s-3VsarYGGYXTtSDNBC9KU0t.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c40557398458eeb05c27c882",
+   "source": "spotify",
+   "spotify_id": "3VsarYGGYXTtSDNBC9KU0t",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
+   "dropbox_folders": [
+    "Night Shift Recordings"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Night Shift – משמרת לילה",
+   "artist": "משמרת לילה",
+   "title": "הגאון",
+   "year": "2024",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/12CMncaSsqAlVniCfWITwv",
+   "image": "img/s-12CMncaSsqAlVniCfWITwv.jpg",
+   "image_source": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d7ba499faee3d755af7f30c4",
+   "source": "spotify",
+   "spotify_id": "12CMncaSsqAlVniCfWITwv",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
+   "dropbox_folders": [
+    "Night Shift Recordings"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Night Shift – משמרת לילה",
+   "artist": "משמרת לילה",
+   "title": "בכל זאת",
+   "year": "2024",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/1w6DX1BBfSLQGlWdZtSHVw",
+   "image": "img/s-1w6DX1BBfSLQGlWdZtSHVw.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e518613804e86ef2febcb3f2",
+   "source": "spotify",
+   "spotify_id": "1w6DX1BBfSLQGlWdZtSHVw",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
+   "dropbox_folders": [
+    "Night Shift Recordings"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Chilli Jam",
+   "artist": "יובל מבורך",
+   "title": "צ'ילי ג'אם",
+   "year": "2024",
+   "release_type": "Album",
+   "link": "https://open.spotify.com/album/2mAMtgoRjj1moYvTG7cztL",
+   "image": "img/s-2mAMtgoRjj1moYvTG7cztL.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27363732b74d26dc5bb7d2b6e5e",
+   "source": "spotify",
+   "spotify_id": "2mAMtgoRjj1moYvTG7cztL",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
+   "dropbox_folders": [
+    "Chilli Jam Album 1"
+   ],
+   "target": "לשניהם"
   },
   {
    "group": "Udi Wahrsager",
    "artist": "Udi Wahrsager",
    "title": "Epilogue (In Memory of Arik Rudich)",
    "year": "2026",
-   "link": "https://music.apple.com/il/album/epilogue-in-memory-of-arik-rudich-single/6838733828",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/45/b3/ef45b3ba-00f8-f2cc-665e-f92599363bad/artwork.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 6838733828,
-   "release_type": "Single",
-   "image": "img/m-6838733828.jpg",
-   "confidence": "high",
-   "why": "שם הסינגל זהה (Epilogue)",
+   "release_type": "Track",
+   "link": "https://open.spotify.com/track/3yn3rrzIbcn2VQP4RHcWGl",
+   "image": "img/s-3yn3rrzIbcn2VQP4RHcWGl.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ad672238a33889d708178358",
+   "source": "spotify",
+   "spotify_id": "3yn3rrzIbcn2VQP4RHcWGl",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
    "dropbox_folders": [
-    "Udi Warrsager - Epilogue"
+    "Udi Wahrsager (כל התיקיות)"
    ],
-   "target": "לשניהם",
-   "folder_years": "2019–2026"
+   "target": "לשניהם"
   },
   {
    "group": "Udi Wahrsager",
-   "artist": "Udi Wahrsager",
-   "title": "סלע - עץ השדה",
+   "artist": "Udi Wahrsager, Leonid Detzelman, Mark Rozen",
+   "title": "Flow",
    "year": "2026",
-   "link": "https://music.apple.com/il/album/%D7%A1%D7%9C%D7%A2-%D7%A2%D7%A5-%D7%94%D7%A9%D7%93%D7%94-single/6829886907",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/f4/64/a8f464c1-7a60-f3cc-cdc8-ec62d9c31d08/199999760467.png/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 6829886907,
-   "release_type": "Single",
-   "image": "img/m-6829886907.jpg",
-   "confidence": "high",
-   "why": "הסינגל 'סלע' תואם לתיקייה Sela Mix",
+   "release_type": "Track",
+   "link": "https://open.spotify.com/track/3lYL9tpkTZ00Nyxs4JJqe2",
+   "image": "img/s-3lYL9tpkTZ00Nyxs4JJqe2.jpg",
+   "image_source": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2731af0f8301adda418053a2830",
+   "source": "spotify",
+   "spotify_id": "3lYL9tpkTZ00Nyxs4JJqe2",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
    "dropbox_folders": [
-    "Udi Wahrsager - Sela Mix"
+    "Udi Wahrsager (כל התיקיות)"
    ],
-   "target": "לשניהם",
-   "folder_years": "2019–2026"
+   "target": "לשניהם"
   },
   {
    "group": "Udi Wahrsager",
    "artist": "Udi Wahrsager",
-   "title": "Overshoot and Collapse",
-   "year": "2021",
-   "link": "https://music.apple.com/il/album/overshoot-and-collapse-ep/1599911134",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bc/1a/9e/bc1a9e80-e220-8fcf-72cb-516c3041a33e/198001586453.png/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1599911134,
-   "release_type": "EP",
-   "image": "img/m-1599911134.jpg",
-   "confidence": "high",
-   "why": "ה-EP כולל את השיר Acceptance",
+   "title": "סלע",
+   "year": "2026",
+   "release_type": "Track",
+   "link": "https://open.spotify.com/track/4ZqtmSzXnPbArcwjK4jpvN",
+   "image": "img/s-4ZqtmSzXnPbArcwjK4jpvN.jpg",
+   "image_source": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734f1e10abb850adbf9d46bb0f",
+   "source": "spotify",
+   "spotify_id": "4ZqtmSzXnPbArcwjK4jpvN",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
    "dropbox_folders": [
-    "Udi Warschager - Acceptance"
+    "Udi Wahrsager (כל התיקיות)"
    ],
-   "target": "לשניהם",
-   "folder_years": "2019–2026"
+   "target": "לשניהם"
   },
   {
    "group": "Udi Wahrsager",
-   "artist": "Udi Wahrsager",
-   "title": "חלומות שמורים (feat. גלעד שפירא)",
+   "artist": "Udi Wahrsager, Shay Alon",
+   "title": "עץ השדה",
+   "year": "2026",
+   "release_type": "Track",
+   "link": "https://open.spotify.com/track/2rvereR7ItcZQR7lhyNAMT",
+   "image": "img/s-2rvereR7ItcZQR7lhyNAMT.jpg",
+   "image_source": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734f1e10abb850adbf9d46bb0f",
+   "source": "spotify",
+   "spotify_id": "2rvereR7ItcZQR7lhyNAMT",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
+   "dropbox_folders": [
+    "Udi Wahrsager (כל התיקיות)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Ruchama Raz",
+   "artist": "Ruchama Raz",
+   "title": "הילד ניסים",
    "year": "2020",
-   "link": "https://music.apple.com/il/album/%D7%97%D7%9C%D7%95%D7%9E%D7%95%D7%AA-%D7%A9%D7%9E%D7%95%D7%A8%D7%99%D7%9D-feat-%D7%92%D7%9C%D7%A2%D7%93-%D7%A9%D7%A4%D7%99%D7%A8%D7%90-single/1511023408",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fc/c7/fa/fcc7fa14-a5b2-8479-5761-f588ab49ebb3/0923ea69-6392-4820-af78-81ddcc973282.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1511023408,
    "release_type": "Single",
-   "image": "img/m-1511023408.jpg",
-   "confidence": "low",
-   "why": "סינגל מ-2020 שנמצא בטווח השנים, אבל אין שם תיקייה שמתאים לו (Recording Session כללי)",
+   "link": "https://open.spotify.com/album/2YLgL7Cc52QoFOIy7NVbEJ",
+   "image": "img/s-2YLgL7Cc52QoFOIy7NVbEJ.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b6051710b2f39bae82e260f4",
+   "source": "spotify",
+   "spotify_id": "2YLgL7Cc52QoFOIy7NVbEJ",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
    "dropbox_folders": [
-    "Udi Wahrsager Recording Session"
+    "Ruchama Raz (כל התיקיות)"
    ],
-   "target": "לשניהם",
-   "folder_years": "2019–2026"
+   "target": "לשניהם"
   },
   {
    "group": "Ruchama Raz",
-   "artist": "Ruhama Raz",
-   "title": "פיסת שמים (feat. מקהלת מורן)",
-   "year": "2017",
-   "link": "https://music.apple.com/il/album/%D7%A4%D7%99%D7%A1%D7%AA-%D7%A9%D7%9E%D7%99%D7%9D-feat-%D7%9E%D7%A7%D7%94%D7%9C%D7%AA-%D7%9E%D7%95%D7%A8%D7%9F/1247868695",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/6e/63/25/6e6325a7-a3b1-34e8-7211-cb28e8a4d48b/191773370527.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1247868695,
-   "release_type": "Album",
-   "image": "img/m-1247868695.jpg",
-   "confidence": "medium",
-   "why": "האלבום (2017) כולל את 'שלג על עירי'. השנה בטווח, אבל רוחמה רז הקליטה את השיר גם ב-1977",
+   "artist": "Ruchama Raz",
+   "title": "כמו צמח בר",
+   "year": "2020",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/0m870zjfUN7sB7y07PlLK1",
+   "image": "img/s-0m870zjfUN7sB7y07PlLK1.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27394e6bcc25d48c129813f87f8",
+   "source": "spotify",
+   "spotify_id": "0m870zjfUN7sB7y07PlLK1",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
    "dropbox_folders": [
-    "Ruchama Raz - Sheleg Al Iri"
+    "Ruchama Raz (כל התיקיות)"
    ],
-   "target": "לשניהם",
-   "folder_years": "2016–2021"
+   "target": "לשניהם"
   },
   {
    "group": "Ruchama Raz",
-   "artist": "Ruhama Raz",
-   "title": "בלב מולדת קטנה",
-   "year": "2016",
-   "link": "https://music.apple.com/il/album/%D7%91%D7%9C%D7%91-%D7%9E%D7%95%D7%9C%D7%93%D7%AA-%D7%A7%D7%98%D7%A0%D7%94/1181101538",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/bb/3e/50/bb3e5080-42a7-53aa-4ee4-d83e8f895542/191018615826.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1181101538,
-   "release_type": "Album",
-   "image": "img/m-1181101538.jpg",
-   "confidence": "low",
-   "why": "אלבום מ-2016 (שנת התחלת הטווח). אין התאמה לפי שם שיר",
+   "artist": "Ruchama Raz",
+   "title": "בדמייך חיי",
+   "year": "2020",
+   "release_type": "Single",
+   "link": "https://open.spotify.com/album/0Tu1ZgoJ8c3iUKuSCy7C8R",
+   "image": "img/s-0Tu1ZgoJ8c3iUKuSCy7C8R.jpg",
+   "image_source": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273007dc1f33d28466ebbc6ae8c",
+   "source": "spotify",
+   "spotify_id": "0Tu1ZgoJ8c3iUKuSCy7C8R",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
    "dropbox_folders": [
-    "Ruchama Raz"
+    "Ruchama Raz (כל התיקיות)"
    ],
-   "target": "לשניהם",
-   "folder_years": "2016–2021"
-  },
-  {
-   "group": "Ruchama Raz",
-   "artist": "Ruhama Raz",
-   "title": "חדשה בעיר",
-   "year": "2016",
-   "link": "https://music.apple.com/il/album/%D7%97%D7%93%D7%A9%D7%94-%D7%91%D7%A2%D7%99%D7%A8/1181102293",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/15/24/ec/1524ecaf-e9bd-ec41-12dd-b25c90e5372c/191018615833.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1181102293,
-   "release_type": "Album",
-   "image": "img/m-1181102293.jpg",
-   "confidence": "low",
-   "why": "אלבום מ-2016 (שנת התחלת הטווח). אין התאמה לפי שם שיר",
-   "dropbox_folders": [
-    "Ruchama Raz"
-   ],
-   "target": "לשניהם",
-   "folder_years": "2016–2021"
+   "target": "לשניהם"
   },
   {
    "group": "Punch",
-   "artist": "Punch & Yossi Babliki",
-   "title": "דורי (פרה פונץ')",
-   "year": "2022",
-   "link": "https://music.apple.com/il/album/%D7%93%D7%95%D7%A8%D7%99-%D7%A4%D7%A8%D7%94-%D7%A4%D7%95%D7%A0%D7%A5-single/1629301159",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/67/b5/64/67b56400-2565-644d-a9f4-06b4b3cce926/7290117738825.png/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1629301159,
+   "artist": "Punch",
+   "title": "כוכב (2026)",
+   "year": "2026",
    "release_type": "Single",
-   "image": "img/m-1629301159.jpg",
-   "confidence": "medium",
-   "why": "סינגל 'דורי' של פונץ' ויוסי בבליקי. שם השיר תואם, אבל ההוצאה מ-2022 והתיקייה מ-2024",
+   "link": "https://open.spotify.com/album/6uat8MdgpLPU7hfl4iquOs",
+   "image": "img/s-6uat8MdgpLPU7hfl4iquOs.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ca9492cfcd77436cc342355d",
+   "source": "spotify",
+   "spotify_id": "6uat8MdgpLPU7hfl4iquOs",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording",
    "dropbox_folders": [
-    "Punch - Dori"
-   ],
-   "target": "לשניהם",
-   "folder_years": "2024"
-  },
-  {
-   "group": "Punch",
-   "artist": "Punch & Yossi Babliki",
-   "title": "לילה אחד בלוגוס",
-   "year": "2024",
-   "link": "https://music.apple.com/il/album/%D7%9C%D7%99%D7%9C%D7%94-%D7%90%D7%97%D7%93-%D7%91%D7%9C%D7%95%D7%92%D7%95%D7%A1/1750019065",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/0d/12/670d12c3-6813-a107-1bed-d81f8035be1d/7290120737211.png/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1750019065,
-   "release_type": "Album",
-   "image": "img/m-1750019065.jpg",
-   "confidence": "low",
-   "why": "אלבום הופעה של פונץ' מ-2024 (השנה תואמת), אבל 'דורי' ו'כוכב' לא מופיעים בו",
-   "dropbox_folders": [
-    "Punch - Dori",
     "Punch - Kochav"
    ],
-   "target": "לשניהם",
-   "folder_years": "2024"
+   "target": "לשניהם"
+  },
+  {
+   "group": "Lucy Parker",
+   "artist": "Lucy Parker",
+   "title": "דמותה של המדינה",
+   "year": "2023",
+   "release_type": "Track",
+   "link": "https://open.spotify.com/track/6ZLEbDrm4qmySqrUW754BQ",
+   "image": "img/s-6ZLEbDrm4qmySqrUW754BQ.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e068ab0febd74388a911d56c",
+   "source": "spotify",
+   "spotify_id": "6ZLEbDrm4qmySqrUW754BQ",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
+   "dropbox_folders": [
+    "Lucy Parker (כל התיקיות)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Lucy Parker",
+   "artist": "Lucy Parker",
+   "title": "עד ששוב",
+   "year": "2024",
+   "release_type": "Album",
+   "link": "https://open.spotify.com/album/4EMpHX27KHxpy6foJHuLRr",
+   "image": "img/s-4EMpHX27KHxpy6foJHuLRr.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730a6458f7dcd66249f0c62a52",
+   "source": "spotify",
+   "spotify_id": "4EMpHX27KHxpy6foJHuLRr",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
+   "dropbox_folders": [
+    "Lucy Parker (כל התיקיות)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Frube",
+   "artist": "Frube",
+   "title": "Songs for May",
+   "year": "2020",
+   "release_type": "Album",
+   "link": "https://open.spotify.com/album/0zBVssotwewHYcEERI2fAb",
+   "image": "img/s-0zBVssotwewHYcEERI2fAb.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a3a074cd607fb4f3bdfe9663",
+   "source": "spotify",
+   "spotify_id": "0zBVssotwewHYcEERI2fAb",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Recording · Mixing",
+   "dropbox_folders": [
+    "Frube Album Recordings"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Efrat & Kalin – Efrat Goren",
+   "artist": "Efrat Goren",
+   "title": "הביתה אל האור",
+   "year": "2023",
+   "release_type": "Track",
+   "link": "https://open.spotify.com/track/1V02SPysi23mR8iIltso31",
+   "image": "img/s-1V02SPysi23mR8iIltso31.jpg",
+   "image_source": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2731ee7ca33a742c9ca66526a17",
+   "source": "spotify",
+   "spotify_id": "1V02SPysi23mR8iIltso31",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Mixing (Raz Burg at Tamuz)",
+   "dropbox_folders": [
+    "Efrat & Kalin (כל התיקיות)"
+   ],
+   "target": "לשניהם"
+  },
+  {
+   "group": "Efrat & Kalin – Efrat Goren",
+   "artist": "Efrat Goren",
+   "title": "בשבילים שלך",
+   "year": "2021",
+   "release_type": "Track",
+   "link": "https://open.spotify.com/track/0qMW4XRujbwM2Wmuc9n2AF",
+   "image": "img/s-0qMW4XRujbwM2Wmuc9n2AF.jpg",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27365602fb0f48f3f2bbd61d06d",
+   "source": "spotify",
+   "spotify_id": "0qMW4XRujbwM2Wmuc9n2AF",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "role": "Mixing (Raz Burg at Tamuz)",
+   "dropbox_folders": [
+    "Efrat & Kalin (כל התיקיות)"
+   ],
+   "target": "לשניהם"
   },
   {
    "group": "Yossi Babliki",
@@ -369,158 +948,6 @@
    "folder_years": "2019–2021"
   },
   {
-   "group": "Frube",
-   "artist": "Frube",
-   "title": "Songs for May",
-   "year": "2020",
-   "link": "https://music.apple.com/il/album/songs-for-may/1511331704",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/38/14/73/38147367-ad50-1f53-9035-fc3a03cdaa2c/artwork.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1511331704,
-   "release_type": "Album",
-   "image": "img/m-1511331704.jpg",
-   "confidence": "medium",
-   "why": "אלבום הבכורה של Frube יצא באפריל 2020, אחרי הקלטות האלבום ב-2019. זה האלבום היחיד שלהם",
-   "dropbox_folders": [
-    "Frube Album Recordings"
-   ],
-   "target": "לשניהם",
-   "folder_years": "2019"
-  },
-  {
-   "group": "Efrat & Kalin",
-   "artist": "Efrat Goren",
-   "title": "עשני נהר",
-   "year": "2024",
-   "link": "https://music.apple.com/il/album/%D7%A2%D7%A9%D7%A0%D7%99-%D7%A0%D7%94%D7%A8-single/1785465077",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d4/ae/32/d4ae325e-5281-28da-2b7f-8ee51072dd81/199066241196.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1785465077,
-   "release_type": "Single",
-   "image": "img/m-1785465077.jpg",
-   "confidence": "high",
-   "why": "השיר יצא בשם אפרת גורן. 'עשני נהר' תואם לתיקייה",
-   "dropbox_folders": [
-    "Efrat & Kalin - Aseni Nahar Mix"
-   ],
-   "target": "לשניהם",
-   "folder_years": "2017–2025"
-  },
-  {
-   "group": "Efrat & Kalin",
-   "artist": "Efrat Goren",
-   "title": "דף חלק",
-   "year": "2025",
-   "link": "https://music.apple.com/il/album/%D7%93%D7%A3-%D7%97%D7%9C%D7%A7-single/1831018648",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/49/99/36499911-8f69-73a2-4e55-bc7937d6b233/199538457490.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1831018648,
-   "release_type": "Single",
-   "image": "img/m-1831018648.jpg",
-   "confidence": "high",
-   "why": "'דף חלק' של אפרת גורן",
-   "dropbox_folders": [
-    "Efrat & Kalin - Daf Halak Mix"
-   ],
-   "target": "לשניהם",
-   "folder_years": "2017–2025"
-  },
-  {
-   "group": "Efrat & Kalin",
-   "artist": "Efrat Goren",
-   "title": "אותך לשמור כאן",
-   "year": "2024",
-   "link": "https://music.apple.com/il/album/%D7%90%D7%95%D7%AA%D7%9A-%D7%9C%D7%A9%D7%9E%D7%95%D7%A8-%D7%9B%D7%90%D7%9F-single/1738879417",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/48/fd/7548fd21-8c4d-4c3b-5a71-b6acc4a40b5a/198391708978.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1738879417,
-   "release_type": "Single",
-   "image": "img/m-1738879417.jpg",
-   "confidence": "high",
-   "why": "'אותך לשמור כאן' של אפרת גורן",
-   "dropbox_folders": [
-    "Efrat & Kalin - Otcha Lishmor Kan Mix"
-   ],
-   "target": "לשניהם",
-   "folder_years": "2017–2025"
-  },
-  {
-   "group": "Efrat & Kalin",
-   "artist": "Efrat Goren",
-   "title": "של מיצרי מעלי",
-   "year": "2024",
-   "link": "https://music.apple.com/il/album/%D7%A9%D7%9C-%D7%9E%D7%99%D7%A6%D7%A8%D7%99-%D7%9E%D7%A2%D7%9C%D7%99-single/1740063996",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/1a/1e/791a1e19-bdae-e952-b201-0ec28ab4cbb0/198391722639.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1740063996,
-   "release_type": "Single",
-   "image": "img/m-1740063996.jpg",
-   "confidence": "high",
-   "why": "'של מיצרי מעלי' של אפרת גורן",
-   "dropbox_folders": [
-    "Efrat & Kalin Shal Meitsarai Meal"
-   ],
-   "target": "לשניהם",
-   "folder_years": "2017–2025"
-  },
-  {
-   "group": "Efrat & Kalin",
-   "artist": "Efrat Goren",
-   "title": "ער בחלום הזה",
-   "year": "2020",
-   "link": "https://music.apple.com/il/album/%D7%A2%D7%A8-%D7%91%D7%97%D7%9C%D7%95%D7%9D-%D7%94%D7%96%D7%94-single/1738878859",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4a/4b/72/4a4b7221-3003-12d1-c40c-fe4e68207864/198391718663.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1738878859,
-   "release_type": "Single",
-   "image": "img/m-1738878859.jpg",
-   "confidence": "high",
-   "why": "'ער בחלום הזה' של אפרת גורן",
-   "dropbox_folders": [
-    "Kalin & Efrat - Er Bachalom Haze Mix"
-   ],
-   "target": "לשניהם",
-   "folder_years": "2017–2025"
-  },
-  {
-   "group": "Efrat & Kalin",
-   "artist": "Efrat Goren",
-   "title": "הביתה אל האור",
-   "year": "2023",
-   "link": "https://music.apple.com/il/album/%D7%94%D7%91%D7%99%D7%AA%D7%94-%D7%90%D7%9C-%D7%94%D7%90%D7%95%D7%A8-single/1738882155",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/66/7d/3d667dea-5844-fb5a-8dba-568fc349482b/198391707742.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1738882155,
-   "release_type": "Single",
-   "image": "img/m-1738882155.jpg",
-   "confidence": "medium",
-   "why": "'הביתה אל האור' מול התיקייה 'Habayta Mix'",
-   "dropbox_folders": [
-    "Efrat & Kalin - Habayta Mix"
-   ],
-   "target": "לשניהם",
-   "folder_years": "2017–2025"
-  },
-  {
-   "group": "Efrat & Kalin",
-   "artist": "Efrat Goren",
-   "title": "בשבילים שלך",
-   "year": "2021",
-   "link": "https://music.apple.com/il/album/%D7%91%D7%A9%D7%91%D7%99%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%9A-ep/1738879535",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/06/a3/bc06a318-6d1c-7150-6c0b-5c3f1267ae6f/198391634765.jpg/600x600bb.jpg",
-   "source": "itunes",
-   "itunes_id": 1738879535,
-   "release_type": "EP",
-   "image": "img/m-1738879535.jpg",
-   "confidence": "medium",
-   "why": "EP של אפרת גורן (2021) שכולל את 'ער בחלום הזה'",
-   "dropbox_folders": [
-    "Efrat & Kalin Recordings"
-   ],
-   "target": "לשניהם",
-   "folder_years": "2017–2025"
-  },
-  {
    "group": "Dorit Reuveni & Dudu Zakai – Haadama Sheli",
    "artist": "Dorit Reuveni & Dudu Zakai",
    "title": "האדמה שלי",
@@ -544,17 +971,18 @@
    "artist": "Raz Burg",
    "title": "Quantum Leap",
    "year": "2024",
-   "link": "https://artlist.io/royalty-free-music/album/quantum-leap/11567",
-   "image_source": "https://artlist-albums.imgix.net/images/11567_938476_938476_Raz_Burg_-_Quantum_Leap_-_A.jpg?fit=crop&w=600&h=600&fm=jpg&q=85",
-   "source": "custom",
-   "image": "img/m-quantum-leap.jpg",
+   "link": "https://open.spotify.com/album/2mGSQGnFch3BEA0jQ0Wt0I",
+   "image_source": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736459ca3f51877f2a72d64186",
+   "source": "spotify",
+   "image": "img/s-2mGSQGnFch3BEA0jQ0Wt0I.jpg",
    "confidence": "medium",
-   "why": "הסקה: זה האלבום ה-19 לפי סדר ההוצאה בעמוד האמן של Raz Burg ב-Artlist (20 אלבומים). אין שם על התיקייה, אז צריך שרז יאשר",
+   "why": "בספוטיפיי של רז הלייבל הוא Artlist Original (11.9.2024). זה האלבום ה-19 מתוך 20 ההוצאות של Artlist בעמוד שלו, לפי סדר השנים. המספור הוא הסקה שלי, וצריך את אישורו של רז",
    "dropbox_folders": [
     "בלי שם בתיקייה"
    ],
    "target": "לשניהם",
-   "folder_years": "2023"
+   "folder_years": "2023",
+   "role": "Production · Composition"
   },
   {
    "group": "Matti Caspi – מתי מספר וסויאן שרה",
@@ -565,8 +993,8 @@
    "image_source": "https://www.disccenter.co.il/content/products/prodimage_51888.jpg",
    "source": "custom",
    "image": "img/m-matti-caspi-mati-mesaper.jpg",
-   "confidence": "high",
-   "why": "שם האלבום זהה (תוספת של רז). לא נמצא באפל מיוזיק, בדיזר או בספוטיפיי, ולכן הקישור הוא לדף המוצר ב-Disc Center (הפצה: NMC, שנה 2015. מקור אחר מציין 2016)",
+   "confidence": "confirmed",
+   "why": "תוספת של רז. שם האלבום זהה (תוספת של רז). לא נמצא באפל מיוזיק, בדיזר או בספוטיפיי, ולכן הקישור הוא לדף המוצר ב-Disc Center (הפצה: NMC, שנה 2015. מקור אחר מציין 2016)",
    "dropbox_folders": [
     "(תוספת של רז, לא מסריקת Dropbox)"
    ],
@@ -576,69 +1004,6 @@
   }
  ],
  "music_not_found": [
-  {
-   "group": "Ofir Lessel",
-   "dropbox_folders": [
-    "Ofir Lessel - Maybe We Can Try / Fuck You AI Music"
-   ],
-   "status": "not found",
-   "tried": "חיפוש באפל מיוזיק (36 תוצאות לאמן) ובדיזר: אין שיר בשם הזה, כנראה עדיין לא יצא",
-   "folder_years": "2023–2026"
-  },
-  {
-   "group": "Udi Wahrsager",
-   "dropbox_folders": [
-    "Udi Wahrsager - Walse Mix / Walse Vocal / Live Flute Guitar"
-   ],
-   "status": "not found",
-   "tried": "אין שיר בשם Walse/Valse באפל מיוזיק או בדיזר",
-   "folder_years": "2019–2026"
-  },
-  {
-   "group": "Ruchama Raz",
-   "dropbox_folders": [
-    "Ruchama Raz - Bata Li Baman / Halomot Zafrir"
-   ],
-   "status": "not found",
-   "tried": "חיפוש לפי שם השיר בעברית באפל מיוזיק: לא נמצאה הוצאה של רוחמה רז",
-   "folder_years": "2016–2021"
-  },
-  {
-   "group": "Punch",
-   "dropbox_folders": [
-    "Punch - Kochav"
-   ],
-   "status": "not found",
-   "tried": "אין שיר בשם 'כוכב' בהוצאות של פונץ' באפל מיוזיק",
-   "folder_years": "2024"
-  },
-  {
-   "group": "Ilay / Elay Sahar",
-   "dropbox_folders": [
-    "Ilay Sahar (Keta Sear, Duets, Mastering)"
-   ],
-   "status": "not found",
-   "tried": "חיפשתי את Ilay/Elay Sahar ו'עילאי סהר' באפל מיוזיק, בדיזר ובחיפוש ברשת: לא נמצאו הוצאות",
-   "folder_years": "2024–2026"
-  },
-  {
-   "group": "Chilli Jam",
-   "dropbox_folders": [
-    "Chilli Jam Album 1"
-   ],
-   "status": "not found",
-   "tried": "חיפשתי באפל מיוזיק, בדיזר ובחיפוש ברשת: לא נמצאה להקה ישראלית בשם הזה, רק להקות זרות שאינן קשורות",
-   "folder_years": "2016"
-  },
-  {
-   "group": "Night Shift",
-   "dropbox_folders": [
-    "Night Shift Recordings"
-   ],
-   "status": "not found",
-   "tried": "באפל מיוזיק ובדיזר יש עשרות 'Night Shift' זרים, ולא אותרה הוצאה ישראלית מ-2024",
-   "folder_years": "2024"
-  },
   {
    "group": "Soultone",
    "dropbox_folders": [
@@ -663,7 +1028,7 @@
     "Artlist Album 22 - Back To Track"
    ],
    "status": "not found",
-   "tried": "עמוד האמן Raz Burg ב-Artlist (artlist.io/royalty-free-music/artist/raz-burg/1002) מציג 20 אלבומים, ואין ביניהם Back To Track. אולי עוד לא יצא או יצא בשם אחר",
+   "tried": "בעמוד האמן של רז בספוטיפיי יש 20 הוצאות עם הלייבל Artlist Original (2020–2024), ואף אחת לא בשם הזה. ההוצאות מ-2025–2026 יצאו בלייבל 10746569 Records DK, לא Artlist. ב-artlist.io יש 20 אלבומים, ואין ביניהם את השם הזה. כנראה עוד לא יצא",
    "folder_years": "2025"
   },
   {
@@ -672,11 +1037,260 @@
     "Artlist - Strategic Vision"
    ],
    "status": "not found",
-   "tried": "האלבום לא מופיע בעמוד האמן ב-Artlist ולא באפל מיוזיק",
+   "tried": "בעמוד האמן של רז בספוטיפיי יש 20 הוצאות עם הלייבל Artlist Original (2020–2024), ואף אחת לא בשם הזה. ההוצאות מ-2025–2026 יצאו בלייבל 10746569 Records DK, לא Artlist. ב-artlist.io יש 20 אלבומים, ואין ביניהם את השם הזה. כנראה עוד לא יצא",
    "folder_years": "2026"
   }
  ],
  "podcasts": [
+  {
+   "official_name": "לצאת מאזור הנכות - הפודקאסט של ארגון נכי צה״ל",
+   "host": "Spotlight Podcasts",
+   "link": "https://open.spotify.com/show/4jtHR3y42CnRNH4h0QvaHZ",
+   "spotify_id": "4jtHR3y42CnRNH4h0QvaHZ",
+   "image": "img/sp-4jtHR3y42CnRNH4h0QvaHZ.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8a0ef379ce46100609a7e94fd0",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "הדרך || ערן ברט",
+   "host": "ערן ברט",
+   "link": "https://open.spotify.com/show/2afbM86g5l8dj88KEDeokb",
+   "spotify_id": "2afbM86g5l8dj88KEDeokb",
+   "image": "img/sp-2afbM86g5l8dj88KEDeokb.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8a220c55c193a66c4ba70b27ce",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "המהפכה השקטה",
+   "host": "שי אור",
+   "link": "https://open.spotify.com/show/4dAtmf0dBQKnbmB3uNiLWV",
+   "spotify_id": "4dAtmf0dBQKnbmB3uNiLWV",
+   "image": "img/sp-4dAtmf0dBQKnbmB3uNiLWV.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8ae5c31a9f877df20f422ed529",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "היזמים החדשים",
+   "host": "שחף סגינר וצחי רבאל",
+   "link": "https://open.spotify.com/show/3OV8fGfEDRwS1nIUd99m89",
+   "spotify_id": "3OV8fGfEDRwS1nIUd99m89",
+   "image": "img/sp-3OV8fGfEDRwS1nIUd99m89.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8a60fe48cfe06a54b1cc89d7d7",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "קול היקום",
+   "host": "סוכנות החלל הישראלית",
+   "link": "https://open.spotify.com/show/03VgAV3xEJgsOxNB9vsRqt",
+   "spotify_id": "03VgAV3xEJgsOxNB9vsRqt",
+   "image": "img/sp-03VgAV3xEJgsOxNB9vsRqt.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8a46c8294a8fa9b7032a844ae6",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "Lead With Numbers with Lior Zehavi",
+   "host": "Lior Zehavi - Inbalance",
+   "link": "https://open.spotify.com/show/5hkCWrPtKL3SAn4x1KJV3U",
+   "spotify_id": "5hkCWrPtKL3SAn4x1KJV3U",
+   "image": "img/sp-5hkCWrPtKL3SAn4x1KJV3U.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8a430b53bd9f963f99890a3577",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "החוט המקשר",
+   "host": "Keren Kirshner-Samuel",
+   "link": "https://open.spotify.com/show/31MbmkMHLNFtIcBKNfSQrc",
+   "spotify_id": "31MbmkMHLNFtIcBKNfSQrc",
+   "image": "img/sp-31MbmkMHLNFtIcBKNfSQrc.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8a5edec83a0a11a70ff04fbcff",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "קופי והרב || בסוד הדברים",
+   "host": "הרב יובל הכהן אשרוב & אלעד קופרמן",
+   "link": "https://open.spotify.com/show/5VGPxEWsXXaxwJFeQaWaVV",
+   "spotify_id": "5VGPxEWsXXaxwJFeQaWaVV",
+   "image": "img/sp-5VGPxEWsXXaxwJFeQaWaVV.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8a0d1f895e4bd767262642bdf6",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "מעשה אדם - מנהיגות הומניסטית בעידן דיגיטלי",
+   "host": "בוגרי ובוגרות קרן מנדל",
+   "link": "https://open.spotify.com/show/0QnYDvo9pls03pS1fpFAy6",
+   "spotify_id": "0QnYDvo9pls03pS1fpFAy6",
+   "image": "img/sp-0QnYDvo9pls03pS1fpFAy6.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8a99f1de27abe689c51cb2f27a",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "שבע קטנות על חטיבה 7",
+   "host": "חטיבה 7, חיל השריון",
+   "link": "https://open.spotify.com/show/6sRhDQp34GZkAOn5P5emCj",
+   "spotify_id": "6sRhDQp34GZkAOn5P5emCj",
+   "image": "img/sp-6sRhDQp34GZkAOn5P5emCj.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8af0d34d1c26974f21c7780d66",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "Change Matters",
+   "host": "Firma - Stav Milo & Elad Mishan",
+   "link": "https://open.spotify.com/show/3qgcS1DihDtjurb4vuHqkL",
+   "spotify_id": "3qgcS1DihDtjurb4vuHqkL",
+   "image": "img/sp-3qgcS1DihDtjurb4vuHqkL.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8a442e26be373de2a618cec1b6",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "הביולוגיה של הווינרים",
+   "host": "איתן עזריה I אימון מנטלי להישגים",
+   "link": "https://open.spotify.com/show/2gVBs93mnfT0kWFgmmuuIz",
+   "spotify_id": "2gVBs93mnfT0kWFgmmuuIz",
+   "image": "img/sp-2gVBs93mnfT0kWFgmmuuIz.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8a0af8a4bf1eacbd25d89e7991",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "שימו לב | פודקאסט מציל חיים",
+   "host": "המערך הקרדיולוגי - איכילוב",
+   "link": "https://open.spotify.com/show/1TstdZbevvMrirRibUNsGM",
+   "spotify_id": "1TstdZbevvMrirRibUNsGM",
+   "image": "img/sp-1TstdZbevvMrirRibUNsGM.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8afa96f11af7e34519ca4be33d",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "The V Podcast | ד\"ר עידו סירוטה ושלי ורוד",
+   "host": "The V Clinic",
+   "link": "https://open.spotify.com/show/1KkbnLSyIgZpCp37mSbu3g",
+   "spotify_id": "1KkbnLSyIgZpCp37mSbu3g",
+   "image": "img/sp-1KkbnLSyIgZpCp37mSbu3g.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8aaa4717eac109609b3df375a9",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "סליחה, זה לא מה שהזמנתי",
+   "host": "בית הספר למנהיגות תודעתית - טל בשן",
+   "link": "https://open.spotify.com/show/3GDRswaLKUhREkPH2iobPn",
+   "spotify_id": "3GDRswaLKUhREkPH2iobPn",
+   "image": "img/sp-3GDRswaLKUhREkPH2iobPn.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8afcd2e695485216189e3603f1",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "גיל הַמֵעֵבֶר – שיחות על מנופאוזה עם הילה כרמל וסלעית גרניט",
+   "host": "הילה כרמל וסלעית גרניט",
+   "link": "https://open.spotify.com/show/45ENZZa4eaVTgYirgbZ7GQ",
+   "spotify_id": "45ENZZa4eaVTgYirgbZ7GQ",
+   "image": "img/sp-45ENZZa4eaVTgYirgbZ7GQ.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8a2de4358f5bf56ac085ce61ec",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "\"הקול בראש שלך\" – עם סיגל כהנא",
+   "host": "סיגל כהנא",
+   "link": "https://open.spotify.com/show/6wjAGqXpqIwzCwK3DNLsRk",
+   "spotify_id": "6wjAGqXpqIwzCwK3DNLsRk",
+   "image": "img/sp-6wjAGqXpqIwzCwK3DNLsRk.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8a4a7a6d6ffea0906c62e72bfc",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "מדברות טרנדים בבריאות",
+   "host": "Infomed Digital Health",
+   "link": "https://open.spotify.com/show/56qCkxFOsbq2fMpAS1dh92",
+   "spotify_id": "56qCkxFOsbq2fMpAS1dh92",
+   "image": "img/sp-56qCkxFOsbq2fMpAS1dh92.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8acf4dc9bef89c8ebc89a25e9b",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  },
+  {
+   "official_name": "המדריך לטרמפיסט בתעשיית ההייטק",
+   "host": "Yotam Gross & Avichai Haim Pour",
+   "link": "https://open.spotify.com/show/2jtYhN5l26JbiAHQbwL5IW",
+   "spotify_id": "2jtYhN5l26JbiAHQbwL5IW",
+   "image": "img/sp-2jtYhN5l26JbiAHQbwL5IW.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8ae18796abab97639a7d8ab839",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז"
+  }
+ ],
+ "podcasts_already_on_site": [
+  {
+   "official_name": "אנשי הקשב",
+   "host": "ד\"ר שירלי הרשקו",
+   "link": "https://open.spotify.com/show/6zRA1pTAUakN0kHkwjcG9G",
+   "spotify_id": "6zRA1pTAUakN0kHkwjcG9G",
+   "image": "img/sp-6zRA1pTAUakN0kHkwjcG9G.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8a6abcb25f423bfc1fafc11877",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז",
+   "already_on_site_as": "אנשי הקשב – ד״ר שירלי הרשקו"
+  },
+  {
+   "official_name": "Growth Engines",
+   "host": "Israel Blechman",
+   "link": "https://open.spotify.com/show/0mRPtWAMoqjdTzMd318b4V",
+   "spotify_id": "0mRPtWAMoqjdTzMd318b4V",
+   "image": "img/sp-0mRPtWAMoqjdTzMd318b4V.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8af44da6cd71707cc7e99fbfd0",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז",
+   "already_on_site_as": "Growth Engines"
+  },
+  {
+   "official_name": "אורות באפלה",
+   "host": "אורות באפלה- פרויקט תיעוד",
+   "link": "https://open.spotify.com/show/1ALFRIc7ARDxbNCBV7P7Kk",
+   "spotify_id": "1ALFRIc7ARDxbNCBV7P7Kk",
+   "image": "img/sp-1ALFRIc7ARDxbNCBV7P7Kk.jpg",
+   "image_source": "https://i.scdn.co/image/ab6765630000ba8aed572dfc82f424718ee0898d",
+   "confidence": "confirmed",
+   "why": "אושר על ידי רז (קישור ספוטיפיי)",
+   "target": "תמוז",
+   "already_on_site_as": "אורות באפלה"
+  }
+ ],
+ "podcasts_not_in_raz_list_dropped": [
   {
    "group": "קופרמן (Kuperman)",
    "official_name": "קצת פורקן קצת חום קצת אהבה- הפודקאסט",
@@ -746,40 +1360,6 @@
    "last_episode": "2023-09-04"
   },
   {
-   "group": "מעשה אדם",
-   "official_name": "מעשה אדם - מנהיגות הומניסטית בעידן דיגיטלי",
-   "host": "בוגרי ובוגרות קרן מנדל",
-   "link": "https://podcasts.apple.com/il/podcast/%D7%9E%D7%A2%D7%A9%D7%94-%D7%90%D7%93%D7%9D-%D7%9E%D7%A0%D7%94%D7%99%D7%92%D7%95%D7%AA-%D7%94%D7%95%D7%9E%D7%A0%D7%99%D7%A1%D7%98%D7%99%D7%AA-%D7%91%D7%A2%D7%99%D7%93%D7%9F-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99/id6797922805",
-   "image": "img/p-6797922805.jpg",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/43/a4/dd/43a4dd7d-21f7-7955-cf0c-d7ccbe84179c/mza_16995700096768333149.jpg/600x600bb.jpg",
-   "itunes_id": 6797922805,
-   "confidence": "high",
-   "why": "שם זהה, 2026, בוגרי קרן מנדל",
-   "dropbox_folders": [
-    "Maase Adam Podcast"
-   ],
-   "target": "תמוז",
-   "folder_years": "2026",
-   "last_episode": "2026-09-08"
-  },
-  {
-   "group": "חטיבה 7",
-   "official_name": "שבע קטנות על חטיבה 7",
-   "host": "חטיבה 7, חיל השריון",
-   "link": "https://podcasts.apple.com/il/podcast/%D7%A9%D7%91%D7%A2-%D7%A7%D7%98%D7%A0%D7%95%D7%AA-%D7%A2%D7%9C-%D7%97%D7%98%D7%99%D7%91%D7%94-7/id1696146477",
-   "image": "img/p-1696146477.jpg",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/75/31/9d/75319da4-1f3e-4ef4-2fbe-fdc2229b198c/mza_844726126111577967.jpg/600x600bb.jpg",
-   "itunes_id": 1696146477,
-   "confidence": "medium",
-   "why": "'שבע קטנות על חטיבה 7' (2024) מטעם חיל השריון",
-   "dropbox_folders": [
-    "Hativa 7, Itay Daliyot, Uri Segal"
-   ],
-   "target": "תמוז",
-   "folder_years": "2022–2025",
-   "last_episode": "2024-01-11"
-  },
-  {
    "group": "חטיבה 7",
    "official_name": "חטיבה 7 - מלחמת חרבות ברזל",
    "host": "חטיבה 7, חיל השריון",
@@ -795,23 +1375,6 @@
    "target": "תמוז",
    "folder_years": "2022–2025",
    "last_episode": "2025-03-12"
-  },
-  {
-   "group": "פירמה",
-   "official_name": "Change Matters",
-   "host": "Firma - Stav Milo & Elad Mishan",
-   "link": "https://podcasts.apple.com/il/podcast/change-matters/id1776596932",
-   "image": "img/p-1776596932.jpg",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/65/cc/cb/65cccb28-e5f8-b58e-e439-4946af35a3c5/mza_10802859292103382801.jpg/600x600bb.jpg",
-   "itunes_id": 1776596932,
-   "confidence": "medium",
-   "why": "'Change Matters' של Firma (סתיו מילוא ואלעד מישן). השם תואם, אבל לא בטוח שזה אותו פרויקט",
-   "dropbox_folders": [
-    "Firma, Firma Edit, Firma Intro"
-   ],
-   "target": "תמוז",
-   "folder_years": "2024–2025",
-   "last_episode": "2026-01-01"
   },
   {
    "group": "גולדות",
@@ -848,40 +1411,6 @@
    "last_episode": "2023-07-23"
   },
   {
-   "group": "קרן מנדל",
-   "official_name": "מעשה אדם - מנהיגות הומניסטית בעידן דיגיטלי",
-   "host": "בוגרי ובוגרות קרן מנדל",
-   "link": "https://podcasts.apple.com/il/podcast/%D7%9E%D7%A2%D7%A9%D7%94-%D7%90%D7%93%D7%9D-%D7%9E%D7%A0%D7%94%D7%99%D7%92%D7%95%D7%AA-%D7%94%D7%95%D7%9E%D7%A0%D7%99%D7%A1%D7%98%D7%99%D7%AA-%D7%91%D7%A2%D7%99%D7%93%D7%9F-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99/id6797922805",
-   "image": "img/p-6797922805.jpg",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/43/a4/dd/43a4dd7d-21f7-7955-cf0c-d7ccbe84179c/mza_16995700096768333149.jpg/600x600bb.jpg",
-   "itunes_id": 6797922805,
-   "confidence": "medium",
-   "why": "כנראה 'מעשה אדם' של בוגרי קרן מנדל (2026). לקרן יש גם את 'קולות מהנגב' (2024)",
-   "dropbox_folders": [
-    "Keren Mandel Podcast A, B"
-   ],
-   "target": "תמוז",
-   "folder_years": "2026",
-   "last_episode": "2026-09-08"
-  },
-  {
-   "group": "איתן עזריה",
-   "official_name": "הביולוגיה של הווינרים",
-   "host": "איתן עזריה I אימון מנטלי להישגים",
-   "link": "https://podcasts.apple.com/il/podcast/%D7%94%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94-%D7%A9%D7%9C-%D7%94%D7%95%D7%95%D7%99%D7%A0%D7%A8%D7%99%D7%9D/id1459790231",
-   "image": "img/p-1459790231.jpg",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/79/1e/9a791e0d-92e5-d51f-a05c-84fb48f4ad74/mza_14961158613021967793.jpg/600x600bb.jpg",
-   "itunes_id": 1459790231,
-   "confidence": "medium",
-   "why": "'הביולוגיה של הווינרים' של איתן עזריה. פודקאסט ותיק, וההקלטות ב-2023 היו כנראה פרקים בודדים",
-   "dropbox_folders": [
-    "Eitan Azaria A, B"
-   ],
-   "target": "תמוז",
-   "folder_years": "2023",
-   "last_episode": "2026-11-02"
-  },
-  {
    "group": "אבי כהן לוטוס",
    "official_name": "סטודיו לקומדיה | פודקאסט על הומור",
    "host": "אבי כהן, לוטוס אתרוג",
@@ -916,74 +1445,6 @@
    "last_episode": "2026-11-02"
   },
   {
-   "group": "הומניזם דיגיטלי",
-   "official_name": "מעשה אדם - מנהיגות הומניסטית בעידן דיגיטלי",
-   "host": "בוגרי ובוגרות קרן מנדל",
-   "link": "https://podcasts.apple.com/il/podcast/%D7%9E%D7%A2%D7%A9%D7%94-%D7%90%D7%93%D7%9D-%D7%9E%D7%A0%D7%94%D7%99%D7%92%D7%95%D7%AA-%D7%94%D7%95%D7%9E%D7%A0%D7%99%D7%A1%D7%98%D7%99%D7%AA-%D7%91%D7%A2%D7%99%D7%93%D7%9F-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99/id6797922805",
-   "image": "img/p-6797922805.jpg",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/43/a4/dd/43a4dd7d-21f7-7955-cf0c-d7ccbe84179c/mza_16995700096768333149.jpg/600x600bb.jpg",
-   "itunes_id": 6797922805,
-   "confidence": "medium",
-   "why": "תת-הכותרת של 'מעשה אדם' היא 'מנהיגות הומניסטית בעידן דיגיטלי' (2026)",
-   "dropbox_folders": [
-    "Humanizem Digitali"
-   ],
-   "target": "תמוז",
-   "folder_years": "2026",
-   "last_episode": "2026-09-08"
-  },
-  {
-   "group": "שימו לב",
-   "official_name": "שימו לב | פודקאסט מציל חיים",
-   "host": "המערך הקרדיולוגי - איכילוב",
-   "link": "https://podcasts.apple.com/il/podcast/%D7%A9%D7%99%D7%9E%D7%95-%D7%9C%D7%91-%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98-%D7%9E%D7%A6%D7%99%D7%9C-%D7%97%D7%99%D7%99%D7%9D/id1765314897",
-   "image": "img/p-1765314897.jpg",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/73/7d/68/737d681a-23a5-8282-2e95-19363775d0a1/mza_14122092802133535038.jpg/600x600bb.jpg",
-   "itunes_id": 1765314897,
-   "confidence": "medium",
-   "why": "'שימו לב | פודקאסט מציל חיים' של המערך הקרדיולוגי באיכילוב, 2025",
-   "dropbox_folders": [
-    "Simu Lev"
-   ],
-   "target": "תמוז",
-   "folder_years": "2024–2025",
-   "last_episode": "2025-07-13"
-  },
-  {
-   "group": "שלי ורוד",
-   "official_name": "100 by Dr Ido and Shelly",
-   "host": "Dr Ido Sirota & Shelly Varod",
-   "link": "https://podcasts.apple.com/il/podcast/100-by-dr-ido-and-shelly/id1789763269",
-   "image": "img/p-1789763269.jpg",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c0/60/39/c0603914-953d-9aff-4ba5-5d759b38edd0/mza_1542679757959899027.jpg/600x600bb.jpg",
-   "itunes_id": 1789763269,
-   "confidence": "medium",
-   "why": "'100 by Dr Ido and Shelly' (שלי ורוד וד\"ר עידו סירוטה, 2024). פרק אחד כנראה ב'האופטימייזר' של גיא קצוביץ'",
-   "dropbox_folders": [
-    "Shelly Varod (אחד מהם תחת האופטימייזר)"
-   ],
-   "target": "תמוז",
-   "folder_years": "2023–2024",
-   "last_episode": "2024-12-17"
-  },
-  {
-   "group": "טל בשן",
-   "official_name": "סליחה, זה לא מה שהזמנתי",
-   "host": "בית הספר למנהיגות תודעתית - טל בשן",
-   "link": "https://podcasts.apple.com/il/podcast/%D7%A1%D7%9C%D7%99%D7%97%D7%94-%D7%96%D7%94-%D7%9C%D7%90-%D7%9E%D7%94-%D7%A9%D7%94%D7%96%D7%9E%D7%A0%D7%AA%D7%99/id1502562619",
-   "image": "img/p-1502562619.jpg",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/a6/38/f1/a638f1f5-528e-b33f-ce12-f418cfe10dc2/mza_18369245870215621985.jpg/600x600bb.jpg",
-   "itunes_id": 1502562619,
-   "confidence": "medium",
-   "why": "'סליחה, זה לא מה שהזמנתי' של טל בשן",
-   "dropbox_folders": [
-    "Tal Bashan (אחד מהם תחת האופטימייזר)"
-   ],
-   "target": "תמוז",
-   "folder_years": "2023–2024",
-   "last_episode": "2026-08-09"
-  },
-  {
    "group": "עולם הירושה – Olam Hayerusha",
    "official_name": "עולם הירושה",
    "host": "עו\"ד מנחם פשיטיצקי ועו\"ד בת שבע אברך בר טוב",
@@ -1016,23 +1477,6 @@
    "target": "תמוז",
    "folder_years": "2025–2026",
    "last_episode": "2026-11-17"
-  },
-  {
-   "group": "הדרך – ערן ברט",
-   "official_name": "הדרך || ערן ברט",
-   "host": "ערן ברט",
-   "link": "https://podcasts.apple.com/il/podcast/%D7%94%D7%93%D7%A8%D7%9A-%D7%A2%D7%A8%D7%9F-%D7%91%D7%A8%D7%98/id1601596867",
-   "image": "img/p-1601596867.jpg",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b4/5a/02/b45a02ef-1c27-6197-3739-38403f4442b8/mza_4437895344883109960.jpg/600x600bb.jpg",
-   "itunes_id": 1601596867,
-   "confidence": "high",
-   "why": "'הדרך || ערן ברט'",
-   "dropbox_folders": [
-    "Eran Bert - Haderech Podcast (+6)"
-   ],
-   "target": "תמוז",
-   "folder_years": "2024–2026",
-   "last_episode": "2026-07-25"
   },
   {
    "group": "אלקטרה נדל״ן",
@@ -1120,23 +1564,6 @@
    "last_episode": "2025-12-10"
   },
   {
-   "group": "סיגל כהנא",
-   "official_name": "הקול בראש שלך\" -עם סיגל כהנא\"",
-   "host": "סיגל כהנא",
-   "link": "https://podcasts.apple.com/il/podcast/%D7%94%D7%A7%D7%95%D7%9C-%D7%91%D7%A8%D7%90%D7%A9-%D7%A9%D7%9C%D7%9A-%D7%A2%D7%9D-%D7%A1%D7%99%D7%92%D7%9C-%D7%9B%D7%94%D7%A0%D7%90/id1753049369",
-   "image": "img/p-1753049369.jpg",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/46/07/65/4607651a-b16d-75bd-4466-7b2ba289cfe5/mza_15270228507159468255.jpg/600x600bb.jpg",
-   "itunes_id": 1753049369,
-   "confidence": "medium",
-   "why": "'הקול בראש שלך' של סיגל כהנא. יש לה גם את 'כהנא צדקה' (TOX10)",
-   "dropbox_folders": [
-    "Sigal Kahana Podcast (A, B)"
-   ],
-   "target": "תמוז",
-   "folder_years": "2024–2025",
-   "last_episode": "2025-08-20"
-  },
-  {
    "group": "Tomer Reiser",
    "official_name": "ETALKS - מדברים איקומרס",
    "host": "תומר רייזר",
@@ -1203,23 +1630,6 @@
    "target": "תמוז",
    "folder_years": "2023–2024",
    "last_episode": "2025-05-28"
-  },
-  {
-   "group": "יותם גרוס – תעלו לאוטו",
-   "official_name": "המדריך לטרמפיסט בתעשיית ההייטק",
-   "host": "Yotam Gross & Avichai Haim Pour",
-   "link": "https://podcasts.apple.com/il/podcast/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9A-%D7%9C%D7%98%D7%A8%D7%9E%D7%A4%D7%99%D7%A1%D7%98-%D7%91%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%AA-%D7%94%D7%94%D7%99%D7%99%D7%98%D7%A7/id1694175279",
-   "image": "img/p-1694175279.jpg",
-   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/4b/08/0a/4b080a43-67e6-ac90-6517-8b9659eaac63/mza_1995903777824783814.jpg/600x600bb.jpg",
-   "itunes_id": 1694175279,
-   "confidence": "medium",
-   "why": "'המדריך לטרמפיסט בתעשיית ההייטק' של יותם גרוס (גם השם 'תעלו לאוטו' רומז לטרמפים)",
-   "dropbox_folders": [
-    "Yotam Gross - Taalu Laoto Podcast"
-   ],
-   "target": "תמוז",
-   "folder_years": "2023–2024",
-   "last_episode": "2026-02-11"
   },
   {
    "group": "Ruby Capital",
@@ -1290,7 +1700,7 @@
    "last_episode": "2025-11-21"
   }
  ],
- "podcasts_not_found": [
+ "podcasts_not_found_dropped": [
   {
    "name": "Permit",
    "dropbox_folders": [
@@ -1299,15 +1709,6 @@
    "status": "not found",
    "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. חיפוש Permit / Permit.io באפל פודקאסטס: אין פודקאסט שמתאים",
    "folder_years": "2023–2024"
-  },
-  {
-   "name": "לצאת מאזור הנוחות",
-   "dropbox_folders": [
-    "Latzet Meezor Hanechut Podcast"
-   ],
-   "status": "not found",
-   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא באפל פודקאסטס ולא בחיפוש ברשת",
-   "folder_years": "2026"
   },
   {
    "name": "Place IL",
@@ -1337,63 +1738,9 @@
    "folder_years": "2022–2023"
   },
   {
-   "name": "שי אור (כולל ספר שמע)",
-   "dropbox_folders": [
-    "Shai Or Podcast / Audiobook (+5)"
-   ],
-   "status": "not found",
-   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא באפל פודקאסטס ולא בחיפוש ברשת",
-   "folder_years": "2025–2026"
-  },
-  {
-   "name": "הייזמים החדשים",
-   "dropbox_folders": [
-    "Hayazamim Hachadashim Podcast (A–C)"
-   ],
-   "status": "not found",
-   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. הפודקאסט רשום ב-Rephonic (ישראל), אבל לא נמצא באפל פודקאסטס ולא הצלחתי לשלוף תמונה",
-   "folder_years": "2024"
-  },
-  {
-   "name": "ישראל בלכמן / Cydome",
-   "dropbox_folders": [
-    "Israel Blechman Cydome Podcast"
-   ],
-   "status": "not found",
-   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא באפל פודקאסטס ולא בחיפוש ברשת",
-   "folder_years": "2023–2024"
-  },
-  {
    "name": "Efrat Music Therapy",
    "dropbox_folders": [
     "Efrat Music Therapy Podcast Edit"
-   ],
-   "status": "not found",
-   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא",
-   "folder_years": "2023–2025"
-  },
-  {
-   "name": "Benda Prod – Space Podcast",
-   "dropbox_folders": [
-    "Benda Prod - Space Podcast (+2)"
-   ],
-   "status": "not found",
-   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא",
-   "folder_years": "2024"
-  },
-  {
-   "name": "ליאור זהבי",
-   "dropbox_folders": [
-    "Lior Zehavi Podcast"
-   ],
-   "status": "not found",
-   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא",
-   "folder_years": "2025–2026"
-  },
-  {
-   "name": "קרן החוט המקשר",
-   "dropbox_folders": [
-    "Keren Hachut Hamekasher Podcast"
    ],
    "status": "not found",
    "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא",
