@@ -70,7 +70,9 @@ link = lambda slug: "/" + (slug or "")
 def latin_for(slug):
     return SECTION_OF[slug][2] if slug in SECTION_OF else LATIN.get(slug, "Tamuz Studios")
 
-COVERS = CREDITS  # (path, artist, title), approved by Raz
+from cover_order import arrange
+COVERS = arrange(CREDITS)  # (path, artist, title), approved by Raz; order: cover_order.py
+PRODUCED = arrange(PRODUCED, cols=())  # a one-row marquee: only side-by-side matters
 
 TOPICS = [("הקלטה ומיקס", "rec"), ("פודקאסט", "pod"), ("הפקה מוזיקלית", "prod"), ("משהו אחר", "")]
 TOPIC_OF = {"recording-studio-tel-aviv": "rec", "podcast-recording": "pod", "music-production": "prod"}
@@ -170,7 +172,7 @@ def hub_page(slug):
 </section>""" + cta_band(slug)
     tiles = "".join(f'<a class="tile" href="{link(s)}"><span class="tile-im" style="--img:url(\'{G(PHOTO.get(s) or PHOTO[slug], True)}\')"></span><span class="tile-t">{PAGES[s]["title"]}</span><span class="tile-go" aria-hidden="true">←</span></a>' for s in lst if s != slug)
     proof = {
-        "recording-studio-tel-aviv": f'<div class="sh"><h2 class="sec-h">העבודות שלנו</h2></div><div class="covers">{covers()}</div>',
+        "recording-studio-tel-aviv": f'<div class="sh"><h2 class="sec-h">חלק מהעבודות שלנו</h2></div><div class="covers">{covers()}</div>',
         "music-production": f'<div class="sh"><h2 class="sec-h">רז בורג</h2></div><p class="muted narrowp">מפיק מוזיקלי, נגן ומעצב סאונד, הבעלים של האולפן. עבודות הפקה נבחרות באתר האישי: <a href="https://www.razburg.com">razburg.com</a></p>{marquee(prod_covers(), "covers-mq", 160)}',
     }[slug]
     return page_hero(p, "", slug, INTRO.get(slug)) + f"""
