@@ -208,7 +208,7 @@ def home():
         worlds += f"""<section class="world{" flip" if n % 2 else ""}"><a class="w-ph" href="{link(top)}" style="--img:url('{G(ph)}')" aria-label="{he}"></a>
   <div class="w-tx"><h2>{he}</h2><ul>{"".join(f"<li>{x}</li>" for x in items)}</ul>{extra}<a class="more" href="{link(top)}">{he} בתמוז <span aria-hidden="true">←</span></a></div></section>"""
     return f"""<header class="hero"><div class="h-fade" aria-hidden="true">{col}</div>
-  <div class="h-text"><h1 class="h-logo"><img src="/img/logo-white.png" alt="Tamuz Studios" width="900" height="220"></h1>
+  <div class="h-text"><h1 class="h-logo"><img src="/img/logo-white.png" alt="Tamuz Studios תמוז אולפן הקלטות ואולפן פודקאסטים בתל אביב" width="900" height="220"></h1>
   <p class="h-claim">סאונד בלי פשרות. בכל תחום.</p><p class="h-sub">הקלטה ומיקס · פודקאסטים ומדיה · הפקה מוזיקלית</p></div>
 </header>
 <nav class="index" aria-label="התחומים שלנו">{idx}</nav>
@@ -216,7 +216,7 @@ def home():
 <section class="block about-b"><div class="wrap about">
   <div class="about-im" style="--img:url('{G("fb-043e", True)}')" role="img" aria-label="חדר הבקרה של האולפן"></div>
   <div class="prose"><h2 class="sec-h">על האולפן</h2>
-  <p>אולפני תמוז הוקמו בשנת 2004, והחל משנת 2006 הם בבעלותו ובניהולו של רז בורג, מפיק מוזיקלי, טכנאי ומעצב סאונד, שמנהל יחד עם צוות האולפן את הסשנים השונים.</p>
+  <p>אולפני תמוז, אולפן הקלטות ואולפן פודקאסטים בצפון תל אביב, הוקמו בשנת 2004, והחל משנת 2006 הם בבעלותו ובניהולו של רז בורג, מפיק מוזיקלי, טכנאי ומעצב סאונד, שמנהל יחד עם צוות האולפן את הסשנים השונים.</p>
   <p>האולפן תוכנן בקפידה, והאקוסטיקה שלו מאפשרת הקלטות מכל הסוגים, לצד סטים מעוצבים להקלטה וצילום של פודקאסטים ולשידורים מהאולפן.</p>
   <p>כאן אפשר להכיר את רז בורג ואת העבודות שלו: <a href="https://www.razburg.com">razburg.com</a></p></div>
 </div></section>
