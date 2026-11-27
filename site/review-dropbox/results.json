@@ -1,0 +1,1421 @@
+{
+ "generated": "2026-11-27",
+ "note": "Preview for Raz's approval only. Links are Apple Music / Apple Podcasts (Spotify search needs an API key that is not available here).",
+ "music": [
+  {
+   "group": "Lucy Parker",
+   "artist": "Lucy Parker",
+   "title": "עד ששוב",
+   "year": "2024",
+   "link": "https://music.apple.com/il/album/%D7%A2%D7%93-%D7%A9%D7%A9%D7%95%D7%91/1782731394",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/34/64/f9346472-72d6-8270-efad-e1eaf3f62d71/artwork.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1782731394,
+   "release_type": "Album",
+   "image": "img/m-1782731394.jpg",
+   "confidence": "high",
+   "why": "האלבום כולל את איפה הרוח, אין זמן, משיח וילד צמר גפן, ארבעה משמות התיקיות",
+   "dropbox_folders": [
+    "Lucy Parker - Eifo Haruach",
+    "Lucy Parker - Ein Zman",
+    "Lucy Parker - Mashiach",
+    "Lucy Parker - Yeled Tsemer Gefen"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2022–2024"
+  },
+  {
+   "group": "Lucy Parker",
+   "artist": "Lucy Parker",
+   "title": "דמותה של המדינה",
+   "year": "2023",
+   "link": "https://music.apple.com/il/album/%D7%93%D7%9E%D7%95%D7%AA%D7%94-%D7%A9%D7%9C-%D7%94%D7%9E%D7%93%D7%99%D7%A0%D7%94-single/1705863650",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c0/21/55/c02155d2-a2d7-c971-3c3f-53c69188b276/artwork.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1705863650,
+   "release_type": "Single",
+   "image": "img/m-1705863650.jpg",
+   "confidence": "medium",
+   "why": "התיקייה 'Partsufa Shel Hamdina' והסינגל נקרא 'דמותה של המדינה': אותה אמנית ואותה תקופה, אבל השם שונה מעט",
+   "dropbox_folders": [
+    "Lucy Parker - Partsufa Shel Hamdina"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2022–2024"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "As Good As It Gets",
+   "year": "2025",
+   "link": "https://music.apple.com/il/album/as-good-as-it-gets-single/1825553655",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/28/11/0d28112b-ecbb-d9d1-f8c5-538511e45edd/artwork.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1825553655,
+   "release_type": "Single",
+   "image": "img/m-1825553655.jpg",
+   "confidence": "high",
+   "why": "שם הסינגל זהה לשם התיקייה",
+   "dropbox_folders": [
+    "Ofir Lessel - As Good As It Gets"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2023–2026"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "Just Say It",
+   "year": "2025",
+   "link": "https://music.apple.com/il/album/just-say-it-single/1832620134",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/98/46/50/98465098-4f56-0f7a-d26f-a89f29414128/artwork.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1832620134,
+   "release_type": "Single",
+   "image": "img/m-1832620134.jpg",
+   "confidence": "high",
+   "why": "שם הסינגל זהה לשם התיקייה",
+   "dropbox_folders": [
+    "Ofir Lessel - Just Say It"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2023–2026"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "Time Machine",
+   "year": "2025",
+   "link": "https://music.apple.com/il/album/time-machine-single/1856109368",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/9d/34/ea9d3447-a55a-a2db-5985-e535d19a4510/artwork.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1856109368,
+   "release_type": "Single",
+   "image": "img/m-1856109368.jpg",
+   "confidence": "high",
+   "why": "שם הסינגל זהה לשם התיקייה",
+   "dropbox_folders": [
+    "Ofir Lessel - Time Machine"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2023–2026"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "War Is Coming",
+   "year": "2026",
+   "link": "https://music.apple.com/il/album/war-is-coming-single/6774354582",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4b/8d/f7/4b8df798-d420-5d76-185a-ebf23f299f49/artwork.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 6774354582,
+   "release_type": "Single",
+   "image": "img/m-6774354582.jpg",
+   "confidence": "high",
+   "why": "שם הסינגל זהה לשם התיקייה",
+   "dropbox_folders": [
+    "Ofir Lessel - War Is Coming"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2023–2026"
+  },
+  {
+   "group": "Ofir Lessel",
+   "artist": "Ofir Lessel",
+   "title": "Darkness",
+   "year": "2026",
+   "link": "https://music.apple.com/il/album/darkness-single/6787323130",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/3f/8a/ca3f8a14-2905-2c88-9de6-80b86301d274/artwork.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 6787323130,
+   "release_type": "Single",
+   "image": "img/m-6787323130.jpg",
+   "confidence": "high",
+   "why": "שם הסינגל זהה לשם התיקייה",
+   "dropbox_folders": [
+    "Ofir Lessel - Darkness"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2023–2026"
+  },
+  {
+   "group": "Udi Wahrsager",
+   "artist": "Udi Wahrsager",
+   "title": "Epilogue (In Memory of Arik Rudich)",
+   "year": "2026",
+   "link": "https://music.apple.com/il/album/epilogue-in-memory-of-arik-rudich-single/6838733828",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/45/b3/ef45b3ba-00f8-f2cc-665e-f92599363bad/artwork.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 6838733828,
+   "release_type": "Single",
+   "image": "img/m-6838733828.jpg",
+   "confidence": "high",
+   "why": "שם הסינגל זהה (Epilogue)",
+   "dropbox_folders": [
+    "Udi Warrsager - Epilogue"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2019–2026"
+  },
+  {
+   "group": "Udi Wahrsager",
+   "artist": "Udi Wahrsager",
+   "title": "סלע - עץ השדה",
+   "year": "2026",
+   "link": "https://music.apple.com/il/album/%D7%A1%D7%9C%D7%A2-%D7%A2%D7%A5-%D7%94%D7%A9%D7%93%D7%94-single/6829886907",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/f4/64/a8f464c1-7a60-f3cc-cdc8-ec62d9c31d08/199999760467.png/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 6829886907,
+   "release_type": "Single",
+   "image": "img/m-6829886907.jpg",
+   "confidence": "high",
+   "why": "הסינגל 'סלע' תואם לתיקייה Sela Mix",
+   "dropbox_folders": [
+    "Udi Wahrsager - Sela Mix"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2019–2026"
+  },
+  {
+   "group": "Udi Wahrsager",
+   "artist": "Udi Wahrsager",
+   "title": "Overshoot and Collapse",
+   "year": "2021",
+   "link": "https://music.apple.com/il/album/overshoot-and-collapse-ep/1599911134",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bc/1a/9e/bc1a9e80-e220-8fcf-72cb-516c3041a33e/198001586453.png/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1599911134,
+   "release_type": "EP",
+   "image": "img/m-1599911134.jpg",
+   "confidence": "high",
+   "why": "ה-EP כולל את השיר Acceptance",
+   "dropbox_folders": [
+    "Udi Warschager - Acceptance"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2019–2026"
+  },
+  {
+   "group": "Udi Wahrsager",
+   "artist": "Udi Wahrsager",
+   "title": "חלומות שמורים (feat. גלעד שפירא)",
+   "year": "2020",
+   "link": "https://music.apple.com/il/album/%D7%97%D7%9C%D7%95%D7%9E%D7%95%D7%AA-%D7%A9%D7%9E%D7%95%D7%A8%D7%99%D7%9D-feat-%D7%92%D7%9C%D7%A2%D7%93-%D7%A9%D7%A4%D7%99%D7%A8%D7%90-single/1511023408",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fc/c7/fa/fcc7fa14-a5b2-8479-5761-f588ab49ebb3/0923ea69-6392-4820-af78-81ddcc973282.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1511023408,
+   "release_type": "Single",
+   "image": "img/m-1511023408.jpg",
+   "confidence": "low",
+   "why": "סינגל מ-2020 שנמצא בטווח השנים, אבל אין שם תיקייה שמתאים לו (Recording Session כללי)",
+   "dropbox_folders": [
+    "Udi Wahrsager Recording Session"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2019–2026"
+  },
+  {
+   "group": "Ruchama Raz",
+   "artist": "Ruhama Raz",
+   "title": "פיסת שמים (feat. מקהלת מורן)",
+   "year": "2017",
+   "link": "https://music.apple.com/il/album/%D7%A4%D7%99%D7%A1%D7%AA-%D7%A9%D7%9E%D7%99%D7%9D-feat-%D7%9E%D7%A7%D7%94%D7%9C%D7%AA-%D7%9E%D7%95%D7%A8%D7%9F/1247868695",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/6e/63/25/6e6325a7-a3b1-34e8-7211-cb28e8a4d48b/191773370527.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1247868695,
+   "release_type": "Album",
+   "image": "img/m-1247868695.jpg",
+   "confidence": "medium",
+   "why": "האלבום (2017) כולל את 'שלג על עירי'. השנה בטווח, אבל רוחמה רז הקליטה את השיר גם ב-1977",
+   "dropbox_folders": [
+    "Ruchama Raz - Sheleg Al Iri"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2016–2021"
+  },
+  {
+   "group": "Ruchama Raz",
+   "artist": "Ruhama Raz",
+   "title": "בלב מולדת קטנה",
+   "year": "2016",
+   "link": "https://music.apple.com/il/album/%D7%91%D7%9C%D7%91-%D7%9E%D7%95%D7%9C%D7%93%D7%AA-%D7%A7%D7%98%D7%A0%D7%94/1181101538",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/bb/3e/50/bb3e5080-42a7-53aa-4ee4-d83e8f895542/191018615826.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1181101538,
+   "release_type": "Album",
+   "image": "img/m-1181101538.jpg",
+   "confidence": "low",
+   "why": "אלבום מ-2016 (שנת התחלת הטווח). אין התאמה לפי שם שיר",
+   "dropbox_folders": [
+    "Ruchama Raz"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2016–2021"
+  },
+  {
+   "group": "Ruchama Raz",
+   "artist": "Ruhama Raz",
+   "title": "חדשה בעיר",
+   "year": "2016",
+   "link": "https://music.apple.com/il/album/%D7%97%D7%93%D7%A9%D7%94-%D7%91%D7%A2%D7%99%D7%A8/1181102293",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/15/24/ec/1524ecaf-e9bd-ec41-12dd-b25c90e5372c/191018615833.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1181102293,
+   "release_type": "Album",
+   "image": "img/m-1181102293.jpg",
+   "confidence": "low",
+   "why": "אלבום מ-2016 (שנת התחלת הטווח). אין התאמה לפי שם שיר",
+   "dropbox_folders": [
+    "Ruchama Raz"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2016–2021"
+  },
+  {
+   "group": "Punch",
+   "artist": "Punch & Yossi Babliki",
+   "title": "דורי (פרה פונץ')",
+   "year": "2022",
+   "link": "https://music.apple.com/il/album/%D7%93%D7%95%D7%A8%D7%99-%D7%A4%D7%A8%D7%94-%D7%A4%D7%95%D7%A0%D7%A5-single/1629301159",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/67/b5/64/67b56400-2565-644d-a9f4-06b4b3cce926/7290117738825.png/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1629301159,
+   "release_type": "Single",
+   "image": "img/m-1629301159.jpg",
+   "confidence": "medium",
+   "why": "סינגל 'דורי' של פונץ' ויוסי בבליקי. שם השיר תואם, אבל ההוצאה מ-2022 והתיקייה מ-2024",
+   "dropbox_folders": [
+    "Punch - Dori"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2024"
+  },
+  {
+   "group": "Punch",
+   "artist": "Punch & Yossi Babliki",
+   "title": "לילה אחד בלוגוס",
+   "year": "2024",
+   "link": "https://music.apple.com/il/album/%D7%9C%D7%99%D7%9C%D7%94-%D7%90%D7%97%D7%93-%D7%91%D7%9C%D7%95%D7%92%D7%95%D7%A1/1750019065",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/0d/12/670d12c3-6813-a107-1bed-d81f8035be1d/7290120737211.png/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1750019065,
+   "release_type": "Album",
+   "image": "img/m-1750019065.jpg",
+   "confidence": "low",
+   "why": "אלבום הופעה של פונץ' מ-2024 (השנה תואמת), אבל 'דורי' ו'כוכב' לא מופיעים בו",
+   "dropbox_folders": [
+    "Punch - Dori",
+    "Punch - Kochav"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2024"
+  },
+  {
+   "group": "Yossi Babliki",
+   "artist": "Yossi Babliki",
+   "title": "האם כבר הגעתי לפה",
+   "year": "2019",
+   "link": "https://music.apple.com/il/album/%D7%94%D7%90%D7%9D-%D7%9B%D7%91%D7%A8-%D7%94%D7%92%D7%A2%D7%AA%D7%99-%D7%9C%D7%A4%D7%94/1491645172",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dc/f1/e1/dcf1e149-06a1-fb66-5020-ca227f79ba94/cover.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1491645172,
+   "release_type": "Album",
+   "image": "img/m-1491645172.jpg",
+   "confidence": "medium",
+   "why": "אלבום מ-2019 (השנה תואמת להקלטות). אין התאמה לפי שם שיר",
+   "dropbox_folders": [
+    "Yossi Babliki Recordings",
+    "Yossi Babliki Brass Session"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2019–2021"
+  },
+  {
+   "group": "Yossi Babliki",
+   "artist": "Yossi Babliki",
+   "title": "אהבה ושמה סוד",
+   "year": "2021",
+   "link": "https://music.apple.com/il/album/%D7%90%D7%94%D7%91%D7%94-%D7%95%D7%A9%D7%9E%D7%94-%D7%A1%D7%95%D7%93-single/1597397145",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a5/85/4a/a5854a09-0abf-cb33-2a5b-eb20d31cf804/cover.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1597397145,
+   "release_type": "Single",
+   "image": "img/m-1597397145.jpg",
+   "confidence": "low",
+   "why": "סינגל מ-2021 שנמצא בטווח",
+   "dropbox_folders": [
+    "Yossi Babliki Recordings"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2019–2021"
+  },
+  {
+   "group": "Yossi Babliki",
+   "artist": "Yossi Babliki",
+   "title": "מלחמה ושלום תשפא",
+   "year": "2021",
+   "link": "https://music.apple.com/il/album/%D7%9E%D7%9C%D7%97%D7%9E%D7%94-%D7%95%D7%A9%D7%9C%D7%95%D7%9D-%D7%AA%D7%A9%D7%A4%D7%90-single/1547795295",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/78/80/74/788074c9-d046-1e92-8567-1db404405612/cover.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1547795295,
+   "release_type": "Single",
+   "image": "img/m-1547795295.jpg",
+   "confidence": "low",
+   "why": "סינגל מ-2021 שנמצא בטווח",
+   "dropbox_folders": [
+    "Yossi Babliki Recordings"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2019–2021"
+  },
+  {
+   "group": "Frube",
+   "artist": "Frube",
+   "title": "Songs for May",
+   "year": "2020",
+   "link": "https://music.apple.com/il/album/songs-for-may/1511331704",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/38/14/73/38147367-ad50-1f53-9035-fc3a03cdaa2c/artwork.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1511331704,
+   "release_type": "Album",
+   "image": "img/m-1511331704.jpg",
+   "confidence": "medium",
+   "why": "אלבום הבכורה של Frube יצא באפריל 2020, אחרי הקלטות האלבום ב-2019. זה האלבום היחיד שלהם",
+   "dropbox_folders": [
+    "Frube Album Recordings"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2019"
+  },
+  {
+   "group": "Efrat & Kalin",
+   "artist": "Efrat Goren",
+   "title": "עשני נהר",
+   "year": "2024",
+   "link": "https://music.apple.com/il/album/%D7%A2%D7%A9%D7%A0%D7%99-%D7%A0%D7%94%D7%A8-single/1785465077",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d4/ae/32/d4ae325e-5281-28da-2b7f-8ee51072dd81/199066241196.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1785465077,
+   "release_type": "Single",
+   "image": "img/m-1785465077.jpg",
+   "confidence": "high",
+   "why": "השיר יצא בשם אפרת גורן. 'עשני נהר' תואם לתיקייה",
+   "dropbox_folders": [
+    "Efrat & Kalin - Aseni Nahar Mix"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2017–2025"
+  },
+  {
+   "group": "Efrat & Kalin",
+   "artist": "Efrat Goren",
+   "title": "דף חלק",
+   "year": "2025",
+   "link": "https://music.apple.com/il/album/%D7%93%D7%A3-%D7%97%D7%9C%D7%A7-single/1831018648",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/49/99/36499911-8f69-73a2-4e55-bc7937d6b233/199538457490.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1831018648,
+   "release_type": "Single",
+   "image": "img/m-1831018648.jpg",
+   "confidence": "high",
+   "why": "'דף חלק' של אפרת גורן",
+   "dropbox_folders": [
+    "Efrat & Kalin - Daf Halak Mix"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2017–2025"
+  },
+  {
+   "group": "Efrat & Kalin",
+   "artist": "Efrat Goren",
+   "title": "אותך לשמור כאן",
+   "year": "2024",
+   "link": "https://music.apple.com/il/album/%D7%90%D7%95%D7%AA%D7%9A-%D7%9C%D7%A9%D7%9E%D7%95%D7%A8-%D7%9B%D7%90%D7%9F-single/1738879417",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/48/fd/7548fd21-8c4d-4c3b-5a71-b6acc4a40b5a/198391708978.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1738879417,
+   "release_type": "Single",
+   "image": "img/m-1738879417.jpg",
+   "confidence": "high",
+   "why": "'אותך לשמור כאן' של אפרת גורן",
+   "dropbox_folders": [
+    "Efrat & Kalin - Otcha Lishmor Kan Mix"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2017–2025"
+  },
+  {
+   "group": "Efrat & Kalin",
+   "artist": "Efrat Goren",
+   "title": "של מיצרי מעלי",
+   "year": "2024",
+   "link": "https://music.apple.com/il/album/%D7%A9%D7%9C-%D7%9E%D7%99%D7%A6%D7%A8%D7%99-%D7%9E%D7%A2%D7%9C%D7%99-single/1740063996",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/1a/1e/791a1e19-bdae-e952-b201-0ec28ab4cbb0/198391722639.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1740063996,
+   "release_type": "Single",
+   "image": "img/m-1740063996.jpg",
+   "confidence": "high",
+   "why": "'של מיצרי מעלי' של אפרת גורן",
+   "dropbox_folders": [
+    "Efrat & Kalin Shal Meitsarai Meal"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2017–2025"
+  },
+  {
+   "group": "Efrat & Kalin",
+   "artist": "Efrat Goren",
+   "title": "ער בחלום הזה",
+   "year": "2020",
+   "link": "https://music.apple.com/il/album/%D7%A2%D7%A8-%D7%91%D7%97%D7%9C%D7%95%D7%9D-%D7%94%D7%96%D7%94-single/1738878859",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4a/4b/72/4a4b7221-3003-12d1-c40c-fe4e68207864/198391718663.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1738878859,
+   "release_type": "Single",
+   "image": "img/m-1738878859.jpg",
+   "confidence": "high",
+   "why": "'ער בחלום הזה' של אפרת גורן",
+   "dropbox_folders": [
+    "Kalin & Efrat - Er Bachalom Haze Mix"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2017–2025"
+  },
+  {
+   "group": "Efrat & Kalin",
+   "artist": "Efrat Goren",
+   "title": "הביתה אל האור",
+   "year": "2023",
+   "link": "https://music.apple.com/il/album/%D7%94%D7%91%D7%99%D7%AA%D7%94-%D7%90%D7%9C-%D7%94%D7%90%D7%95%D7%A8-single/1738882155",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/66/7d/3d667dea-5844-fb5a-8dba-568fc349482b/198391707742.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1738882155,
+   "release_type": "Single",
+   "image": "img/m-1738882155.jpg",
+   "confidence": "medium",
+   "why": "'הביתה אל האור' מול התיקייה 'Habayta Mix'",
+   "dropbox_folders": [
+    "Efrat & Kalin - Habayta Mix"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2017–2025"
+  },
+  {
+   "group": "Efrat & Kalin",
+   "artist": "Efrat Goren",
+   "title": "בשבילים שלך",
+   "year": "2021",
+   "link": "https://music.apple.com/il/album/%D7%91%D7%A9%D7%91%D7%99%D7%9C%D7%99%D7%9D-%D7%A9%D7%9C%D7%9A-ep/1738879535",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/06/a3/bc06a318-6d1c-7150-6c0b-5c3f1267ae6f/198391634765.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1738879535,
+   "release_type": "EP",
+   "image": "img/m-1738879535.jpg",
+   "confidence": "medium",
+   "why": "EP של אפרת גורן (2021) שכולל את 'ער בחלום הזה'",
+   "dropbox_folders": [
+    "Efrat & Kalin Recordings"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2017–2025"
+  },
+  {
+   "group": "Dorit Reuveni & Dudu Zakai – Haadama Sheli",
+   "artist": "Dorit Reuveni & Dudu Zakai",
+   "title": "האדמה שלי",
+   "year": "2026",
+   "link": "https://music.apple.com/il/album/%D7%94%D7%90%D7%93%D7%9E%D7%94-%D7%A9%D7%9C%D7%99-single/1893051943",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/28/98/fe28981c-ebae-04d1-a178-75e5d4639083/820233052214.jpg/600x600bb.jpg",
+   "source": "itunes",
+   "itunes_id": 1893051943,
+   "release_type": "Single",
+   "image": "img/m-1893051943.jpg",
+   "confidence": "high",
+   "why": "שם הסינגל, האמנים והשנה (2026) תואמים",
+   "dropbox_folders": [
+    "Dorit Reuveni & Dudu Zakai - Haadama Sheli"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2026"
+  },
+  {
+   "group": "Artlist Album 19",
+   "artist": "Raz Burg",
+   "title": "Quantum Leap",
+   "year": "2024",
+   "link": "https://artlist.io/royalty-free-music/album/quantum-leap/11567",
+   "image_source": "https://artlist-albums.imgix.net/images/11567_938476_938476_Raz_Burg_-_Quantum_Leap_-_A.jpg?fit=crop&w=600&h=600&fm=jpg&q=85",
+   "source": "custom",
+   "image": "img/m-quantum-leap.jpg",
+   "confidence": "medium",
+   "why": "הסקה: זה האלבום ה-19 לפי סדר ההוצאה בעמוד האמן של Raz Burg ב-Artlist (20 אלבומים). אין שם על התיקייה, אז צריך שרז יאשר",
+   "dropbox_folders": [
+    "בלי שם בתיקייה"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2023"
+  },
+  {
+   "group": "Matti Caspi – מתי מספר וסויאן שרה",
+   "artist": "מתי כספי (Matti Caspi)",
+   "title": "מתי מספר וסויאן שרה – שירים וסיפורים לילדים",
+   "year": "2015",
+   "link": "https://www.disccenter.co.il/prod/51888",
+   "image_source": "https://www.disccenter.co.il/content/products/prodimage_51888.jpg",
+   "source": "custom",
+   "image": "img/m-matti-caspi-mati-mesaper.jpg",
+   "confidence": "high",
+   "why": "שם האלבום זהה (תוספת של רז). לא נמצא באפל מיוזיק, בדיזר או בספוטיפיי, ולכן הקישור הוא לדף המוצר ב-Disc Center (הפצה: NMC, שנה 2015. מקור אחר מציין 2016)",
+   "dropbox_folders": [
+    "(תוספת של רז, לא מסריקת Dropbox)"
+   ],
+   "target": "לשניהם",
+   "folder_years": "2015",
+   "role": "Recording · Mixing · Mastering"
+  }
+ ],
+ "music_not_found": [
+  {
+   "group": "Ofir Lessel",
+   "dropbox_folders": [
+    "Ofir Lessel - Maybe We Can Try / Fuck You AI Music"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל מיוזיק (36 תוצאות לאמן) ובדיזר: אין שיר בשם הזה, כנראה עדיין לא יצא",
+   "folder_years": "2023–2026"
+  },
+  {
+   "group": "Udi Wahrsager",
+   "dropbox_folders": [
+    "Udi Wahrsager - Walse Mix / Walse Vocal / Live Flute Guitar"
+   ],
+   "status": "not found",
+   "tried": "אין שיר בשם Walse/Valse באפל מיוזיק או בדיזר",
+   "folder_years": "2019–2026"
+  },
+  {
+   "group": "Ruchama Raz",
+   "dropbox_folders": [
+    "Ruchama Raz - Bata Li Baman / Halomot Zafrir"
+   ],
+   "status": "not found",
+   "tried": "חיפוש לפי שם השיר בעברית באפל מיוזיק: לא נמצאה הוצאה של רוחמה רז",
+   "folder_years": "2016–2021"
+  },
+  {
+   "group": "Punch",
+   "dropbox_folders": [
+    "Punch - Kochav"
+   ],
+   "status": "not found",
+   "tried": "אין שיר בשם 'כוכב' בהוצאות של פונץ' באפל מיוזיק",
+   "folder_years": "2024"
+  },
+  {
+   "group": "Ilay / Elay Sahar",
+   "dropbox_folders": [
+    "Ilay Sahar (Keta Sear, Duets, Mastering)"
+   ],
+   "status": "not found",
+   "tried": "חיפשתי את Ilay/Elay Sahar ו'עילאי סהר' באפל מיוזיק, בדיזר ובחיפוש ברשת: לא נמצאו הוצאות",
+   "folder_years": "2024–2026"
+  },
+  {
+   "group": "Chilli Jam",
+   "dropbox_folders": [
+    "Chilli Jam Album 1"
+   ],
+   "status": "not found",
+   "tried": "חיפשתי באפל מיוזיק, בדיזר ובחיפוש ברשת: לא נמצאה להקה ישראלית בשם הזה, רק להקות זרות שאינן קשורות",
+   "folder_years": "2016"
+  },
+  {
+   "group": "Night Shift",
+   "dropbox_folders": [
+    "Night Shift Recordings"
+   ],
+   "status": "not found",
+   "tried": "באפל מיוזיק ובדיזר יש עשרות 'Night Shift' זרים, ולא אותרה הוצאה ישראלית מ-2024",
+   "folder_years": "2024"
+  },
+  {
+   "group": "Soultone",
+   "dropbox_folders": [
+    "Soultone"
+   ],
+   "status": "not found",
+   "tried": "Soultone באפל מיוזיק ובדיזר הוא אמן דרום-אפריקאי שאינו קשור. לא אותרה הוצאה ישראלית",
+   "folder_years": "2020"
+  },
+  {
+   "group": "Ori & Sabia",
+   "dropbox_folders": [
+    "Ori & Sabia - Memories"
+   ],
+   "status": "not found",
+   "tried": "חיפשתי באפל מיוזיק, בדיזר ובחיפוש ברשת: לא נמצא",
+   "folder_years": "2026"
+  },
+  {
+   "group": "Artlist Album 22 – Back To Track",
+   "dropbox_folders": [
+    "Artlist Album 22 - Back To Track"
+   ],
+   "status": "not found",
+   "tried": "עמוד האמן Raz Burg ב-Artlist (artlist.io/royalty-free-music/artist/raz-burg/1002) מציג 20 אלבומים, ואין ביניהם Back To Track. אולי עוד לא יצא או יצא בשם אחר",
+   "folder_years": "2025"
+  },
+  {
+   "group": "Artlist – Strategic Vision",
+   "dropbox_folders": [
+    "Artlist - Strategic Vision"
+   ],
+   "status": "not found",
+   "tried": "האלבום לא מופיע בעמוד האמן ב-Artlist ולא באפל מיוזיק",
+   "folder_years": "2026"
+  }
+ ],
+ "podcasts": [
+  {
+   "group": "קופרמן (Kuperman)",
+   "official_name": "קצת פורקן קצת חום קצת אהבה- הפודקאסט",
+   "host": "אייל גרוספלד ורועי קופרמן",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%A7%D7%A6%D7%AA-%D7%A4%D7%95%D7%A8%D7%A7%D7%9F-%D7%A7%D7%A6%D7%AA-%D7%97%D7%95%D7%9D-%D7%A7%D7%A6%D7%AA-%D7%90%D7%94%D7%91%D7%94-%D7%94%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98/id1785464294",
+   "image": "img/p-1785464294.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3c/f8/3a/3cf83a1e-eb61-a433-a761-e575484b255e/mza_11062656148068307528.jpg/600x600bb.jpg",
+   "itunes_id": 1785464294,
+   "confidence": "low",
+   "why": "פודקאסט שרועי קופרמן מגיש יחד עם אייל גרוספלד (2025, 4 פרקים). אין ודאות שזה אותו קופרמן",
+   "dropbox_folders": [
+    "Kuperman A–C"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023–2026",
+   "last_episode": "2025-08-30"
+  },
+  {
+   "group": "חיה רוזנצוויג",
+   "official_name": "The Business Mindset | Chaya Rosenzweig",
+   "host": "Chaya Rosenzweig | חיה רוזנצוויג",
+   "link": "https://podcasts.apple.com/il/podcast/the-business-mindset-chaya-rosenzweig/id1705001932",
+   "image": "img/p-1705001932.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e5/12/35/e5123599-82b1-b56c-c056-a2f5bc2c574b/mza_1909030347687834623.jpg/600x600bb.jpg",
+   "itunes_id": 1705001932,
+   "confidence": "high",
+   "why": "המגישה חיה רוזנצוויג",
+   "dropbox_folders": [
+    "Haya Rosenzweig Podcast ועוד 6"
+   ],
+   "target": "תמוז",
+   "folder_years": "2024–2025",
+   "last_episode": "2026-11-19"
+  },
+  {
+   "group": "יניב אופק",
+   "official_name": "מנהלים ועובדים על זה || עו״ד יניב אופק",
+   "host": "יניב אופק ושות׳",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%9E%D7%A0%D7%94%D7%9C%D7%99%D7%9D-%D7%95%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D-%D7%A2%D7%9C-%D7%96%D7%94-%D7%A2%D7%95-%D7%93-%D7%99%D7%A0%D7%99%D7%91-%D7%90%D7%95%D7%A4%D7%A7/id1690339474",
+   "image": "img/p-1690339474.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f5/bd/a0/f5bda083-dc9f-d6e0-d2e6-43e3c1a396a8/mza_8996900720413703392.jpg/600x600bb.jpg",
+   "itunes_id": 1690339474,
+   "confidence": "high",
+   "why": "עו\"ד יניב אופק, 2023–2025",
+   "dropbox_folders": [
+    "Yaniv Ofek A–C, Moshe, Sara Meiri"
+   ],
+   "target": "תמוז",
+   "folder_years": "2022–2025",
+   "last_episode": "2025-01-09"
+  },
+  {
+   "group": "שעת יצירה",
+   "official_name": "שעת יצירה עם גינדי ✂️📚",
+   "host": "Valuebell 🔔",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%A9%D7%A2%D7%AA-%D7%99%D7%A6%D7%99%D7%A8%D7%94-%D7%A2%D7%9D-%D7%92%D7%99%D7%A0%D7%93%D7%99/id1694466020",
+   "image": "img/p-1694466020.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2e/85/34/2e8534ef-4736-cd6a-75f9-e0e47b4679fa/mza_2893974090090075196.jpg/600x600bb.jpg",
+   "itunes_id": 1694466020,
+   "confidence": "high",
+   "why": "'שעת יצירה עם גינדי' (Valuebell), 2023",
+   "dropbox_folders": [
+    "Eitan Azaria, Maya Kosover, Ortal Amar, Tsvika Hadar"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023",
+   "last_episode": "2023-09-04"
+  },
+  {
+   "group": "מעשה אדם",
+   "official_name": "מעשה אדם - מנהיגות הומניסטית בעידן דיגיטלי",
+   "host": "בוגרי ובוגרות קרן מנדל",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%9E%D7%A2%D7%A9%D7%94-%D7%90%D7%93%D7%9D-%D7%9E%D7%A0%D7%94%D7%99%D7%92%D7%95%D7%AA-%D7%94%D7%95%D7%9E%D7%A0%D7%99%D7%A1%D7%98%D7%99%D7%AA-%D7%91%D7%A2%D7%99%D7%93%D7%9F-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99/id6797922805",
+   "image": "img/p-6797922805.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/43/a4/dd/43a4dd7d-21f7-7955-cf0c-d7ccbe84179c/mza_16995700096768333149.jpg/600x600bb.jpg",
+   "itunes_id": 6797922805,
+   "confidence": "high",
+   "why": "שם זהה, 2026, בוגרי קרן מנדל",
+   "dropbox_folders": [
+    "Maase Adam Podcast"
+   ],
+   "target": "תמוז",
+   "folder_years": "2026",
+   "last_episode": "2026-09-08"
+  },
+  {
+   "group": "חטיבה 7",
+   "official_name": "שבע קטנות על חטיבה 7",
+   "host": "חטיבה 7, חיל השריון",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%A9%D7%91%D7%A2-%D7%A7%D7%98%D7%A0%D7%95%D7%AA-%D7%A2%D7%9C-%D7%97%D7%98%D7%99%D7%91%D7%94-7/id1696146477",
+   "image": "img/p-1696146477.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/75/31/9d/75319da4-1f3e-4ef4-2fbe-fdc2229b198c/mza_844726126111577967.jpg/600x600bb.jpg",
+   "itunes_id": 1696146477,
+   "confidence": "medium",
+   "why": "'שבע קטנות על חטיבה 7' (2024) מטעם חיל השריון",
+   "dropbox_folders": [
+    "Hativa 7, Itay Daliyot, Uri Segal"
+   ],
+   "target": "תמוז",
+   "folder_years": "2022–2025",
+   "last_episode": "2024-01-11"
+  },
+  {
+   "group": "חטיבה 7",
+   "official_name": "חטיבה 7 - מלחמת חרבות ברזל",
+   "host": "חטיבה 7, חיל השריון",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%97%D7%98%D7%99%D7%91%D7%94-7-%D7%9E%D7%9C%D7%97%D7%9E%D7%AA-%D7%97%D7%A8%D7%91%D7%95%D7%AA-%D7%91%D7%A8%D7%96%D7%9C/id1786124997",
+   "image": "img/p-1786124997.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/31/f6/29/31f629d8-caa3-ffc0-9c41-a168a0364751/mza_16461292471454780877.jpg/600x600bb.jpg",
+   "itunes_id": 1786124997,
+   "confidence": "medium",
+   "why": "'חטיבה 7 – מלחמת חרבות ברזל' (2025), פודקאסט שני של החטיבה",
+   "dropbox_folders": [
+    "Hativa 7, Itay Daliyot, Uri Segal"
+   ],
+   "target": "תמוז",
+   "folder_years": "2022–2025",
+   "last_episode": "2025-03-12"
+  },
+  {
+   "group": "פירמה",
+   "official_name": "Change Matters",
+   "host": "Firma - Stav Milo & Elad Mishan",
+   "link": "https://podcasts.apple.com/il/podcast/change-matters/id1776596932",
+   "image": "img/p-1776596932.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/65/cc/cb/65cccb28-e5f8-b58e-e439-4946af35a3c5/mza_10802859292103382801.jpg/600x600bb.jpg",
+   "itunes_id": 1776596932,
+   "confidence": "medium",
+   "why": "'Change Matters' של Firma (סתיו מילוא ואלעד מישן). השם תואם, אבל לא בטוח שזה אותו פרויקט",
+   "dropbox_folders": [
+    "Firma, Firma Edit, Firma Intro"
+   ],
+   "target": "תמוז",
+   "folder_years": "2024–2025",
+   "last_episode": "2026-01-01"
+  },
+  {
+   "group": "גולדות",
+   "official_name": "גולדות",
+   "host": "גולדות",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%92%D7%95%D7%9C%D7%93%D7%95%D7%AA/id1663662418",
+   "image": "img/p-1663662418.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/25/c4/af/25c4afde-5648-7552-b0eb-73185eff6a26/mza_3703122268877914334.jpg/600x600bb.jpg",
+   "itunes_id": 1663662418,
+   "confidence": "high",
+   "why": "שם זהה, 2023",
+   "dropbox_folders": [
+    "Goldot Podcast A, B"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023",
+   "last_episode": "2023-09-12"
+  },
+  {
+   "group": "איתי בצלאלי",
+   "official_name": "קתרזיס | איתי בצלאלי",
+   "host": "Itay Bezaleli & Valuebell 🔔",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%A7%D7%AA%D7%A8%D7%96%D7%99%D7%A1-%D7%90%D7%99%D7%AA%D7%99-%D7%91%D7%A6%D7%9C%D7%90%D7%9C%D7%99/id1686714275",
+   "image": "img/p-1686714275.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/75/bd/82/75bd828e-6462-cba6-2a75-d0a9d7556d2d/mza_565596814013652598.jpg/600x600bb.jpg",
+   "itunes_id": 1686714275,
+   "confidence": "high",
+   "why": "'קתרזיס' של איתי בצלאלי ו-Valuebell, 2023",
+   "dropbox_folders": [
+    "Aliya, Netta"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023",
+   "last_episode": "2023-07-23"
+  },
+  {
+   "group": "קרן מנדל",
+   "official_name": "מעשה אדם - מנהיגות הומניסטית בעידן דיגיטלי",
+   "host": "בוגרי ובוגרות קרן מנדל",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%9E%D7%A2%D7%A9%D7%94-%D7%90%D7%93%D7%9D-%D7%9E%D7%A0%D7%94%D7%99%D7%92%D7%95%D7%AA-%D7%94%D7%95%D7%9E%D7%A0%D7%99%D7%A1%D7%98%D7%99%D7%AA-%D7%91%D7%A2%D7%99%D7%93%D7%9F-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99/id6797922805",
+   "image": "img/p-6797922805.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/43/a4/dd/43a4dd7d-21f7-7955-cf0c-d7ccbe84179c/mza_16995700096768333149.jpg/600x600bb.jpg",
+   "itunes_id": 6797922805,
+   "confidence": "medium",
+   "why": "כנראה 'מעשה אדם' של בוגרי קרן מנדל (2026). לקרן יש גם את 'קולות מהנגב' (2024)",
+   "dropbox_folders": [
+    "Keren Mandel Podcast A, B"
+   ],
+   "target": "תמוז",
+   "folder_years": "2026",
+   "last_episode": "2026-09-08"
+  },
+  {
+   "group": "איתן עזריה",
+   "official_name": "הביולוגיה של הווינרים",
+   "host": "איתן עזריה I אימון מנטלי להישגים",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%94%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94-%D7%A9%D7%9C-%D7%94%D7%95%D7%95%D7%99%D7%A0%D7%A8%D7%99%D7%9D/id1459790231",
+   "image": "img/p-1459790231.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/79/1e/9a791e0d-92e5-d51f-a05c-84fb48f4ad74/mza_14961158613021967793.jpg/600x600bb.jpg",
+   "itunes_id": 1459790231,
+   "confidence": "medium",
+   "why": "'הביולוגיה של הווינרים' של איתן עזריה. פודקאסט ותיק, וההקלטות ב-2023 היו כנראה פרקים בודדים",
+   "dropbox_folders": [
+    "Eitan Azaria A, B"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023",
+   "last_episode": "2026-11-02"
+  },
+  {
+   "group": "אבי כהן לוטוס",
+   "official_name": "סטודיו לקומדיה | פודקאסט על הומור",
+   "host": "אבי כהן, לוטוס אתרוג",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95-%D7%9C%D7%A7%D7%95%D7%9E%D7%93%D7%99%D7%94-%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98-%D7%A2%D7%9C-%D7%94%D7%95%D7%9E%D7%95%D7%A8/id1801213847",
+   "image": "img/p-1801213847.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f5/48/25/f548251d-537b-cb6f-fb35-7bba56d6239d/mza_5206642431595833370.jpg/600x600bb.jpg",
+   "itunes_id": 1801213847,
+   "confidence": "high",
+   "why": "'סטודיו לקומדיה' של אבי כהן ולוטוס אתרוג",
+   "dropbox_folders": [
+    "Avi Cohen Lotus Podcast"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023–2024",
+   "last_episode": "2025-03-09"
+  },
+  {
+   "group": "בינה אנושית",
+   "official_name": "בינה אנושית - הפודקאסט",
+   "host": "binaenoshit",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%91%D7%99%D7%A0%D7%94-%D7%90%D7%A0%D7%95%D7%A9%D7%99%D7%AA-%D7%94%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98/id1858363229",
+   "image": "img/p-1858363229.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/10/34/3c/10343cbd-47d6-d96d-1c95-f219d63b42e6/mza_11351326147380356419.jpg/600x600bb.jpg",
+   "itunes_id": 1858363229,
+   "confidence": "high",
+   "why": "'בינה אנושית – הפודקאסט'",
+   "dropbox_folders": [
+    "Bina Enoshit"
+   ],
+   "target": "תמוז",
+   "folder_years": "2024–2025",
+   "last_episode": "2026-11-02"
+  },
+  {
+   "group": "הומניזם דיגיטלי",
+   "official_name": "מעשה אדם - מנהיגות הומניסטית בעידן דיגיטלי",
+   "host": "בוגרי ובוגרות קרן מנדל",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%9E%D7%A2%D7%A9%D7%94-%D7%90%D7%93%D7%9D-%D7%9E%D7%A0%D7%94%D7%99%D7%92%D7%95%D7%AA-%D7%94%D7%95%D7%9E%D7%A0%D7%99%D7%A1%D7%98%D7%99%D7%AA-%D7%91%D7%A2%D7%99%D7%93%D7%9F-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C%D7%99/id6797922805",
+   "image": "img/p-6797922805.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/43/a4/dd/43a4dd7d-21f7-7955-cf0c-d7ccbe84179c/mza_16995700096768333149.jpg/600x600bb.jpg",
+   "itunes_id": 6797922805,
+   "confidence": "medium",
+   "why": "תת-הכותרת של 'מעשה אדם' היא 'מנהיגות הומניסטית בעידן דיגיטלי' (2026)",
+   "dropbox_folders": [
+    "Humanizem Digitali"
+   ],
+   "target": "תמוז",
+   "folder_years": "2026",
+   "last_episode": "2026-09-08"
+  },
+  {
+   "group": "שימו לב",
+   "official_name": "שימו לב | פודקאסט מציל חיים",
+   "host": "המערך הקרדיולוגי - איכילוב",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%A9%D7%99%D7%9E%D7%95-%D7%9C%D7%91-%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98-%D7%9E%D7%A6%D7%99%D7%9C-%D7%97%D7%99%D7%99%D7%9D/id1765314897",
+   "image": "img/p-1765314897.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/73/7d/68/737d681a-23a5-8282-2e95-19363775d0a1/mza_14122092802133535038.jpg/600x600bb.jpg",
+   "itunes_id": 1765314897,
+   "confidence": "medium",
+   "why": "'שימו לב | פודקאסט מציל חיים' של המערך הקרדיולוגי באיכילוב, 2025",
+   "dropbox_folders": [
+    "Simu Lev"
+   ],
+   "target": "תמוז",
+   "folder_years": "2024–2025",
+   "last_episode": "2025-07-13"
+  },
+  {
+   "group": "שלי ורוד",
+   "official_name": "100 by Dr Ido and Shelly",
+   "host": "Dr Ido Sirota & Shelly Varod",
+   "link": "https://podcasts.apple.com/il/podcast/100-by-dr-ido-and-shelly/id1789763269",
+   "image": "img/p-1789763269.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c0/60/39/c0603914-953d-9aff-4ba5-5d759b38edd0/mza_1542679757959899027.jpg/600x600bb.jpg",
+   "itunes_id": 1789763269,
+   "confidence": "medium",
+   "why": "'100 by Dr Ido and Shelly' (שלי ורוד וד\"ר עידו סירוטה, 2024). פרק אחד כנראה ב'האופטימייזר' של גיא קצוביץ'",
+   "dropbox_folders": [
+    "Shelly Varod (אחד מהם תחת האופטימייזר)"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023–2024",
+   "last_episode": "2024-12-17"
+  },
+  {
+   "group": "טל בשן",
+   "official_name": "סליחה, זה לא מה שהזמנתי",
+   "host": "בית הספר למנהיגות תודעתית - טל בשן",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%A1%D7%9C%D7%99%D7%97%D7%94-%D7%96%D7%94-%D7%9C%D7%90-%D7%9E%D7%94-%D7%A9%D7%94%D7%96%D7%9E%D7%A0%D7%AA%D7%99/id1502562619",
+   "image": "img/p-1502562619.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/a6/38/f1/a638f1f5-528e-b33f-ce12-f418cfe10dc2/mza_18369245870215621985.jpg/600x600bb.jpg",
+   "itunes_id": 1502562619,
+   "confidence": "medium",
+   "why": "'סליחה, זה לא מה שהזמנתי' של טל בשן",
+   "dropbox_folders": [
+    "Tal Bashan (אחד מהם תחת האופטימייזר)"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023–2024",
+   "last_episode": "2026-08-09"
+  },
+  {
+   "group": "עולם הירושה – Olam Hayerusha",
+   "official_name": "עולם הירושה",
+   "host": "עו\"ד מנחם פשיטיצקי ועו\"ד בת שבע אברך בר טוב",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%A2%D7%95%D7%9C%D7%9D-%D7%94%D7%99%D7%A8%D7%95%D7%A9%D7%94/id1615745322",
+   "image": "img/p-1615745322.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/ff/e8/cf/ffe8cf3e-7ffb-51a3-42c6-46eca2bb6daa/mza_10293386750982128183.jpg/600x600bb.jpg",
+   "itunes_id": 1615745322,
+   "confidence": "high",
+   "why": "שם זהה, עו\"ד מנחם פשיטיצקי",
+   "dropbox_folders": [
+    "Olam Hayerusha Podcast (25 תיקיות)"
+   ],
+   "target": "תמוז",
+   "folder_years": "2022–2023",
+   "last_episode": "2026-09-19"
+  },
+  {
+   "group": "רכבת ההשקעות (מרכז הנדל״ן)",
+   "official_name": "רכבת ההשקעות",
+   "host": "Capital Summit",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%A8%D7%9B%D7%91%D7%AA-%D7%94%D7%94%D7%A9%D7%A7%D7%A2%D7%95%D7%AA/id1809205490",
+   "image": "img/p-1809205490.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/PodcastSource221/v4/08/ff/8f/08ff8fa6-f0cd-5540-f82e-65b9062b00a8/2934c35e-af16-486a-bcbc-749430841173.jpg/600x600bb.jpg",
+   "itunes_id": 1809205490,
+   "confidence": "high",
+   "why": "שם זהה, ומרכז הנדל\"ן מוזכר בתיאורי הפרקים",
+   "dropbox_folders": [
+    "Merkaz Hanadlan Rakevet Hahashkaot (+4)"
+   ],
+   "target": "תמוז",
+   "folder_years": "2025–2026",
+   "last_episode": "2026-11-17"
+  },
+  {
+   "group": "הדרך – ערן ברט",
+   "official_name": "הדרך || ערן ברט",
+   "host": "ערן ברט",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%94%D7%93%D7%A8%D7%9A-%D7%A2%D7%A8%D7%9F-%D7%91%D7%A8%D7%98/id1601596867",
+   "image": "img/p-1601596867.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b4/5a/02/b45a02ef-1c27-6197-3739-38403f4442b8/mza_4437895344883109960.jpg/600x600bb.jpg",
+   "itunes_id": 1601596867,
+   "confidence": "high",
+   "why": "'הדרך || ערן ברט'",
+   "dropbox_folders": [
+    "Eran Bert - Haderech Podcast (+6)"
+   ],
+   "target": "תמוז",
+   "folder_years": "2024–2026",
+   "last_episode": "2026-07-25"
+  },
+  {
+   "group": "אלקטרה נדל״ן",
+   "official_name": "אלקטרה נדל\"ן - הפודקסט",
+   "host": "אלקטרה נדל\"ן ELECTRA REAL ESTATE",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%94-%D7%A0%D7%93%D7%9C-%D7%9F-%D7%94%D7%A4%D7%95%D7%93%D7%A7%D7%A1%D7%98/id1679774463",
+   "image": "img/p-1679774463.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/c7/e9/59/c7e95980-feb1-72ee-e23a-9405662ff19b/mza_8068336413261636659.jpg/600x600bb.jpg",
+   "itunes_id": 1679774463,
+   "confidence": "high",
+   "why": "'אלקטרה נדל\"ן – הפודקסט'",
+   "dropbox_folders": [
+    "Electra Nadlan Podcast (+2)"
+   ],
+   "target": "תמוז",
+   "folder_years": "2024–2026",
+   "last_episode": "2026-01-20"
+  },
+  {
+   "group": "גיל המעבר",
+   "official_name": "גיל המעבר: להרגיש טוב וּמֵעֵבֶר - עם מיכל גרשוביץ על תזונה רגש ומחשבה",
+   "host": "CBT מיכל גרשוביץ דיאטנית, מרצה, ביוכימיאית ומטפלת בגישת ה",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%92%D7%99%D7%9C-%D7%94%D7%9E%D7%A2%D7%91%D7%A8-%D7%9C%D7%94%D7%A8%D7%92%D7%99%D7%A9-%D7%98%D7%95%D7%91-%D7%95-%D7%9E-%D7%A2-%D7%91-%D7%A8-%D7%A2%D7%9D-%D7%9E%D7%99%D7%9B%D7%9C-%D7%92%D7%A8%D7%A9%D7%95%D7%91%D7%99%D7%A5-%D7%A2%D7%9C-%D7%AA%D7%96%D7%95%D7%A0%D7%94/id1773415293",
+   "image": "img/p-1773415293.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f7/73/20/f77320d8-f668-b347-f708-41233a8f9e07/mza_5558635328452820272.jpg/600x600bb.jpg",
+   "itunes_id": 1773415293,
+   "confidence": "low",
+   "why": "יש כמה פודקאסטים על גיל המעבר. זה של מיכל גרשוביץ הוא הפעיל ב-2025–2026, אבל לא ודאי",
+   "dropbox_folders": [
+    "Gil Hameever (+3)"
+   ],
+   "target": "תמוז",
+   "folder_years": "2025–2026",
+   "last_episode": "2026-11-17"
+  },
+  {
+   "group": "לירן בראל",
+   "official_name": "ילדים מצליחים במגרש החיים",
+   "host": "Liran Barel",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%99%D7%9C%D7%93%D7%99%D7%9D-%D7%9E%D7%A6%D7%9C%D7%99%D7%97%D7%99%D7%9D-%D7%91%D7%9E%D7%92%D7%A8%D7%A9-%D7%94%D7%97%D7%99%D7%99%D7%9D/id1674041019",
+   "image": "img/p-1674041019.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e8/ed/30/e8ed306f-e44c-bde2-bd8e-9e68b104a75e/mza_5184336544535349124.jpg/600x600bb.jpg",
+   "itunes_id": 1674041019,
+   "confidence": "high",
+   "why": "'ילדים מצליחים במגרש החיים' של לירן בראל, 2023–2024",
+   "dropbox_folders": [
+    "Liran Barel Podcast (+13)"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023–2024",
+   "last_episode": "2024-02-22"
+  },
+  {
+   "group": "תוצרת הארץ",
+   "official_name": "תוצרת הארץ",
+   "host": "תוצרת הארץ",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%AA%D7%95%D7%A6%D7%A8%D7%AA-%D7%94%D7%90%D7%A8%D7%A5/id1693336038",
+   "image": "img/p-1693336038.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/dc/b4/e9/dcb4e953-4be5-f91a-a1e3-5115b7e37fb0/mza_1454214701185705358.jpg/600x600bb.jpg",
+   "itunes_id": 1693336038,
+   "confidence": "high",
+   "why": "שם זהה, 2023–2024",
+   "dropbox_folders": [
+    "Tozeret Haaretz Podcast"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023–2024",
+   "last_episode": "2024-07-08"
+  },
+  {
+   "group": "קריירה זה כל הסיפור – ענת מטלון",
+   "official_name": "קריירה זה קול הסיפור",
+   "host": "ayellettadam",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94-%D7%96%D7%94-%D7%A7%D7%95%D7%9C-%D7%94%D7%A1%D7%99%D7%A4%D7%95%D7%A8/id1650119495",
+   "image": "img/p-1650119495.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/58/59/e3/5859e3be-d1ad-5fda-32d2-360c168c8063/mza_10100534643884246604.jpg/600x600bb.jpg",
+   "itunes_id": 1650119495,
+   "confidence": "high",
+   "why": "'קריירה זה קול הסיפור'. בפיד מופיעה ענת רונאל מטלון",
+   "dropbox_folders": [
+    "Anat Matalon - Karyera Podcast (+2)"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023–2025",
+   "last_episode": "2025-12-10"
+  },
+  {
+   "group": "סיגל כהנא",
+   "official_name": "הקול בראש שלך\" -עם סיגל כהנא\"",
+   "host": "סיגל כהנא",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%94%D7%A7%D7%95%D7%9C-%D7%91%D7%A8%D7%90%D7%A9-%D7%A9%D7%9C%D7%9A-%D7%A2%D7%9D-%D7%A1%D7%99%D7%92%D7%9C-%D7%9B%D7%94%D7%A0%D7%90/id1753049369",
+   "image": "img/p-1753049369.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/46/07/65/4607651a-b16d-75bd-4466-7b2ba289cfe5/mza_15270228507159468255.jpg/600x600bb.jpg",
+   "itunes_id": 1753049369,
+   "confidence": "medium",
+   "why": "'הקול בראש שלך' של סיגל כהנא. יש לה גם את 'כהנא צדקה' (TOX10)",
+   "dropbox_folders": [
+    "Sigal Kahana Podcast (A, B)"
+   ],
+   "target": "תמוז",
+   "folder_years": "2024–2025",
+   "last_episode": "2025-08-20"
+  },
+  {
+   "group": "Tomer Reiser",
+   "official_name": "ETALKS - מדברים איקומרס",
+   "host": "תומר רייזר",
+   "link": "https://podcasts.apple.com/il/podcast/etalks-%D7%9E%D7%93%D7%91%D7%A8%D7%99%D7%9D-%D7%90%D7%99%D7%A7%D7%95%D7%9E%D7%A8%D7%A1/id1681557172",
+   "image": "img/p-1681557172.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/3f/1f/a3/3f1fa3fe-9bcb-9741-200c-4df6bd6053cf/mza_10821684468406218910.jpg/600x600bb.jpg",
+   "itunes_id": 1681557172,
+   "confidence": "high",
+   "why": "'ETALKS – מדברים איקומרס' של תומר רייזר",
+   "dropbox_folders": [
+    "Tomer Reiser Podcast Edit (+2)"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023–2026",
+   "last_episode": "2026-07-20"
+  },
+  {
+   "group": "שינוי מבפנים – נורית",
+   "official_name": "שינוי מבפנים - הפודקאסט לריפוי כאבי הלב והגוף",
+   "host": "נורית פייט צגלה",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%A9%D7%99%D7%A0%D7%95%D7%99-%D7%9E%D7%91%D7%A4%D7%A0%D7%99%D7%9D-%D7%94%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98-%D7%9C%D7%A8%D7%99%D7%A4%D7%95%D7%99-%D7%9B%D7%90%D7%91%D7%99-%D7%94%D7%9C%D7%91-%D7%95%D7%94%D7%92%D7%95%D7%A3/id1675229262",
+   "image": "img/p-1675229262.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e9/cb/df/e9cbdf80-791d-46f0-aae3-dc5bd6b26343/mza_3484298658838309319.jpg/600x600bb.jpg",
+   "itunes_id": 1675229262,
+   "confidence": "high",
+   "why": "'שינוי מבפנים' של נורית פייט צגלה",
+   "dropbox_folders": [
+    "Nurit Shinuy Mibefnim Podcast"
+   ],
+   "target": "תמוז",
+   "folder_years": "2024–2026",
+   "last_episode": "2026-11-20"
+  },
+  {
+   "group": "אינפומד",
+   "official_name": "INFOMED",
+   "host": "Infomed",
+   "link": "https://podcasts.apple.com/il/podcast/infomed/id1576814563",
+   "image": "img/p-1576814563.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/13/c0/34/13c03416-6edf-914f-dfa4-cf36fa81bb6a/mza_6463030850567005388.jpg/600x600bb.jpg",
+   "itunes_id": 1576814563,
+   "confidence": "medium",
+   "why": "INFOMED (2023). יש גם את 'מדברות טרנדים בבריאות' של Infomed Digital Health",
+   "dropbox_folders": [
+    "Infomed Podcast"
+   ],
+   "target": "תמוז",
+   "folder_years": "2022–2023",
+   "last_episode": "2023-03-31"
+  },
+  {
+   "group": "שירן אגמי",
+   "official_name": "תזונה מושכלת",
+   "host": "שירן אגמי",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%AA%D7%96%D7%95%D7%A0%D7%94-%D7%9E%D7%95%D7%A9%D7%9B%D7%9C%D7%AA/id1669530380",
+   "image": "img/p-1669530380.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/88/33/f7/8833f7fd-b190-3e0f-c5f1-5653d6767847/mza_18443373895661052634.jpg/600x600bb.jpg",
+   "itunes_id": 1669530380,
+   "confidence": "high",
+   "why": "'תזונה מושכלת' של שירן אגמי",
+   "dropbox_folders": [
+    "Shiran Agami Podcast"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023–2024",
+   "last_episode": "2025-05-28"
+  },
+  {
+   "group": "יותם גרוס – תעלו לאוטו",
+   "official_name": "המדריך לטרמפיסט בתעשיית ההייטק",
+   "host": "Yotam Gross & Avichai Haim Pour",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9A-%D7%9C%D7%98%D7%A8%D7%9E%D7%A4%D7%99%D7%A1%D7%98-%D7%91%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%AA-%D7%94%D7%94%D7%99%D7%99%D7%98%D7%A7/id1694175279",
+   "image": "img/p-1694175279.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/4b/08/0a/4b080a43-67e6-ac90-6517-8b9659eaac63/mza_1995903777824783814.jpg/600x600bb.jpg",
+   "itunes_id": 1694175279,
+   "confidence": "medium",
+   "why": "'המדריך לטרמפיסט בתעשיית ההייטק' של יותם גרוס (גם השם 'תעלו לאוטו' רומז לטרמפים)",
+   "dropbox_folders": [
+    "Yotam Gross - Taalu Laoto Podcast"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023–2024",
+   "last_episode": "2026-02-11"
+  },
+  {
+   "group": "Ruby Capital",
+   "official_name": "The Next Trade",
+   "host": "Ruby Capital",
+   "link": "https://podcasts.apple.com/il/podcast/the-next-trade/id1561093965",
+   "image": "img/p-1561093965.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/6e/fd/bf/6efdbff1-be23-6b11-e246-94e4594867c5/mza_3857223518647301550.jpg/600x600bb.jpg",
+   "itunes_id": 1561093965,
+   "confidence": "low",
+   "why": "'The Next Trade' של Ruby Capital מ-2021, בעוד ההקלטה של רז מ-2026",
+   "dropbox_folders": [
+    "Ruby Capital Podcast"
+   ],
+   "target": "תמוז",
+   "folder_years": "2026",
+   "last_episode": "2021-04-02"
+  },
+  {
+   "group": "Rinat Nachum",
+   "official_name": "ValYou by Rinat Nachum",
+   "host": "רינת נחום",
+   "link": "https://podcasts.apple.com/il/podcast/valyou-by-rinat-nachum/id1692537442",
+   "image": "img/p-1692537442.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/b1/6b/26/b16b265c-38e2-dd0c-40bc-314d5d986a87/mza_2540213923481100634.jpg/600x600bb.jpg",
+   "itunes_id": 1692537442,
+   "confidence": "high",
+   "why": "'ValYou by Rinat Nachum', 2023",
+   "dropbox_folders": [
+    "Rinat Nachum Podcast"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023",
+   "last_episode": "2024-02-25"
+  },
+  {
+   "group": "Shirley Tamir",
+   "official_name": "אוי ואבות - הפודקאסט של שירלי טמיר",
+   "host": "Shirley Tamir",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%90%D7%95%D7%99-%D7%95%D7%90%D7%91%D7%95%D7%AA-%D7%94%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98-%D7%A9%D7%9C-%D7%A9%D7%99%D7%A8%D7%9C%D7%99-%D7%98%D7%9E%D7%99%D7%A8/id1694868283",
+   "image": "img/p-1694868283.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/3d/ad/e7/3dade769-b638-aae4-d423-585333a1a6cf/mza_823819235620000348.jpeg/600x600bb.jpg",
+   "itunes_id": 1694868283,
+   "confidence": "high",
+   "why": "'אוי ואבות – הפודקאסט של שירלי טמיר', 2023",
+   "dropbox_folders": [
+    "Shirley Tamir Podcast"
+   ],
+   "target": "תמוז",
+   "folder_years": "2023",
+   "last_episode": "2024-05-08"
+  },
+  {
+   "group": "Yarden Kerem",
+   "official_name": "התמקדות עם ירדן כרם",
+   "host": "ירדן כרם",
+   "link": "https://podcasts.apple.com/il/podcast/%D7%94%D7%AA%D7%9E%D7%A7%D7%93%D7%95%D7%AA-%D7%A2%D7%9D-%D7%99%D7%A8%D7%93%D7%9F-%D7%9B%D7%A8%D7%9D/id1757389670",
+   "image": "img/p-1757389670.jpg",
+   "image_source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8b/a5/42/8ba542a4-4249-20be-533f-cd1a0b67fda1/mza_4619521693183120179.jpg/600x600bb.jpg",
+   "itunes_id": 1757389670,
+   "confidence": "high",
+   "why": "'התמקדות עם ירדן כרם', 2024",
+   "dropbox_folders": [
+    "Yarden Kerem Podcast"
+   ],
+   "target": "תמוז",
+   "folder_years": "2024",
+   "last_episode": "2025-11-21"
+  }
+ ],
+ "podcasts_not_found": [
+  {
+   "name": "Permit",
+   "dropbox_folders": [
+    "Austin Corey, Eden Mike, Joel ועוד 16"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. חיפוש Permit / Permit.io באפל פודקאסטס: אין פודקאסט שמתאים",
+   "folder_years": "2023–2024"
+  },
+  {
+   "name": "לצאת מאזור הנוחות",
+   "dropbox_folders": [
+    "Latzet Meezor Hanechut Podcast"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא באפל פודקאסטס ולא בחיפוש ברשת",
+   "folder_years": "2026"
+  },
+  {
+   "name": "Place IL",
+   "dropbox_folders": [
+    "Place IL, Place IL B"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא באפל פודקאסטס",
+   "folder_years": "2023"
+  },
+  {
+   "name": "רשות החדשנות",
+   "dropbox_folders": [
+    "Rashut Hachadshanut Edit"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא פודקאסט רשמי של רשות החדשנות באפל פודקאסטס",
+   "folder_years": "2025"
+  },
+  {
+   "name": "דרך הלוחם",
+   "dropbox_folders": [
+    "Derech Halochem"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא באפל פודקאסטס ולא בחיפוש ברשת",
+   "folder_years": "2022–2023"
+  },
+  {
+   "name": "שי אור (כולל ספר שמע)",
+   "dropbox_folders": [
+    "Shai Or Podcast / Audiobook (+5)"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא באפל פודקאסטס ולא בחיפוש ברשת",
+   "folder_years": "2025–2026"
+  },
+  {
+   "name": "הייזמים החדשים",
+   "dropbox_folders": [
+    "Hayazamim Hachadashim Podcast (A–C)"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. הפודקאסט רשום ב-Rephonic (ישראל), אבל לא נמצא באפל פודקאסטס ולא הצלחתי לשלוף תמונה",
+   "folder_years": "2024"
+  },
+  {
+   "name": "ישראל בלכמן / Cydome",
+   "dropbox_folders": [
+    "Israel Blechman Cydome Podcast"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא באפל פודקאסטס ולא בחיפוש ברשת",
+   "folder_years": "2023–2024"
+  },
+  {
+   "name": "Efrat Music Therapy",
+   "dropbox_folders": [
+    "Efrat Music Therapy Podcast Edit"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא",
+   "folder_years": "2023–2025"
+  },
+  {
+   "name": "Benda Prod – Space Podcast",
+   "dropbox_folders": [
+    "Benda Prod - Space Podcast (+2)"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא",
+   "folder_years": "2024"
+  },
+  {
+   "name": "ליאור זהבי",
+   "dropbox_folders": [
+    "Lior Zehavi Podcast"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא",
+   "folder_years": "2025–2026"
+  },
+  {
+   "name": "קרן החוט המקשר",
+   "dropbox_folders": [
+    "Keren Hachut Hamekasher Podcast"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא",
+   "folder_years": "2023–2025"
+  },
+  {
+   "name": "Haya Carmeli",
+   "dropbox_folders": [
+    "Haya Carmeli Podcast"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא",
+   "folder_years": "2024"
+  },
+  {
+   "name": "Ron Nachshon",
+   "dropbox_folders": [
+    "Ron Nachshon Podcast"
+   ],
+   "status": "not found",
+   "tried": "חיפוש באפל פודקאסטס (iTunes Search, country=il) בעברית ובאנגלית + חיפוש ברשת. לא נמצא",
+   "folder_years": "2025"
+  }
+ ]
+}
