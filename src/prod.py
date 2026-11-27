@@ -8,6 +8,7 @@ from datetime import datetime
 from urllib.parse import quote
 import build
 import theme  # v2 design: swaps page builders, keeps texts/URLs/SEO
+import seo_boost  # 2026-11 organic SEO layer: H1s, podcast FAQ, structured data
 from build import PAGES, PHONE, EMAIL, SOCIAL
 
 SITE = "https://www.tamuzstudios.co.il"
@@ -42,6 +43,8 @@ BUSINESS = {
     "address": {"@type": "PostalAddress", "streetAddress": "דיסנצ׳יק 9", "addressLocality": "תל אביב-יפו", "postalCode": "69356", "addressCountry": "IL"},
     "sameAs": ["https://www.facebook.com/tamuzstudios/", "https://www.instagram.com/tamuzstudios/"],
 }
+BUSINESS["address"]["streetAddress"] = "אריה דיסנצ׳יק 9"
+BUSINESS.update(seo_boost.BUSINESS_EXTRA)
 
 def ld(obj):
     return '<script type="application/ld+json">' + json.dumps(obj, ensure_ascii=False).replace("</", "<\\/") + "</script>"
@@ -177,6 +180,9 @@ def main(outdir):
             body = build.services()
         else:
             body = build.inner_page(slug)
+            extra = ld(BUSINESS)
+        for obj in seo_boost.page_schema(slug, SEO["titles"][slug], SEO["desc"][slug]):
+            extra += ld(obj)
         write(slug, head(slug, SEO["titles"][slug], SEO["desc"][slug], og_img(p), extra=extra), body)
 
     nf = build.page_hero(dict(title="העמוד לא נמצא", img=None), "") + '<div class="wrap narrow prose"><p>ייתכן שהכתובת השתנתה. אפשר לחזור <a href="/">לעמוד הבית</a> או <a href="/contact">ליצור קשר</a>.</p></div>'

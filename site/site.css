@@ -409,3 +409,16 @@ h1, h2, h3, .sec-h, .cta-h, .sub-h { font-weight: 200; letter-spacing: -.005em; 
 .tags { list-style: none; padding: 0; margin: 2rem 0 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .tags li { font-family: var(--font-mono); font-size: var(--step--1); color: var(--slate); border: 1px solid var(--line); border-radius: 999px; padding: 0.15rem 0.7rem; }
 .narrow.prose > .posts:first-child { padding-top: 0; }
+/* SEO layer: FAQ + steps */
+.faq { margin: 1rem 0 2rem; border-top: 1px solid var(--line); }
+.faq-i { border-bottom: 1px solid var(--line); }
+.faq-i summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.9rem 0; }
+.faq-i summary::-webkit-details-marker { display: none; }
+.faq-i summary::after { content: "+"; color: var(--amber); font-size: 1.3em; line-height: 1; flex: none; }
+.faq-i[open] summary::after { content: "–"; }
+.faq-i summary h3 { margin: 0; font-size: var(--step-0); font-weight: 500; }
+.faq-i p { margin: 0 0 1rem; color: var(--muted); }
+.steps { padding-inline-start: 1.3rem; margin: 0.5rem 0 1.5rem; }
+.steps li { margin: 0 0 0.6rem; }
+.steps li::marker { color: var(--amber); font-weight: 700; }
+.steps b { color: var(--ink); font-weight: 600; }
