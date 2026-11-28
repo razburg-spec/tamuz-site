@@ -82,17 +82,24 @@ def form(fid, path=None):
     sel = f'<label for="{fid}-tp">במה מדובר?<select id="{fid}-tp" name="topic" data-topic>{opts}</select></label>\n  '
     return base.replace(f'<label for="{fid}-msg">', sel + f'<label for="{fid}-msg">', 1)
 
-def cv_fig(c, a, t):
+def cv_fig(c, a, t, cls="cv"):
     # No visible caption (Raz 11-28); the cover links to the release (Spotify, else YouTube/Bandcamp).
     label = html.escape(f"{a} – {t}" if t else a)
     img = f'<img src="/img/{c}.jpg" alt="{label}" loading="lazy" width="360" height="360">'
     u = CREDIT_LINKS.get(c)
     if u:
         img = f'<a href="{html.escape(u)}" target="_blank" rel="noopener" title="{label}">{img}</a>'
-    return f'<figure class="cv">{img}</figure>'
+    return f'<figure class="{cls}">{img}</figure>'
 
 def covers(n=None):
     return "".join(cv_fig(*x) for x in (COVERS[:n] if n else COVERS))
+
+def covers_grid():
+    """Works page grid: on desktop a mixed-size collage (2x2 production covers) with a straight bottom edge."""
+    from credits_big import BIG
+    from gridpack import flatten
+    flags = flatten([x[0] in BIG for x in COVERS], 8, tail=30)
+    return "".join(cv_fig(*x, cls="cv big" if f else "cv") for x, f in zip(COVERS, flags))
 
 def prod_covers():
     return "".join(cv_fig(*x) for x in PRODUCED)
@@ -180,7 +187,7 @@ def hub_page(slug):
 </section>""" + cta_band(slug)
     tiles = "".join(f'<a class="tile" href="{link(s)}"><span class="tile-im" style="--img:url(\'{G(PHOTO.get(s) or PHOTO[slug], True)}\')"></span><span class="tile-t">{PAGES[s]["title"]}</span><span class="tile-go" aria-hidden="true">←</span></a>' for s in lst if s != slug)
     proof = {
-        "recording-studio-tel-aviv": f'<div class="sh"><h2 class="sec-h">חלק מהעבודות שלנו</h2></div><div class="covers">{covers()}</div>',
+        "recording-studio-tel-aviv": f'<div class="sh"><h2 class="sec-h">חלק מהעבודות שלנו</h2></div><div class="covers works">{covers_grid()}</div>',
         "music-production": f'<div class="sh"><h2 class="sec-h">רז בורג</h2></div><p class="muted narrowp">מפיק מוזיקלי, נגן ומעצב סאונד, הבעלים של האולפן. עבודות הפקה נבחרות באתר האישי: <a href="https://www.razburg.com">razburg.com</a></p>{marquee(prod_covers(), "covers-mq", 160)}',
     }[slug]
     return page_hero(p, "", slug, INTRO.get(slug)) + f"""
