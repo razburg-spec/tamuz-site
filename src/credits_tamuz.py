@@ -72,14 +72,14 @@ CREDITS = [
 "2 / Tiul"
 ],
 [
-"cv/t9",
-"יגאל טולדנו",
-"Hageshem Harishon"
-],
-[
 "cv/t44",
 "אופיר לסל",
 "F.Y.A.I Music"
+],
+[
+"cv/t9",
+"יגאל טולדנו",
+"Hageshem Harishon"
 ],
 [
 "cv/t74",
@@ -90,11 +90,6 @@ CREDITS = [
 "cv/t11",
 "אלון לוטרינגר",
 "All In"
-],
-[
-"cv/t64",
-"PANIM",
-"2"
 ],
 [
 "cv/t45",
