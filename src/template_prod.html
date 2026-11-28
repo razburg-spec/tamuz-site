@@ -330,6 +330,12 @@ h1, h2, h3, .sec-h, .cta-h, .sub-h { font-weight: 200; letter-spacing: -.005em; 
 .tile-t { font-size: 1.3rem; font-weight: 300; }
 .covers { display: grid; grid-template-columns: repeat(7, 1fr); gap: .8rem; }
 @media (max-width: 900px) { .covers { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 901px) {
+  .covers.works { grid-template-columns: repeat(8, 1fr); grid-auto-flow: dense; gap: .6rem; }
+  .covers.works .cv.big { grid-column: span 2; grid-row: span 2; }
+  .covers.works .cv, .covers.works .cv a { height: 100%; }
+  .covers.works .cv img { height: 100%; }
+}
 .cv { margin: 0; min-width: 0; }
 .cv img { width: 100%; aspect-ratio: 1; object-fit: cover; height: auto; }
 .cv a { display: block; }

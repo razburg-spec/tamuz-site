@@ -1,0 +1,2 @@
+# Covers shown as 2x2 tiles on desktop (production / co-production credits, as on razburg.com). Raz 2026-11-28.
+BIG = ["cv/t158", "cv/t7", "cv/t12", "cv/t161", "cv/t16", "cv/t36", "cv/t3", "cv/t102", "cv/t164", "cv/t167", "cv/t170", "cv/t173", "cv/t176", "cv/t179", "cv/t182", "cv/t185", "cv/t188", "cv/t191", "cv/t133", "cv/t198", "cv/t135", "cv/t136", "cv/t201", "cv/t9", "cv/t28", "cv/t32", "cv/t33", "cv/t34", "cv/t138", "cv/t147", "cv/t166", "cv/t205", "cv/t178"]
