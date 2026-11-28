@@ -1,11 +1,17 @@
 # Raz's approved Tamuz credits (recorded and/or mixed at Tamuz), from the credits approval doc rows 1-40, 2026-11-26
 # 2026-11-27: + Raz's confirmed credits from the Dropbox review (Spotify links), spread so the same artist never sits close
 # 2026-11-28: + IDrive review credits approved by Raz
+# 2026-11-28: + J.Views "Smooth Criminal" (recording), Raz
 CREDITS = [
 [
 "cv/t61",
 "PANIM",
 "Jessy"
+],
+[
+"cv/t88",
+"J.Views",
+"Smooth Criminal"
 ],
 [
 "cv/t1",
@@ -53,7 +59,7 @@ CREDITS = [
 "Rakdanit Kluvim"
 ],
 [
-"cv/t88",
+"cv/t95",
 "Ed Turner & The Danilof Center",
 "Ed Turner and the Danilof Center 2009-2015"
 ],
