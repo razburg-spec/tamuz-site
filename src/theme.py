@@ -10,6 +10,7 @@ from build import PAGES, PHONE, EMAIL, ADDRESS, MAPS, SOCIAL, SERVICES, PRODUCTI
 from content_c import PODCASTS
 from credits_tamuz import CREDITS
 from credits_prod import PRODUCED
+from credit_links import CREDIT_LINKS
 import legal  # terms + accessibility pages
 
 # Raz 2026-11-26: no live recording, no Pro Tools lessons, no YouTube/Vimeo links on the site.
@@ -81,11 +82,20 @@ def form(fid, path=None):
     sel = f'<label for="{fid}-tp">במה מדובר?<select id="{fid}-tp" name="topic" data-topic>{opts}</select></label>\n  '
     return base.replace(f'<label for="{fid}-msg">', sel + f'<label for="{fid}-msg">', 1)
 
+def cv_fig(c, a, t):
+    # No visible caption (Raz 11-28); the cover links to the release (Spotify, else YouTube/Bandcamp).
+    label = html.escape(f"{a} – {t}" if t else a)
+    img = f'<img src="/img/{c}.jpg" alt="{label}" loading="lazy" width="360" height="360">'
+    u = CREDIT_LINKS.get(c)
+    if u:
+        img = f'<a href="{html.escape(u)}" target="_blank" rel="noopener" title="{label}">{img}</a>'
+    return f'<figure class="cv">{img}</figure>'
+
 def covers(n=None):
-    return "".join(f'<figure class="cv"><img src="/img/{c}.jpg" alt="{html.escape(a)} – {html.escape(t)}" loading="lazy" width="360" height="360"><figcaption>{html.escape(a)}</figcaption></figure>' for c, a, t in (COVERS[:n] if n else COVERS))
+    return "".join(cv_fig(*x) for x in (COVERS[:n] if n else COVERS))
 
 def prod_covers():
-    return "".join(f'<figure class="cv"><img src="/img/{c}.jpg" alt="{html.escape(a)} – {html.escape(t)}" loading="lazy" width="360" height="360"><figcaption>{html.escape(a)}</figcaption></figure>' for c, a, t in PRODUCED)
+    return "".join(cv_fig(*x) for x in PRODUCED)
 
 def pods(n=None):
     return "".join(build.pod_fig(*p) for p in (PODCASTS[:n] if n else PODCASTS))
@@ -166,11 +176,11 @@ def hub_page(slug):
   <article class="prose pf-text">{text}</article>
   {vmarquee(right, rev=True, secs=110)}
 </div>
-<div class="pf-mobile"><h2 class="sec-h wrap">העבודות שלנו</h2>{marquee(pods(), "pods-2row", 120)}</div>
+<div class="pf-mobile"><h2 class="sec-h wrap">חלק מהעבודות שלנו</h2>{marquee(pods(), "pods-2row", 120)}</div>
 </section>""" + cta_band(slug)
     tiles = "".join(f'<a class="tile" href="{link(s)}"><span class="tile-im" style="--img:url(\'{G(PHOTO.get(s) or PHOTO[slug], True)}\')"></span><span class="tile-t">{PAGES[s]["title"]}</span><span class="tile-go" aria-hidden="true">←</span></a>' for s in lst if s != slug)
     proof = {
-        "recording-studio-tel-aviv": f'<div class="sh"><h2 class="sec-h">העבודות שלנו</h2></div><div class="covers">{covers()}</div>',
+        "recording-studio-tel-aviv": f'<div class="sh"><h2 class="sec-h">חלק מהעבודות שלנו</h2></div><div class="covers">{covers()}</div>',
         "music-production": f'<div class="sh"><h2 class="sec-h">רז בורג</h2></div><p class="muted narrowp">מפיק מוזיקלי, נגן ומעצב סאונד, הבעלים של האולפן. עבודות הפקה נבחרות באתר האישי: <a href="https://www.razburg.com">razburg.com</a></p>{marquee(prod_covers(), "covers-mq", 160)}',
     }[slug]
     return page_hero(p, "", slug, INTRO.get(slug)) + f"""
