@@ -1,5 +1,6 @@
 # Raz's approved Tamuz credits (recorded and/or mixed at Tamuz), from the credits approval doc rows 1-40, 2026-11-26
 # 2026-11-27: + Raz's confirmed credits from the Dropbox review (Spotify links), spread so the same artist never sits close
+# 2026-11-28: + IDrive review credits approved by Raz
 CREDITS = [
 [
 "cv/t61",
@@ -52,6 +53,11 @@ CREDITS = [
 "Rakdanit Kluvim"
 ],
 [
+"cv/t88",
+"Ed Turner & The Danilof Center",
+"Ed Turner and the Danilof Center 2009-2015"
+],
+[
 "cv/t43",
 "אופיר לסל",
 "War Is Coming"
@@ -100,6 +106,11 @@ CREDITS = [
 "cv/t12",
 "שרלוט ומגון",
 "Life Factory"
+],
+[
+"cv/t91",
+"רינת עמנואל",
+"Lamdi Oti Livkot"
 ],
 [
 "cv/t14",
@@ -152,6 +163,11 @@ CREDITS = [
 "Moora"
 ],
 [
+"cv/t89",
+"Daniel Dor",
+"Crab Nebula"
+],
+[
 "cv/t48",
 "אופיר לסל",
 "Walk With Me"
@@ -200,6 +216,11 @@ CREDITS = [
 "cv/t22",
 "Folly Tree",
 "Remedies"
+],
+[
+"cv/t93",
+"קורין אלאל ולורן מילק",
+"Daniel"
 ],
 [
 "cv/t78",
@@ -252,6 +273,11 @@ CREDITS = [
 "PANIM"
 ],
 [
+"cv/t92",
+"שלו אדרי ואריאל מריאש",
+"Gibor"
+],
+[
 "cv/t27",
 "יושי",
 "Zarim Makirim"
@@ -302,6 +328,11 @@ CREDITS = [
 "I Just Wanna Have Dinner With You"
 ],
 [
+"cv/t90",
+"Daniel Dor",
+"Phoenix On the Rocks"
+],
+[
 "cv/t31",
 "איתמר רוטשילד",
 "Bein Shkia Uvein Zric"
@@ -350,6 +381,11 @@ CREDITS = [
 "cv/t35",
 "Holler",
 "Where Are You Going"
+],
+[
+"cv/t94",
+"לורן מילק",
+"Parpar Pralin"
 ],
 [
 "cv/t83",
