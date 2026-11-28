@@ -9,11 +9,6 @@ CREDITS = [
 "Jessy"
 ],
 [
-"cv/t88",
-"J.Views",
-"Smooth Criminal"
-],
-[
 "cv/t1",
 "רותם שפרן",
 "Hashamayim Veomanut Hanefila"
@@ -57,11 +52,6 @@ CREDITS = [
 "cv/t69",
 "משמרת לילה",
 "Rakdanit Kluvim"
-],
-[
-"cv/t95",
-"Ed Turner & The Danilof Center",
-"Ed Turner and the Danilof Center 2009-2015"
 ],
 [
 "cv/t43",
@@ -114,11 +104,6 @@ CREDITS = [
 "Life Factory"
 ],
 [
-"cv/t91",
-"רינת עמנואל",
-"Lamdi Oti Livkot"
-],
-[
 "cv/t14",
 "נועם רותם",
 "Neshoret"
@@ -167,11 +152,6 @@ CREDITS = [
 "cv/t18",
 "Moora",
 "Moora"
-],
-[
-"cv/t89",
-"Daniel Dor",
-"Crab Nebula"
 ],
 [
 "cv/t48",
@@ -224,11 +204,6 @@ CREDITS = [
 "Remedies"
 ],
 [
-"cv/t93",
-"קורין אלאל ולורן מילק",
-"Daniel"
-],
-[
 "cv/t78",
 "רוחמה רז",
 "Kmo Tsemach Bar"
@@ -254,6 +229,11 @@ CREDITS = [
 "Cracks"
 ],
 [
+"cv/t95",
+"Ed Turner & The Danilof Center",
+"Ed Turner and the Danilof Center 2009-2015"
+],
+[
 "cv/t84",
 "אפרת גורן",
 "Habayta El Haor"
@@ -274,14 +254,14 @@ CREDITS = [
 "Arba Onot"
 ],
 [
+"cv/t89",
+"Daniel Dor",
+"Crab Nebula"
+],
+[
 "cv/t68",
 "PANIM",
 "PANIM"
-],
-[
-"cv/t92",
-"שלו אדרי ואריאל מריאש",
-"Gibor"
 ],
 [
 "cv/t27",
@@ -297,6 +277,11 @@ CREDITS = [
 "cv/t71",
 "משמרת לילה",
 "Bechol Zot"
+],
+[
+"cv/t91",
+"רינת עמנואל",
+"Lamdi Oti Livkot"
 ],
 [
 "cv/t28",
@@ -319,6 +304,11 @@ CREDITS = [
 "Ezra Bad"
 ],
 [
+"cv/t88",
+"J.Views",
+"Smooth Criminal"
+],
+[
 "cv/t30",
 "The Aprons",
 "Any Human Heart"
@@ -334,14 +324,14 @@ CREDITS = [
 "I Just Wanna Have Dinner With You"
 ],
 [
-"cv/t90",
-"Daniel Dor",
-"Phoenix On the Rocks"
-],
-[
 "cv/t31",
 "איתמר רוטשילד",
 "Bein Shkia Uvein Zric"
+],
+[
+"cv/t92",
+"שלו אדרי ואריאל מריאש",
+"Gibor"
 ],
 [
 "cv/t79",
@@ -364,6 +354,11 @@ CREDITS = [
 "Kochav"
 ],
 [
+"cv/t94",
+"לורן מילק",
+"Parpar Pralin"
+],
+[
 "cv/t33",
 "נועם רותם",
 "Orot Vetslalim"
@@ -384,14 +379,14 @@ CREDITS = [
 "Ad Sheshuv"
 ],
 [
+"cv/t90",
+"Daniel Dor",
+"Phoenix On the Rocks"
+],
+[
 "cv/t35",
 "Holler",
 "Where Are You Going"
-],
-[
-"cv/t94",
-"לורן מילק",
-"Parpar Pralin"
 ],
 [
 "cv/t83",
@@ -407,6 +402,11 @@ CREDITS = [
 "cv/t58",
 "אופיר לסל",
 "Anita"
+],
+[
+"cv/t93",
+"קורין אלאל ולורן מילק",
+"Daniel"
 ],
 [
 "cv/t85",
