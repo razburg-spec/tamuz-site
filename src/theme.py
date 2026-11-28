@@ -166,7 +166,7 @@ def hub_page(slug):
   <article class="prose pf-text">{text}</article>
   {vmarquee(right, rev=True, secs=110)}
 </div>
-<div class="pf-mobile"><h2 class="sec-h wrap">פודקאסטים שהוקלטו אצלנו</h2>{marquee(pods(), "pods-2row", 120)}</div>
+<div class="pf-mobile"><h2 class="sec-h wrap">העבודות שלנו</h2>{marquee(pods(), "pods-2row", 120)}</div>
 </section>""" + cta_band(slug)
     tiles = "".join(f'<a class="tile" href="{link(s)}"><span class="tile-im" style="--img:url(\'{G(PHOTO.get(s) or PHOTO[slug], True)}\')"></span><span class="tile-t">{PAGES[s]["title"]}</span><span class="tile-go" aria-hidden="true">←</span></a>' for s in lst if s != slug)
     proof = {
