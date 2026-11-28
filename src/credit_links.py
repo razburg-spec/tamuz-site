@@ -247,4 +247,5 @@ CREDIT_LINKS = {
     'cv/t203': 'https://open.spotify.com/album/6UHn0y39P5Y3crPtdVypUf',
     'cv/t204': 'https://open.spotify.com/album/11Ujn5EJKevl9UnJnmE5uo',
     'cv/t205': 'https://open.spotify.com/album/3jOB1zwCVd6b0VAqr3lavz',
+    'cv/t86': 'https://www.disccenter.co.il/prod/51888',  # Matti Caspi & Suyan, not on streaming
 }
