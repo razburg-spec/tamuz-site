@@ -332,6 +332,9 @@ h1, h2, h3, .sec-h, .cta-h, .sub-h { font-weight: 200; letter-spacing: -.005em; 
 @media (max-width: 900px) { .covers { grid-template-columns: repeat(4, 1fr); } }
 .cv { margin: 0; min-width: 0; }
 .cv img { width: 100%; aspect-ratio: 1; object-fit: cover; height: auto; }
+.cv a { display: block; }
+.cv a img { transition: opacity .2s; }
+.cv a:hover img, .cv a:focus-visible img { opacity: .8; }
 .cv figcaption { font-size: .8rem; color: var(--muted); margin-top: .35rem; }
 .narrowp { max-width: 60ch; margin: 0 0 1.5rem; }
 .pod-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: .5rem; }

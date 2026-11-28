@@ -1,5 +1,7 @@
 # Raz's approved Tamuz credits (recorded and/or mixed at Tamuz), from the credits approval doc rows 1-40, 2026-11-26
 # 2026-11-27: + Raz's confirmed credits from the Dropbox review (Spotify links), spread so the same artist never sits close
+# 2026-11-28: + IDrive review credits approved by Raz
+# 2026-11-28: + J.Views "Smooth Criminal" (recording), Raz
 CREDITS = [
 [
 "cv/t61",
@@ -227,6 +229,11 @@ CREDITS = [
 "Cracks"
 ],
 [
+"cv/t95",
+"Ed Turner & The Danilof Center",
+"Ed Turner and the Danilof Center 2009-2015"
+],
+[
 "cv/t84",
 "אפרת גורן",
 "Habayta El Haor"
@@ -245,6 +252,11 @@ CREDITS = [
 "cv/t26",
 "אוהד קוסקי",
 "Arba Onot"
+],
+[
+"cv/t89",
+"Daniel Dor",
+"Crab Nebula"
 ],
 [
 "cv/t68",
@@ -267,6 +279,11 @@ CREDITS = [
 "Bechol Zot"
 ],
 [
+"cv/t91",
+"רינת עמנואל",
+"Lamdi Oti Livkot"
+],
+[
 "cv/t28",
 "ג׳נגו, דן תורן ודורון פלסקוב",
 "Shaa"
@@ -285,6 +302,11 @@ CREDITS = [
 "cv/t29",
 "נועם רותם ואיתמר רוטשילד",
 "Ezra Bad"
+],
+[
+"cv/t88",
+"J.Views",
+"Smooth Criminal"
 ],
 [
 "cv/t30",
@@ -307,6 +329,11 @@ CREDITS = [
 "Bein Shkia Uvein Zric"
 ],
 [
+"cv/t92",
+"שלו אדרי ואריאל מריאש",
+"Gibor"
+],
+[
 "cv/t79",
 "רוחמה רז",
 "Bedamayich Chayi"
@@ -325,6 +352,11 @@ CREDITS = [
 "cv/t80",
 "פונץ׳",
 "Kochav"
+],
+[
+"cv/t94",
+"לורן מילק",
+"Parpar Pralin"
 ],
 [
 "cv/t33",
@@ -347,6 +379,11 @@ CREDITS = [
 "Ad Sheshuv"
 ],
 [
+"cv/t90",
+"Daniel Dor",
+"Phoenix On the Rocks"
+],
+[
 "cv/t35",
 "Holler",
 "Where Are You Going"
@@ -365,6 +402,11 @@ CREDITS = [
 "cv/t58",
 "אופיר לסל",
 "Anita"
+],
+[
+"cv/t93",
+"קורין אלאל ולורן מילק",
+"Daniel"
 ],
 [
 "cv/t85",
